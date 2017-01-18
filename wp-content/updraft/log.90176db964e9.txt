@@ -1,0 +1,1693 @@
+0000.002 (0) Opened log file at time: Fri, 30 Sep 2016 11:39:40 +0000 on http://localhost:8888
+0000.006 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.20 WP: 4.6.1 PHP: 7.0.10 (Darwin Kyles-MacBook-Air.local 14.5.0 Darwin Kernel Version 14.5.0: Mon Aug 29 21:14:16 PDT 2016; root:xnu-2782.50.6~1/RELEASE_X86_64 x86_64) MySQL: 5.6.28 WPLANG: en_US Server: Apache/2.2.31 (Unix) mod_wsgi/3.5 Python/2.7.12 PHP/7.0.10 mod_ssl/2.2.31 OpenSSL/1.0.2h DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 16.4M | 2M) multisite: N openssl: OpenSSL 1.0.2h  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.008 (0) Free space on disk containing Updraft's temporary directory: 47942.1 MB
+0000.016 (0) Tasks: Backup files: 1 (schedule: every4hours) Backup DB:  (schedule: every4hours)
+0000.019 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.029 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1475222141, seconds_ago=13440)
+0000.033 (0) Semaphore (fd) was stuck, set lock time to 2016-09-30 11:39:41
+0000.039 (0) Semaphore (fd) reset to 1
+0000.042 (0) Set semaphore last lock (fd) time to 2016-09-30 11:39:41
+0000.044 (0) Semaphore lock (fd) complete
+0000.051 (0) Backup run: resumption=0, nonce=90176db964e9, begun at=1475235580 (1s ago), job type=backup
+0000.054 (0) Scheduling a resumption (1) after 300 seconds (1475235881) in case this run gets aborted
+0000.081 (0) Checking if we have a zip executable available
+0000.082 (0) Testing: /usr/bin/zip
+0000.094 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.096 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.098 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.100 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.101 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.115 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.117 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.141 (0) Creation of backups of directories: beginning
+0000.150 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.295 (0) Total entities for the zip file: 256 directories, 1914 files (0 skipped as non-modified), 26.8 MB
+0000.324 (0) Zip: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.355 (0) Zip: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.381 (0) Zip: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.394 (0) Zip: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.404 (0) Zip: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.408 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (7 MB, 1914 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0002.113 (0) Zip: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip.tmp: 600 files added (on-disk size: 3515 KB)
+0002.125 (0) Zip: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip.tmp: 700 files added (on-disk size: 3515 KB)
+0002.143 (0) Zip: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip.tmp: 800 files added (on-disk size: 3515 KB)
+0002.156 (0) Zip: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip.tmp: 900 files added (on-disk size: 3515 KB)
+0002.168 (0) Zip: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip.tmp: 1000 files added (on-disk size: 3515 KB)
+0002.170 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.5 MB, 1914 files batched, 501 (1002) added so far); re-opening (prior size: 3515 KB)
+0003.135 (0) Zip: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip.tmp: 1100 files added (on-disk size: 6444.6 KB)
+0003.150 (0) Zip: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip.tmp: 1200 files added (on-disk size: 6444.6 KB)
+0003.166 (0) Zip: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip.tmp: 1300 files added (on-disk size: 6444.6 KB)
+0003.191 (0) Zip: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip.tmp: 1400 files added (on-disk size: 6444.6 KB)
+0003.215 (0) Zip: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip.tmp: 1500 files added (on-disk size: 6444.6 KB)
+0003.218 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (13 MB, 1914 files batched, 501 (1503) added so far); re-opening (prior size: 6444.6 KB)
+0006.835 (0) Zip: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip.tmp: 1600 files added (on-disk size: 10237.5 KB)
+0006.850 (0) Zip: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip.tmp: 1700 files added (on-disk size: 10237.5 KB)
+0006.864 (0) Zip: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip.tmp: 1800 files added (on-disk size: 10237.5 KB)
+0006.881 (0) Zip: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip.tmp: 1900 files added (on-disk size: 10237.5 KB)
+0007.481 (0) Created plugins zip (0) - 10811.1 KB in 7.3 s (1475.6 KB/s) (SHA1 checksum: 0117a01a99751e399db272c0e9c308e843dd661b)
+0007.489 (0) Beginning creation of dump of themes (split every: 400 MB)
+0007.508 (0) Total entities for the zip file: 34 directories, 267 files (0 skipped as non-modified), 12.4 MB
+0007.522 (0) Zip: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0007.533 (0) Zip: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0008.832 (0) Created themes zip (0) - 8761.6 KB in 1.3 s (6557.1 KB/s) (SHA1 checksum: 6fff0c92d10e9d26591a31a7dd194da5063f63f1)
+0008.845 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0008.849 (0) Looking for candidates to back up in: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/uploads
+0008.851 (0) finding files: 2016: adding to list (1)
+0008.853 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0008.864 (0) Total entities for the zip file: 2 directories, 46 files (0 skipped as non-modified), 2.3 MB
+0008.949 (0) Created uploads zip (0) - 2330.9 KB in 0.1 s (25954.9 KB/s) (SHA1 checksum: 6d8bfd02d7564089d2ffb52a9243a20e3ddecd98)
+0008.956 (0) Beginning backup of other directories found in the content directory (index: 0)
+0008.958 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0008.959 (0) Looking for candidates to back up in: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content
+0008.961 (0) finding files: .DS_Store: adding to list (1)
+0008.964 (0) finding files: index.php: adding to list (2)
+0008.965 (0) finding files: plugins: skipping: this is the plugins directory
+0008.967 (0) finding files: themes: skipping: this is the themes directory
+0008.968 (0) finding files: updraft: skipping: this is the updraft directory
+0008.970 (0) finding files: upgrade: skipping: excluded by options
+0008.971 (0) finding files: uploads: skipping: this is the uploads directory
+0008.979 (0) Total entities for the zip file: 0 directories, 2 files (0 skipped as non-modified), 0 MB
+0008.993 (0) Created others zip (0) - 1.3 KB in 0 s (80 KB/s) (SHA1 checksum: 7814c59e61a2382e87a8443ebfea62416a85cdd1)
+0009.006 (0) Saving backup status to database (elements: 8)
+0009.016 (0) Beginning creation of database dump (WordPress DB)
+0009.031 (0) Table dbbs_options: Total expected rows (approximate): 499
+0009.154 (0) Table dbbs_options: Total rows added: 203 in 0.12 seconds
+0009.157 (0) Table dbbs_options: finishing file (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db-table-dbbs_options.table.gz - 193.1 KB)
+0009.165 (0) Table dbbs_users: Total expected rows (approximate): 1
+0009.170 (0) Table dbbs_users: Total rows added: 1 in 0.00 seconds
+0009.172 (0) Table dbbs_users: finishing file (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db-table-dbbs_users.table.gz - 0.6 KB)
+0009.180 (0) Table dbbs_usermeta: Total expected rows (approximate): 31
+0009.186 (0) Table dbbs_usermeta: Total rows added: 31 in 0.00 seconds
+0009.188 (0) Table dbbs_usermeta: finishing file (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db-table-dbbs_usermeta.table.gz - 1.5 KB)
+0009.198 (0) Table dbbs_commentmeta: Total expected rows (approximate): 0
+0009.203 (0) Table dbbs_commentmeta: Total rows added: 0 in 0.00 seconds
+0009.206 (0) Table dbbs_commentmeta: finishing file (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db-table-dbbs_commentmeta.table.gz - 0.4 KB)
+0009.215 (0) Table dbbs_comments: Total expected rows (approximate): 2
+0009.223 (0) Table dbbs_comments: Total rows added: 2 in 0.01 seconds
+0009.225 (0) Table dbbs_comments: finishing file (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db-table-dbbs_comments.table.gz - 0.9 KB)
+0009.234 (0) Table dbbs_links: Total expected rows (approximate): 0
+0009.239 (0) Table dbbs_links: Total rows added: 0 in 0.00 seconds
+0009.241 (0) Table dbbs_links: finishing file (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db-table-dbbs_links.table.gz - 0.4 KB)
+0009.249 (0) Table dbbs_postmeta: Total expected rows (approximate): 2458
+0009.351 (0) Table dbbs_postmeta: Total rows added: 2469 in 0.10 seconds
+0009.355 (0) Table dbbs_postmeta: finishing file (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db-table-dbbs_postmeta.table.gz - 33.1 KB)
+0009.363 (0) Table dbbs_posts: Total expected rows (approximate): 141
+0009.393 (0) Table dbbs_posts: Total rows added: 163 in 0.03 seconds
+0009.396 (0) Table dbbs_posts: finishing file (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db-table-dbbs_posts.table.gz - 12 KB)
+0009.404 (0) Table dbbs_term_relationships: Total expected rows (approximate): 23
+0009.409 (0) Table dbbs_term_relationships: Total rows added: 23 in 0.00 seconds
+0009.412 (0) Table dbbs_term_relationships: finishing file (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db-table-dbbs_term_relationships.table.gz - 0.4 KB)
+0009.420 (0) Table dbbs_term_taxonomy: Total expected rows (approximate): 12
+0009.426 (0) Table dbbs_term_taxonomy: Total rows added: 12 in 0.00 seconds
+0009.427 (0) Table dbbs_term_taxonomy: finishing file (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db-table-dbbs_term_taxonomy.table.gz - 0.5 KB)
+0009.436 (0) Table dbbs_termmeta: Total expected rows (approximate): 0
+0009.441 (0) Table dbbs_termmeta: Total rows added: 0 in 0.00 seconds
+0009.443 (0) Table dbbs_termmeta: finishing file (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db-table-dbbs_termmeta.table.gz - 0.4 KB)
+0009.451 (0) Table dbbs_terms: Total expected rows (approximate): 12
+0009.456 (0) Table dbbs_terms: Total rows added: 12 in 0.00 seconds
+0009.466 (0) Table dbbs_terms: finishing file (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db-table-dbbs_terms.table.gz - 0.6 KB)
+0009.474 (0) Table dbbs_sgmb_widget: Total expected rows (approximate): 1
+0009.480 (0) Table dbbs_sgmb_widget: Total rows added: 1 in 0.00 seconds
+0009.483 (0) Table dbbs_sgmb_widget: finishing file (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db-table-dbbs_sgmb_widget.table.gz - 0.7 KB)
+0009.493 (0) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db-table-dbbs_options.table.gz (1/13): adding to final database dump
+0009.604 (0) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db-table-dbbs_users.table.gz (2/13): adding to final database dump
+0009.607 (0) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db-table-dbbs_usermeta.table.gz (3/13): adding to final database dump
+0009.610 (0) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db-table-dbbs_commentmeta.table.gz (4/13): adding to final database dump
+0009.612 (0) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db-table-dbbs_comments.table.gz (5/13): adding to final database dump
+0009.614 (0) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db-table-dbbs_links.table.gz (6/13): adding to final database dump
+0009.616 (0) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db-table-dbbs_postmeta.table.gz (7/13): adding to final database dump
+0009.649 (0) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db-table-dbbs_posts.table.gz (8/13): adding to final database dump
+0009.659 (0) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db-table-dbbs_term_relationships.table.gz (9/13): adding to final database dump
+0009.661 (0) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db-table-dbbs_term_taxonomy.table.gz (10/13): adding to final database dump
+0009.663 (0) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db-table-dbbs_termmeta.table.gz (11/13): adding to final database dump
+0009.665 (0) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db-table-dbbs_terms.table.gz (12/13): adding to final database dump
+0009.667 (0) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db-table-dbbs_sgmb_widget.table.gz (13/13): adding to final database dump
+0009.670 (0) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz: finished writing out complete database file (216 KB)
+0009.683 (0) Total database tables backed up: 13 (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz, size: 247510, checksum (SHA1): ebed37a0034344d7b770599a060e14063f83a69b)
+0009.707 (0) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0009.709 (0) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0009.711 (0) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0009.713 (0) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip: others: This file has not yet been successfully uploaded: will queue
+0009.715 (0) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz: db: This file has not yet been successfully uploaded: will queue
+0009.717 (0) Saving backup history. Total backup size: 21.6 MB
+0009.731 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0009.740 (0) Cloud backup selection (1/1): dropbox (last)
+0009.742 (0) Beginning dispatch of backup to remote (dropbox)
+0009.744 (0) Dropbox: begin cloud upload
+0009.753 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0104.101 (0) Dropbox error: exception (Dropbox_CurlException) occurred whilst getting account info: Unknown SSL protocol error in connection to api.dropbox.com:443 
+0104.111 (0) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip
+0105.777 (0) Dropbox chunked upload: 9.5 % uploaded (AAAAAAAAJ-JPBElKfnRGIQ, 1048576, 5120 KB)
+0111.778 (0) Dropbox chunked upload: 56.8 % uploaded (AAAAAAAAJ-JPBElKfnRGIQ, 6291456, 7168 KB)
+0116.351 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAJ-JPBElKfnRGIQ, 11070582, 7168 KB)
+0118.911 (0) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+0118.913 (0) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+0118.915 (0) An error condition has occurred for the first time during this job
+0119.483 (0) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+0119.485 (0) File upload expected to fail: file data remaining to upload (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-themes.zip) size is 8761.62695312 b (overall file size; 8761.62695312 b), whereas available quota is only -7733928 b
+0119.487 (0) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-themes.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-themes.zip
+0123.277 (0) Dropbox chunked upload: 81.8 % uploaded (AAAAAAAAJ-RvJDjOQSs8Wg, 7340032, 10240 KB)
+0127.053 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAJ-RvJDjOQSs8Wg, 8971906, 10240 KB)
+0128.733 (0) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+0128.735 (0) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+0129.272 (0) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+0129.273 (0) File upload expected to fail: file data remaining to upload (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip) size is 2330.85058594 b (overall file size; 2330.85058594 b), whereas available quota is only -7733928 b
+0129.275 (0) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip
+0131.275 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAJ-YBAzZrCOIKuQ, 2386791, 10240 KB)
+0133.706 (0) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+0133.708 (0) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+0134.262 (0) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+0134.264 (0) File upload expected to fail: file data remaining to upload (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip) size is 1.3330078125 b (overall file size; 1.3330078125 b), whereas available quota is only -7733928 b
+0134.266 (0) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip
+0134.874 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAJ-j0eZd0i78xng, 1365, 10240 KB)
+0136.296 (0) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+0136.298 (0) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+0136.823 (0) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+0136.826 (0) File upload expected to fail: file data remaining to upload (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz) size is 241.708984375 b (overall file size; 241.708984375 b), whereas available quota is only -7733928 b
+0136.829 (0) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz
+0141.095 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAJ-oyYfCke9_H-w, 247510, 10240 KB)
+0143.262 (0) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+0143.264 (0) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+0143.269 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=100, retain_db=100
+0143.273 (0) Number of backup sets in history: 18; groups (db): 1
+0143.275 (0) Examining (for databases) backup set with group_id=0, nonce=90176db964e9, datestamp=1475235580 (Sep 30 2016 11:39:40)
+0143.276 (0) This backup set is the backup set just made, so will not be deleted.
+0143.278 (0) Examining (for databases) backup set with group_id=0, nonce=2fd692f0f875, datestamp=1475222141 (Sep 30 2016 07:55:41)
+0143.280 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0143.282 (0) Examining (for databases) backup set with group_id=0, nonce=0cf49109fa21, datestamp=1475200648 (Sep 30 2016 01:57:28)
+0143.283 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0143.285 (0) Examining (for databases) backup set with group_id=0, nonce=be4f062f7cac, datestamp=1475186233 (Sep 29 2016 21:57:13)
+0143.287 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0143.288 (0) Examining (for databases) backup set with group_id=0, nonce=467bf6b49fac, datestamp=1475171775 (Sep 29 2016 17:56:15)
+0143.290 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0143.292 (0) Examining (for databases) backup set with group_id=0, nonce=2c6f0de8215c, datestamp=1475157415 (Sep 29 2016 13:56:55)
+0143.294 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0143.296 (0) Examining (for databases) backup set with group_id=0, nonce=2c6f0de8215c, datestamp=1475154601 (Sep 29 2016 13:10:01)
+0143.298 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0143.300 (0) Examining (for databases) backup set with group_id=0, nonce=ec0b4e5efb65, datestamp=1475085429 (Sep 28 2016 17:57:09)
+0143.301 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0143.304 (0) Examining (for databases) backup set with group_id=0, nonce=2026f4eac86c, datestamp=1475070939 (Sep 28 2016 13:55:39)
+0143.306 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0143.308 (0) Examining (for databases) backup set with group_id=0, nonce=7bce21d44eb2, datestamp=1475064012 (Sep 28 2016 12:00:12)
+0143.311 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0143.313 (0) Examining (for databases) backup set with group_id=0, nonce=ec0b4e5efb65, datestamp=1475049173 (Sep 28 2016 07:52:53)
+0143.315 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0143.318 (0) Examining (for databases) backup set with group_id=0, nonce=3d6a5f926fe3, datestamp=1475027756 (Sep 28 2016 01:55:56)
+0143.321 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0143.323 (0) Examining (for databases) backup set with group_id=0, nonce=624257a0acdc, datestamp=1475013450 (Sep 27 2016 21:57:30)
+0143.325 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0143.327 (0) Examining (for databases) backup set with group_id=0, nonce=4792ba825627, datestamp=1474999042 (Sep 27 2016 17:57:22)
+0143.329 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0143.330 (0) Examining (for databases) backup set with group_id=0, nonce=2421b20d68f8, datestamp=1474996577 (Sep 27 2016 17:16:17)
+0143.332 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0143.333 (0) Examining (for databases) backup set with group_id=0, nonce=0893862fbf73, datestamp=1474927045 (Sep 26 2016 21:57:25)
+0143.336 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0143.341 (0) Examining (for databases) backup set with group_id=0, nonce=a17fd181b2d5, datestamp=1474914209 (Sep 26 2016 18:23:29)
+0143.356 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0143.363 (0) Examining (for databases) backup set with group_id=0, nonce=25ef273a687d, datestamp=1474912528 (Sep 26 2016 17:55:28)
+0143.367 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0143.369 (0) Number of backup sets in history: 18; groups (files): 1
+0143.373 (0) Examining (for files) backup set with nonce=90176db964e9, datestamp=1475235580 (Sep 30 2016 11:39:40)
+0143.378 (0) This backup set is the backup set just made, so will not be deleted.
+0143.382 (0) This backup set is the backup set just made, so will not be deleted.
+0143.383 (0) This backup set is the backup set just made, so will not be deleted.
+0143.384 (0) This backup set is the backup set just made, so will not be deleted.
+0143.386 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0143.397 (0) Examining (for files) backup set with nonce=2fd692f0f875, datestamp=1475222141 (Sep 30 2016 07:55:41)
+0143.405 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0143.407 (0) Examining (for files) backup set with nonce=0cf49109fa21, datestamp=1475200648 (Sep 30 2016 01:57:28)
+0143.408 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0143.410 (0) Examining (for files) backup set with nonce=be4f062f7cac, datestamp=1475186233 (Sep 29 2016 21:57:13)
+0143.415 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0143.416 (0) Examining (for files) backup set with nonce=467bf6b49fac, datestamp=1475171775 (Sep 29 2016 17:56:15)
+0143.418 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0143.419 (0) Examining (for files) backup set with nonce=2c6f0de8215c, datestamp=1475157415 (Sep 29 2016 13:56:55)
+0143.422 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0143.424 (0) Examining (for files) backup set with nonce=2c6f0de8215c, datestamp=1475154601 (Sep 29 2016 13:10:01)
+0143.426 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0143.428 (0) Examining (for files) backup set with nonce=ec0b4e5efb65, datestamp=1475085429 (Sep 28 2016 17:57:09)
+0143.430 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0143.432 (0) Examining (for files) backup set with nonce=2026f4eac86c, datestamp=1475070939 (Sep 28 2016 13:55:39)
+0143.435 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0143.439 (0) Examining (for files) backup set with nonce=7bce21d44eb2, datestamp=1475064012 (Sep 28 2016 12:00:12)
+0143.442 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0143.444 (0) Examining (for files) backup set with nonce=ec0b4e5efb65, datestamp=1475049173 (Sep 28 2016 07:52:53)
+0143.446 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0143.452 (0) Examining (for files) backup set with nonce=3d6a5f926fe3, datestamp=1475027756 (Sep 28 2016 01:55:56)
+0143.455 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0143.457 (0) Examining (for files) backup set with nonce=624257a0acdc, datestamp=1475013450 (Sep 27 2016 21:57:30)
+0143.459 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0143.461 (0) Examining (for files) backup set with nonce=4792ba825627, datestamp=1474999042 (Sep 27 2016 17:57:22)
+0143.463 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0143.465 (0) Examining (for files) backup set with nonce=2421b20d68f8, datestamp=1474996577 (Sep 27 2016 17:16:17)
+0143.467 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0143.471 (0) Examining (for files) backup set with nonce=0893862fbf73, datestamp=1474927045 (Sep 26 2016 21:57:25)
+0143.478 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0143.483 (0) Examining (for files) backup set with nonce=a17fd181b2d5, datestamp=1474914209 (Sep 26 2016 18:23:29)
+0143.487 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0143.489 (0) Examining (for files) backup set with nonce=25ef273a687d, datestamp=1474912528 (Sep 26 2016 17:55:28)
+0143.491 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0143.493 (0) Retain: saving new backup history (sets now: 18) and finishing retain operation
+0143.502 (0) Resume backup (90176db964e9, 0): finish run
+0143.507 (0) Decremented the semaphore (fd) by 1
+0143.510 (0) Semaphore (fd) still locked (0)
+0143.511 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0143.519 (0) Rescheduling resumption 1: moving to 120 seconds from now (1475235844)
+0143.523 (0) The backup has not finished; a resumption is scheduled
+0313.366 (1) Opened log file at time: Fri, 30 Sep 2016 11:44:54 +0000 on http://localhost:8888
+0313.368 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.20 WP: 4.6.1 PHP: 7.0.10 (Darwin Kyles-Air.fios-router.home 14.5.0 Darwin Kernel Version 14.5.0: Mon Aug 29 21:14:16 PDT 2016; root:xnu-2782.50.6~1/RELEASE_X86_64 x86_64) MySQL: 5.6.28 WPLANG: en_US Server: Apache/2.2.31 (Unix) mod_wsgi/3.5 Python/2.7.12 PHP/7.0.10 mod_ssl/2.2.31 OpenSSL/1.0.2h DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 16.4M | 2M) multisite: N openssl: OpenSSL 1.0.2h  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0313.370 (1) Free space on disk containing Updraft's temporary directory: 48016.8 MB
+0313.375 (1) Backup run: resumption=1, nonce=90176db964e9, begun at=1475235580 (314s ago), job type=backup, previous check-in=141.1s
+0313.379 (1) Scheduling a resumption (2) after 300 seconds (1475236194) in case this run gets aborted
+0313.407 (1) Checking if we have a zip executable available
+0313.409 (1) Creation of backups of directories: already finished
+0313.411 (1) Saving backup status to database (elements: 8)
+0313.423 (1) Database dump (WordPress DB): Creation was completed already
+0313.441 (1) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0313.443 (1) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0313.444 (1) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0313.446 (1) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip: others: This file has not yet been successfully uploaded: will queue
+0313.448 (1) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz: db: This file has not yet been successfully uploaded: will queue
+0313.449 (1) Saving backup history. Total backup size: 21.6 MB
+0313.459 (1) Requesting upload of the files that have not yet been successfully uploaded (5)
+0313.464 (1) Cloud backup selection (1/1): dropbox (last)
+0313.471 (1) Beginning dispatch of backup to remote (dropbox)
+0313.473 (1) Dropbox: begin cloud upload
+0313.485 (1) Dropbox: access gained; setting chunk size to: 10240 KB
+0314.532 (1) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+0314.535 (1) This is a resumption: 11070582 bytes had already been uploaded
+0314.537 (1) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip
+0315.356 (1) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+0315.359 (1) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+0315.361 (1) An error condition has occurred for the first time during this job
+0315.904 (1) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+0315.907 (1) This is a resumption: 8971906 bytes had already been uploaded
+0315.909 (1) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-themes.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-themes.zip
+0316.450 (1) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+0316.453 (1) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+0317.025 (1) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+0317.029 (1) This is a resumption: 2386791 bytes had already been uploaded
+0317.031 (1) File upload expected to fail: file data remaining to upload (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip) size is -2384460.14941 b (overall file size; 2330.85058594 b), whereas available quota is only -7733928 b
+0317.032 (1) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip
+0317.626 (1) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+0317.630 (1) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+0318.187 (1) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+0318.190 (1) This is a resumption: 1365 bytes had already been uploaded
+0318.192 (1) File upload expected to fail: file data remaining to upload (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip) size is -1363.66699219 b (overall file size; 1.3330078125 b), whereas available quota is only -7733928 b
+0318.194 (1) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip
+0318.712 (1) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+0318.715 (1) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+0319.263 (1) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+0319.266 (1) This is a resumption: 247510 bytes had already been uploaded
+0319.268 (1) File upload expected to fail: file data remaining to upload (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz) size is -247268.291016 b (overall file size; 241.708984375 b), whereas available quota is only -7733928 b
+0319.270 (1) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz
+0319.915 (1) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+0319.919 (1) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+0319.924 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=100, retain_db=100
+0319.927 (1) Number of backup sets in history: 18; groups (db): 1
+0319.929 (1) Examining (for databases) backup set with group_id=0, nonce=90176db964e9, datestamp=1475235580 (Sep 30 2016 11:39:40)
+0319.930 (1) This backup set is the backup set just made, so will not be deleted.
+0319.932 (1) Examining (for databases) backup set with group_id=0, nonce=fbb3bfed5fd3, datestamp=1475222141 (Sep 30 2016 07:55:41)
+0319.934 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0319.936 (1) Examining (for databases) backup set with group_id=0, nonce=0cf49109fa21, datestamp=1475200648 (Sep 30 2016 01:57:28)
+0319.937 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0319.939 (1) Examining (for databases) backup set with group_id=0, nonce=be4f062f7cac, datestamp=1475186233 (Sep 29 2016 21:57:13)
+0319.940 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0319.942 (1) Examining (for databases) backup set with group_id=0, nonce=467bf6b49fac, datestamp=1475171775 (Sep 29 2016 17:56:15)
+0319.943 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0319.945 (1) Examining (for databases) backup set with group_id=0, nonce=2c6f0de8215c, datestamp=1475157415 (Sep 29 2016 13:56:55)
+0319.947 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0319.948 (1) Examining (for databases) backup set with group_id=0, nonce=2c6f0de8215c, datestamp=1475154601 (Sep 29 2016 13:10:01)
+0319.950 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0319.952 (1) Examining (for databases) backup set with group_id=0, nonce=ec0b4e5efb65, datestamp=1475085429 (Sep 28 2016 17:57:09)
+0319.954 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0319.955 (1) Examining (for databases) backup set with group_id=0, nonce=2026f4eac86c, datestamp=1475070939 (Sep 28 2016 13:55:39)
+0319.957 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0319.959 (1) Examining (for databases) backup set with group_id=0, nonce=7bce21d44eb2, datestamp=1475064012 (Sep 28 2016 12:00:12)
+0319.961 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0319.962 (1) Examining (for databases) backup set with group_id=0, nonce=ec0b4e5efb65, datestamp=1475049173 (Sep 28 2016 07:52:53)
+0319.964 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0319.965 (1) Examining (for databases) backup set with group_id=0, nonce=3d6a5f926fe3, datestamp=1475027756 (Sep 28 2016 01:55:56)
+0319.967 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0319.969 (1) Examining (for databases) backup set with group_id=0, nonce=624257a0acdc, datestamp=1475013450 (Sep 27 2016 21:57:30)
+0319.971 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0319.972 (1) Examining (for databases) backup set with group_id=0, nonce=4792ba825627, datestamp=1474999042 (Sep 27 2016 17:57:22)
+0319.973 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0319.975 (1) Examining (for databases) backup set with group_id=0, nonce=2421b20d68f8, datestamp=1474996577 (Sep 27 2016 17:16:17)
+0319.976 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0319.978 (1) Examining (for databases) backup set with group_id=0, nonce=0893862fbf73, datestamp=1474927045 (Sep 26 2016 21:57:25)
+0319.980 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0319.982 (1) Examining (for databases) backup set with group_id=0, nonce=a17fd181b2d5, datestamp=1474914209 (Sep 26 2016 18:23:29)
+0319.984 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0319.985 (1) Examining (for databases) backup set with group_id=0, nonce=25ef273a687d, datestamp=1474912528 (Sep 26 2016 17:55:28)
+0319.987 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0319.988 (1) Number of backup sets in history: 18; groups (files): 1
+0319.990 (1) Examining (for files) backup set with nonce=90176db964e9, datestamp=1475235580 (Sep 30 2016 11:39:40)
+0319.991 (1) This backup set is the backup set just made, so will not be deleted.
+0319.993 (1) This backup set is the backup set just made, so will not be deleted.
+0319.993 (1) This backup set is the backup set just made, so will not be deleted.
+0319.993 (1) This backup set is the backup set just made, so will not be deleted.
+0319.993 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0319.995 (1) Examining (for files) backup set with nonce=fbb3bfed5fd3, datestamp=1475222141 (Sep 30 2016 07:55:41)
+0319.996 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0319.998 (1) Examining (for files) backup set with nonce=0cf49109fa21, datestamp=1475200648 (Sep 30 2016 01:57:28)
+0319.999 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0320.000 (1) Examining (for files) backup set with nonce=be4f062f7cac, datestamp=1475186233 (Sep 29 2016 21:57:13)
+0320.002 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0320.003 (1) Examining (for files) backup set with nonce=467bf6b49fac, datestamp=1475171775 (Sep 29 2016 17:56:15)
+0320.005 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0320.006 (1) Examining (for files) backup set with nonce=2c6f0de8215c, datestamp=1475157415 (Sep 29 2016 13:56:55)
+0320.007 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0320.009 (1) Examining (for files) backup set with nonce=2c6f0de8215c, datestamp=1475154601 (Sep 29 2016 13:10:01)
+0320.011 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0320.012 (1) Examining (for files) backup set with nonce=ec0b4e5efb65, datestamp=1475085429 (Sep 28 2016 17:57:09)
+0320.014 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0320.016 (1) Examining (for files) backup set with nonce=2026f4eac86c, datestamp=1475070939 (Sep 28 2016 13:55:39)
+0320.017 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0320.019 (1) Examining (for files) backup set with nonce=7bce21d44eb2, datestamp=1475064012 (Sep 28 2016 12:00:12)
+0320.020 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0320.022 (1) Examining (for files) backup set with nonce=ec0b4e5efb65, datestamp=1475049173 (Sep 28 2016 07:52:53)
+0320.023 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0320.025 (1) Examining (for files) backup set with nonce=3d6a5f926fe3, datestamp=1475027756 (Sep 28 2016 01:55:56)
+0320.026 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0320.028 (1) Examining (for files) backup set with nonce=624257a0acdc, datestamp=1475013450 (Sep 27 2016 21:57:30)
+0320.030 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0320.031 (1) Examining (for files) backup set with nonce=4792ba825627, datestamp=1474999042 (Sep 27 2016 17:57:22)
+0320.032 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0320.034 (1) Examining (for files) backup set with nonce=2421b20d68f8, datestamp=1474996577 (Sep 27 2016 17:16:17)
+0320.035 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0320.037 (1) Examining (for files) backup set with nonce=0893862fbf73, datestamp=1474927045 (Sep 26 2016 21:57:25)
+0320.038 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0320.039 (1) Examining (for files) backup set with nonce=a17fd181b2d5, datestamp=1474914209 (Sep 26 2016 18:23:29)
+0320.041 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0320.042 (1) Examining (for files) backup set with nonce=25ef273a687d, datestamp=1474912528 (Sep 26 2016 17:55:28)
+0320.043 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0320.045 (1) Retain: saving new backup history (sets now: 18) and finishing retain operation
+0320.051 (1) Resume backup (90176db964e9, 1): finish run
+0320.055 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0320.060 (1) The backup has not finished; a resumption is scheduled
+0685.042 (2) Opened log file at time: Fri, 30 Sep 2016 11:51:06 +0000 on http://localhost:8888
+0685.043 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.20 WP: 4.6.1 PHP: 7.0.10 (Darwin Kyles-Air.fios-router.home 14.5.0 Darwin Kernel Version 14.5.0: Mon Aug 29 21:14:16 PDT 2016; root:xnu-2782.50.6~1/RELEASE_X86_64 x86_64) MySQL: 5.6.28 WPLANG: en_US Server: Apache/2.2.31 (Unix) mod_wsgi/3.5 Python/2.7.12 PHP/7.0.10 mod_ssl/2.2.31 OpenSSL/1.0.2h DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 17.3M | 2M) multisite: N openssl: OpenSSL 1.0.2h  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0685.045 (2) Free space on disk containing Updraft's temporary directory: 48018.5 MB
+0685.050 (2) Backup run: resumption=2, nonce=90176db964e9, begun at=1475235580 (686s ago), job type=backup
+0685.055 (2) Scheduling a resumption (3) after 420 seconds (1475236686) in case this run gets aborted
+0685.060 (2) Checking if we have a zip executable available
+0685.062 (2) Creation of backups of directories: already finished
+0685.063 (2) Saving backup status to database (elements: 8)
+0685.074 (2) Database dump (WordPress DB): Creation was completed already
+0685.098 (2) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0685.100 (2) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0685.101 (2) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0685.103 (2) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip: others: This file has not yet been successfully uploaded: will queue
+0685.105 (2) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz: db: This file has not yet been successfully uploaded: will queue
+0685.106 (2) Saving backup history. Total backup size: 21.6 MB
+0685.116 (2) Requesting upload of the files that have not yet been successfully uploaded (5)
+0685.121 (2) Cloud backup selection (1/1): dropbox (last)
+0685.122 (2) Beginning dispatch of backup to remote (dropbox)
+0685.124 (2) Dropbox: begin cloud upload
+0685.126 (2) Dropbox: access gained; setting chunk size to: 10240 KB
+0685.681 (2) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+0685.685 (2) This is a resumption: 11070582 bytes had already been uploaded
+0685.687 (2) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip
+0686.258 (2) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+0686.261 (2) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+0686.846 (2) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+0686.849 (2) This is a resumption: 8971906 bytes had already been uploaded
+0686.851 (2) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-themes.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-themes.zip
+0687.453 (2) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+0687.456 (2) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+0688.027 (2) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+0688.031 (2) This is a resumption: 2386791 bytes had already been uploaded
+0688.033 (2) File upload expected to fail: file data remaining to upload (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip) size is -2384460.14941 b (overall file size; 2330.85058594 b), whereas available quota is only -7733928 b
+0688.035 (2) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip
+0688.537 (2) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+0688.540 (2) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+0689.100 (2) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+0689.103 (2) This is a resumption: 1365 bytes had already been uploaded
+0689.105 (2) File upload expected to fail: file data remaining to upload (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip) size is -1363.66699219 b (overall file size; 1.3330078125 b), whereas available quota is only -7733928 b
+0689.106 (2) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip
+0689.663 (2) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+0689.667 (2) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+0690.252 (2) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+0690.256 (2) This is a resumption: 247510 bytes had already been uploaded
+0690.257 (2) File upload expected to fail: file data remaining to upload (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz) size is -247268.291016 b (overall file size; 241.708984375 b), whereas available quota is only -7733928 b
+0690.259 (2) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz
+0690.806 (2) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+0690.809 (2) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+0690.813 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=100, retain_db=100
+0690.816 (2) Number of backup sets in history: 18; groups (db): 1
+0690.818 (2) Examining (for databases) backup set with group_id=0, nonce=90176db964e9, datestamp=1475235580 (Sep 30 2016 11:39:40)
+0690.820 (2) This backup set is the backup set just made, so will not be deleted.
+0690.821 (2) Examining (for databases) backup set with group_id=0, nonce=fbb3bfed5fd3, datestamp=1475222141 (Sep 30 2016 07:55:41)
+0690.823 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0690.824 (2) Examining (for databases) backup set with group_id=0, nonce=0cf49109fa21, datestamp=1475200648 (Sep 30 2016 01:57:28)
+0690.826 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0690.827 (2) Examining (for databases) backup set with group_id=0, nonce=be4f062f7cac, datestamp=1475186233 (Sep 29 2016 21:57:13)
+0690.828 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0690.830 (2) Examining (for databases) backup set with group_id=0, nonce=467bf6b49fac, datestamp=1475171775 (Sep 29 2016 17:56:15)
+0690.831 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0690.832 (2) Examining (for databases) backup set with group_id=0, nonce=2c6f0de8215c, datestamp=1475157415 (Sep 29 2016 13:56:55)
+0690.834 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0690.835 (2) Examining (for databases) backup set with group_id=0, nonce=2c6f0de8215c, datestamp=1475154601 (Sep 29 2016 13:10:01)
+0690.837 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0690.838 (2) Examining (for databases) backup set with group_id=0, nonce=ec0b4e5efb65, datestamp=1475085429 (Sep 28 2016 17:57:09)
+0690.840 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0690.841 (2) Examining (for databases) backup set with group_id=0, nonce=2026f4eac86c, datestamp=1475070939 (Sep 28 2016 13:55:39)
+0690.843 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0690.844 (2) Examining (for databases) backup set with group_id=0, nonce=7bce21d44eb2, datestamp=1475064012 (Sep 28 2016 12:00:12)
+0690.845 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0690.847 (2) Examining (for databases) backup set with group_id=0, nonce=ec0b4e5efb65, datestamp=1475049173 (Sep 28 2016 07:52:53)
+0690.849 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0690.850 (2) Examining (for databases) backup set with group_id=0, nonce=3d6a5f926fe3, datestamp=1475027756 (Sep 28 2016 01:55:56)
+0690.852 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0690.854 (2) Examining (for databases) backup set with group_id=0, nonce=624257a0acdc, datestamp=1475013450 (Sep 27 2016 21:57:30)
+0690.855 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0690.856 (2) Examining (for databases) backup set with group_id=0, nonce=4792ba825627, datestamp=1474999042 (Sep 27 2016 17:57:22)
+0690.858 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0690.859 (2) Examining (for databases) backup set with group_id=0, nonce=2421b20d68f8, datestamp=1474996577 (Sep 27 2016 17:16:17)
+0690.861 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0690.862 (2) Examining (for databases) backup set with group_id=0, nonce=0893862fbf73, datestamp=1474927045 (Sep 26 2016 21:57:25)
+0690.863 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0690.866 (2) Examining (for databases) backup set with group_id=0, nonce=a17fd181b2d5, datestamp=1474914209 (Sep 26 2016 18:23:29)
+0690.867 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0690.869 (2) Examining (for databases) backup set with group_id=0, nonce=25ef273a687d, datestamp=1474912528 (Sep 26 2016 17:55:28)
+0690.870 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0690.872 (2) Number of backup sets in history: 18; groups (files): 1
+0690.873 (2) Examining (for files) backup set with nonce=90176db964e9, datestamp=1475235580 (Sep 30 2016 11:39:40)
+0690.875 (2) This backup set is the backup set just made, so will not be deleted.
+0690.876 (2) This backup set is the backup set just made, so will not be deleted.
+0690.876 (2) This backup set is the backup set just made, so will not be deleted.
+0690.877 (2) This backup set is the backup set just made, so will not be deleted.
+0690.877 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0690.878 (2) Examining (for files) backup set with nonce=fbb3bfed5fd3, datestamp=1475222141 (Sep 30 2016 07:55:41)
+0690.880 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0690.881 (2) Examining (for files) backup set with nonce=0cf49109fa21, datestamp=1475200648 (Sep 30 2016 01:57:28)
+0690.883 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0690.884 (2) Examining (for files) backup set with nonce=be4f062f7cac, datestamp=1475186233 (Sep 29 2016 21:57:13)
+0690.886 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0690.887 (2) Examining (for files) backup set with nonce=467bf6b49fac, datestamp=1475171775 (Sep 29 2016 17:56:15)
+0690.889 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0690.890 (2) Examining (for files) backup set with nonce=2c6f0de8215c, datestamp=1475157415 (Sep 29 2016 13:56:55)
+0690.892 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0690.894 (2) Examining (for files) backup set with nonce=2c6f0de8215c, datestamp=1475154601 (Sep 29 2016 13:10:01)
+0690.895 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0690.896 (2) Examining (for files) backup set with nonce=ec0b4e5efb65, datestamp=1475085429 (Sep 28 2016 17:57:09)
+0690.898 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0690.899 (2) Examining (for files) backup set with nonce=2026f4eac86c, datestamp=1475070939 (Sep 28 2016 13:55:39)
+0690.900 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0690.902 (2) Examining (for files) backup set with nonce=7bce21d44eb2, datestamp=1475064012 (Sep 28 2016 12:00:12)
+0690.904 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0690.906 (2) Examining (for files) backup set with nonce=ec0b4e5efb65, datestamp=1475049173 (Sep 28 2016 07:52:53)
+0690.907 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0690.908 (2) Examining (for files) backup set with nonce=3d6a5f926fe3, datestamp=1475027756 (Sep 28 2016 01:55:56)
+0690.910 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0690.911 (2) Examining (for files) backup set with nonce=624257a0acdc, datestamp=1475013450 (Sep 27 2016 21:57:30)
+0690.913 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0690.915 (2) Examining (for files) backup set with nonce=4792ba825627, datestamp=1474999042 (Sep 27 2016 17:57:22)
+0690.917 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0690.918 (2) Examining (for files) backup set with nonce=2421b20d68f8, datestamp=1474996577 (Sep 27 2016 17:16:17)
+0690.920 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0690.921 (2) Examining (for files) backup set with nonce=0893862fbf73, datestamp=1474927045 (Sep 26 2016 21:57:25)
+0690.923 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0690.924 (2) Examining (for files) backup set with nonce=a17fd181b2d5, datestamp=1474914209 (Sep 26 2016 18:23:29)
+0690.926 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0690.928 (2) Examining (for files) backup set with nonce=25ef273a687d, datestamp=1474912528 (Sep 26 2016 17:55:28)
+0690.930 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0690.931 (2) Retain: saving new backup history (sets now: 18) and finishing retain operation
+0690.938 (2) Resume backup (90176db964e9, 2): finish run
+0690.942 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0690.946 (2) The backup has not finished; a resumption is scheduled
+1185.555 (3) Opened log file at time: Fri, 30 Sep 2016 11:59:26 +0000 on http://localhost:8888
+1185.557 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.20 WP: 4.6.1 PHP: 7.0.10 (Darwin Kyles-Air.fios-router.home 14.5.0 Darwin Kernel Version 14.5.0: Mon Aug 29 21:14:16 PDT 2016; root:xnu-2782.50.6~1/RELEASE_X86_64 x86_64) MySQL: 5.6.28 WPLANG: en_US Server: Apache/2.2.31 (Unix) mod_wsgi/3.5 Python/2.7.12 PHP/7.0.10 mod_ssl/2.2.31 OpenSSL/1.0.2h DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 17.3M | 2M) multisite: N openssl: OpenSSL 1.0.2h  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+1185.559 (3) Free space on disk containing Updraft's temporary directory: 48016.1 MB
+1185.565 (3) Backup run: resumption=3, nonce=90176db964e9, begun at=1475235580 (1186s ago), job type=backup, previous check-in=0s
+1185.569 (3) Scheduling a resumption (4) after 420 seconds (1475237186) in case this run gets aborted
+1185.573 (3) Checking if we have a zip executable available
+1185.575 (3) Creation of backups of directories: already finished
+1185.577 (3) Saving backup status to database (elements: 8)
+1185.588 (3) Database dump (WordPress DB): Creation was completed already
+1185.608 (3) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1185.611 (3) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1185.613 (3) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1185.616 (3) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip: others: This file has not yet been successfully uploaded: will queue
+1185.618 (3) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz: db: This file has not yet been successfully uploaded: will queue
+1185.619 (3) Saving backup history. Total backup size: 21.6 MB
+1185.629 (3) Requesting upload of the files that have not yet been successfully uploaded (5)
+1185.633 (3) Cloud backup selection (1/1): dropbox (last)
+1185.635 (3) Beginning dispatch of backup to remote (dropbox)
+1185.636 (3) Dropbox: begin cloud upload
+1185.639 (3) Dropbox: access gained; setting chunk size to: 10240 KB
+1185.857 (3) Opened log file at time: Fri, 30 Sep 2016 11:59:26 +0000 on http://localhost:8888
+1185.859 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.20 WP: 4.6.1 PHP: 7.0.10 (Darwin Kyles-Air.fios-router.home 14.5.0 Darwin Kernel Version 14.5.0: Mon Aug 29 21:14:16 PDT 2016; root:xnu-2782.50.6~1/RELEASE_X86_64 x86_64) MySQL: 5.6.28 WPLANG: en_US Server: Apache/2.2.31 (Unix) mod_wsgi/3.5 Python/2.7.12 PHP/7.0.10 mod_ssl/2.2.31 OpenSSL/1.0.2h DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 17.3M | 2M) multisite: N openssl: OpenSSL 1.0.2h  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+1185.860 (3) Free space on disk containing Updraft's temporary directory: 48016.1 MB
+1185.865 (3) Backup run: resumption=3, nonce=90176db964e9, begun at=1475235580 (1186s ago), job type=backup, previous check-in=0s
+1185.870 (3) Scheduling a resumption (4) after 420 seconds (1475237186) in case this run gets aborted
+1185.874 (3) Checking if we have a zip executable available
+1185.875 (3) Creation of backups of directories: already finished
+1185.877 (3) Saving backup status to database (elements: 8)
+1185.885 (3) Database dump (WordPress DB): Creation was completed already
+1185.903 (3) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1185.904 (3) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1185.906 (3) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1185.908 (3) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip: others: This file has not yet been successfully uploaded: will queue
+1185.910 (3) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz: db: This file has not yet been successfully uploaded: will queue
+1185.911 (3) Saving backup history. Total backup size: 21.6 MB
+1185.920 (3) Requesting upload of the files that have not yet been successfully uploaded (5)
+1185.925 (3) Cloud backup selection (1/1): dropbox (last)
+1185.926 (3) Beginning dispatch of backup to remote (dropbox)
+1185.928 (3) Dropbox: begin cloud upload
+1185.930 (3) Dropbox: access gained; setting chunk size to: 10240 KB
+1186.194 (3) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+1186.197 (3) This is a resumption: 11070582 bytes had already been uploaded
+1186.200 (3) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip
+1186.822 (3) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+1186.825 (3) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+1187.338 (3) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+1187.341 (3) This is a resumption: 11070582 bytes had already been uploaded
+1187.343 (3) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip
+1187.373 (3) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+1187.376 (3) This is a resumption: 8971906 bytes had already been uploaded
+1187.378 (3) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-themes.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-themes.zip
+1187.927 (3) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+1187.930 (3) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+1188.115 (3) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+1188.119 (3) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+1188.469 (3) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+1188.473 (3) This is a resumption: 2386791 bytes had already been uploaded
+1188.475 (3) File upload expected to fail: file data remaining to upload (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip) size is -2384460.14941 b (overall file size; 2330.85058594 b), whereas available quota is only -7733928 b
+1188.477 (3) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip
+1188.648 (3) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+1188.652 (3) This is a resumption: 8971906 bytes had already been uploaded
+1188.654 (3) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-themes.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-themes.zip
+1189.030 (3) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+1189.034 (3) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+1189.216 (3) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+1189.219 (3) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+1189.578 (3) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+1189.581 (3) This is a resumption: 1365 bytes had already been uploaded
+1189.582 (3) File upload expected to fail: file data remaining to upload (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip) size is -1363.66699219 b (overall file size; 1.3330078125 b), whereas available quota is only -7733928 b
+1189.584 (3) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip
+1189.810 (3) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+1189.814 (3) This is a resumption: 2386791 bytes had already been uploaded
+1189.816 (3) File upload expected to fail: file data remaining to upload (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip) size is -2384460.14941 b (overall file size; 2330.85058594 b), whereas available quota is only -7733928 b
+1189.819 (3) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip
+1190.104 (3) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+1190.107 (3) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+1190.345 (3) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+1190.349 (3) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+1190.673 (3) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+1190.676 (3) This is a resumption: 247510 bytes had already been uploaded
+1190.678 (3) File upload expected to fail: file data remaining to upload (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz) size is -247268.291016 b (overall file size; 241.708984375 b), whereas available quota is only -7733928 b
+1190.680 (3) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz
+1190.927 (3) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+1190.930 (3) This is a resumption: 1365 bytes had already been uploaded
+1190.932 (3) File upload expected to fail: file data remaining to upload (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip) size is -1363.66699219 b (overall file size; 1.3330078125 b), whereas available quota is only -7733928 b
+1190.934 (3) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip
+1191.240 (3) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+1191.244 (3) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+1191.249 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=100, retain_db=100
+1191.252 (3) Number of backup sets in history: 18; groups (db): 1
+1191.253 (3) Examining (for databases) backup set with group_id=0, nonce=90176db964e9, datestamp=1475235580 (Sep 30 2016 11:39:40)
+1191.255 (3) This backup set is the backup set just made, so will not be deleted.
+1191.257 (3) Examining (for databases) backup set with group_id=0, nonce=fbb3bfed5fd3, datestamp=1475222141 (Sep 30 2016 07:55:41)
+1191.258 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1191.260 (3) Examining (for databases) backup set with group_id=0, nonce=0cf49109fa21, datestamp=1475200648 (Sep 30 2016 01:57:28)
+1191.261 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1191.263 (3) Examining (for databases) backup set with group_id=0, nonce=be4f062f7cac, datestamp=1475186233 (Sep 29 2016 21:57:13)
+1191.264 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1191.266 (3) Examining (for databases) backup set with group_id=0, nonce=467bf6b49fac, datestamp=1475171775 (Sep 29 2016 17:56:15)
+1191.267 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1191.268 (3) Examining (for databases) backup set with group_id=0, nonce=2c6f0de8215c, datestamp=1475157415 (Sep 29 2016 13:56:55)
+1191.270 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1191.271 (3) Examining (for databases) backup set with group_id=0, nonce=2c6f0de8215c, datestamp=1475154601 (Sep 29 2016 13:10:01)
+1191.273 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1191.274 (3) Examining (for databases) backup set with group_id=0, nonce=ec0b4e5efb65, datestamp=1475085429 (Sep 28 2016 17:57:09)
+1191.275 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1191.277 (3) Examining (for databases) backup set with group_id=0, nonce=2026f4eac86c, datestamp=1475070939 (Sep 28 2016 13:55:39)
+1191.279 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1191.280 (3) Examining (for databases) backup set with group_id=0, nonce=7bce21d44eb2, datestamp=1475064012 (Sep 28 2016 12:00:12)
+1191.281 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1191.283 (3) Examining (for databases) backup set with group_id=0, nonce=ec0b4e5efb65, datestamp=1475049173 (Sep 28 2016 07:52:53)
+1191.284 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1191.285 (3) Examining (for databases) backup set with group_id=0, nonce=3d6a5f926fe3, datestamp=1475027756 (Sep 28 2016 01:55:56)
+1191.287 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1191.289 (3) Examining (for databases) backup set with group_id=0, nonce=624257a0acdc, datestamp=1475013450 (Sep 27 2016 21:57:30)
+1191.290 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1191.292 (3) Examining (for databases) backup set with group_id=0, nonce=4792ba825627, datestamp=1474999042 (Sep 27 2016 17:57:22)
+1191.293 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1191.295 (3) Examining (for databases) backup set with group_id=0, nonce=2421b20d68f8, datestamp=1474996577 (Sep 27 2016 17:16:17)
+1191.296 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1191.298 (3) Examining (for databases) backup set with group_id=0, nonce=0893862fbf73, datestamp=1474927045 (Sep 26 2016 21:57:25)
+1191.299 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1191.301 (3) Examining (for databases) backup set with group_id=0, nonce=a17fd181b2d5, datestamp=1474914209 (Sep 26 2016 18:23:29)
+1191.302 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1191.304 (3) Examining (for databases) backup set with group_id=0, nonce=25ef273a687d, datestamp=1474912528 (Sep 26 2016 17:55:28)
+1191.305 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1191.307 (3) Number of backup sets in history: 18; groups (files): 1
+1191.308 (3) Examining (for files) backup set with nonce=90176db964e9, datestamp=1475235580 (Sep 30 2016 11:39:40)
+1191.309 (3) This backup set is the backup set just made, so will not be deleted.
+1191.311 (3) This backup set is the backup set just made, so will not be deleted.
+1191.311 (3) This backup set is the backup set just made, so will not be deleted.
+1191.311 (3) This backup set is the backup set just made, so will not be deleted.
+1191.311 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1191.313 (3) Examining (for files) backup set with nonce=fbb3bfed5fd3, datestamp=1475222141 (Sep 30 2016 07:55:41)
+1191.314 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1191.315 (3) Examining (for files) backup set with nonce=0cf49109fa21, datestamp=1475200648 (Sep 30 2016 01:57:28)
+1191.317 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1191.318 (3) Examining (for files) backup set with nonce=be4f062f7cac, datestamp=1475186233 (Sep 29 2016 21:57:13)
+1191.320 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1191.322 (3) Examining (for files) backup set with nonce=467bf6b49fac, datestamp=1475171775 (Sep 29 2016 17:56:15)
+1191.324 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1191.325 (3) Examining (for files) backup set with nonce=2c6f0de8215c, datestamp=1475157415 (Sep 29 2016 13:56:55)
+1191.327 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1191.328 (3) Examining (for files) backup set with nonce=2c6f0de8215c, datestamp=1475154601 (Sep 29 2016 13:10:01)
+1191.330 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1191.331 (3) Examining (for files) backup set with nonce=ec0b4e5efb65, datestamp=1475085429 (Sep 28 2016 17:57:09)
+1191.333 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1191.334 (3) Examining (for files) backup set with nonce=2026f4eac86c, datestamp=1475070939 (Sep 28 2016 13:55:39)
+1191.335 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1191.337 (3) Examining (for files) backup set with nonce=7bce21d44eb2, datestamp=1475064012 (Sep 28 2016 12:00:12)
+1191.338 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1191.340 (3) Examining (for files) backup set with nonce=ec0b4e5efb65, datestamp=1475049173 (Sep 28 2016 07:52:53)
+1191.341 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1191.342 (3) Examining (for files) backup set with nonce=3d6a5f926fe3, datestamp=1475027756 (Sep 28 2016 01:55:56)
+1191.344 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1191.346 (3) Examining (for files) backup set with nonce=624257a0acdc, datestamp=1475013450 (Sep 27 2016 21:57:30)
+1191.348 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1191.349 (3) Examining (for files) backup set with nonce=4792ba825627, datestamp=1474999042 (Sep 27 2016 17:57:22)
+1191.350 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1191.352 (3) Examining (for files) backup set with nonce=2421b20d68f8, datestamp=1474996577 (Sep 27 2016 17:16:17)
+1191.353 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1191.355 (3) Examining (for files) backup set with nonce=0893862fbf73, datestamp=1474927045 (Sep 26 2016 21:57:25)
+1191.356 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1191.358 (3) Examining (for files) backup set with nonce=a17fd181b2d5, datestamp=1474914209 (Sep 26 2016 18:23:29)
+1191.360 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1191.362 (3) Examining (for files) backup set with nonce=25ef273a687d, datestamp=1474912528 (Sep 26 2016 17:55:28)
+1191.363 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1191.365 (3) Retain: saving new backup history (sets now: 18) and finishing retain operation
+1191.371 (3) Resume backup (90176db964e9, 3): finish run
+1191.376 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1191.380 (3) The backup has not finished; a resumption is scheduled
+1192.040 (3) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+1192.044 (3) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+1192.619 (3) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+1192.623 (3) This is a resumption: 247510 bytes had already been uploaded
+1192.625 (3) File upload expected to fail: file data remaining to upload (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz) size is -247268.291016 b (overall file size; 241.708984375 b), whereas available quota is only -7733928 b
+1192.627 (3) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz
+1193.218 (3) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+1193.221 (3) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+1193.226 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=100, retain_db=100
+1193.229 (3) Number of backup sets in history: 18; groups (db): 1
+1193.230 (3) Examining (for databases) backup set with group_id=0, nonce=c80b1da246e4, datestamp=1475235580 (Sep 30 2016 11:39:40)
+1193.232 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1193.234 (3) Examining (for databases) backup set with group_id=0, nonce=fbb3bfed5fd3, datestamp=1475222141 (Sep 30 2016 07:55:41)
+1193.235 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1193.237 (3) Examining (for databases) backup set with group_id=0, nonce=0cf49109fa21, datestamp=1475200648 (Sep 30 2016 01:57:28)
+1193.238 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1193.239 (3) Examining (for databases) backup set with group_id=0, nonce=be4f062f7cac, datestamp=1475186233 (Sep 29 2016 21:57:13)
+1193.241 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1193.242 (3) Examining (for databases) backup set with group_id=0, nonce=467bf6b49fac, datestamp=1475171775 (Sep 29 2016 17:56:15)
+1193.244 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1193.245 (3) Examining (for databases) backup set with group_id=0, nonce=2c6f0de8215c, datestamp=1475157415 (Sep 29 2016 13:56:55)
+1193.247 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1193.249 (3) Examining (for databases) backup set with group_id=0, nonce=2c6f0de8215c, datestamp=1475154601 (Sep 29 2016 13:10:01)
+1193.250 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1193.251 (3) Examining (for databases) backup set with group_id=0, nonce=ec0b4e5efb65, datestamp=1475085429 (Sep 28 2016 17:57:09)
+1193.254 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1193.255 (3) Examining (for databases) backup set with group_id=0, nonce=2026f4eac86c, datestamp=1475070939 (Sep 28 2016 13:55:39)
+1193.257 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1193.258 (3) Examining (for databases) backup set with group_id=0, nonce=7bce21d44eb2, datestamp=1475064012 (Sep 28 2016 12:00:12)
+1193.260 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1193.261 (3) Examining (for databases) backup set with group_id=0, nonce=ec0b4e5efb65, datestamp=1475049173 (Sep 28 2016 07:52:53)
+1193.263 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1193.264 (3) Examining (for databases) backup set with group_id=0, nonce=3d6a5f926fe3, datestamp=1475027756 (Sep 28 2016 01:55:56)
+1193.266 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1193.268 (3) Examining (for databases) backup set with group_id=0, nonce=624257a0acdc, datestamp=1475013450 (Sep 27 2016 21:57:30)
+1193.269 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1193.270 (3) Examining (for databases) backup set with group_id=0, nonce=4792ba825627, datestamp=1474999042 (Sep 27 2016 17:57:22)
+1193.272 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1193.273 (3) Examining (for databases) backup set with group_id=0, nonce=2421b20d68f8, datestamp=1474996577 (Sep 27 2016 17:16:17)
+1193.274 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1193.276 (3) Examining (for databases) backup set with group_id=0, nonce=0893862fbf73, datestamp=1474927045 (Sep 26 2016 21:57:25)
+1193.278 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1193.279 (3) Examining (for databases) backup set with group_id=0, nonce=a17fd181b2d5, datestamp=1474914209 (Sep 26 2016 18:23:29)
+1193.281 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1193.282 (3) Examining (for databases) backup set with group_id=0, nonce=25ef273a687d, datestamp=1474912528 (Sep 26 2016 17:55:28)
+1193.284 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1193.285 (3) Number of backup sets in history: 18; groups (files): 1
+1193.286 (3) Examining (for files) backup set with nonce=c80b1da246e4, datestamp=1475235580 (Sep 30 2016 11:39:40)
+1193.288 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1193.289 (3) Examining (for files) backup set with nonce=fbb3bfed5fd3, datestamp=1475222141 (Sep 30 2016 07:55:41)
+1193.291 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1193.292 (3) Examining (for files) backup set with nonce=0cf49109fa21, datestamp=1475200648 (Sep 30 2016 01:57:28)
+1193.294 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1193.295 (3) Examining (for files) backup set with nonce=be4f062f7cac, datestamp=1475186233 (Sep 29 2016 21:57:13)
+1193.297 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1193.298 (3) Examining (for files) backup set with nonce=467bf6b49fac, datestamp=1475171775 (Sep 29 2016 17:56:15)
+1193.300 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1193.302 (3) Examining (for files) backup set with nonce=2c6f0de8215c, datestamp=1475157415 (Sep 29 2016 13:56:55)
+1193.303 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1193.304 (3) Examining (for files) backup set with nonce=2c6f0de8215c, datestamp=1475154601 (Sep 29 2016 13:10:01)
+1193.306 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1193.307 (3) Examining (for files) backup set with nonce=ec0b4e5efb65, datestamp=1475085429 (Sep 28 2016 17:57:09)
+1193.309 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1193.310 (3) Examining (for files) backup set with nonce=2026f4eac86c, datestamp=1475070939 (Sep 28 2016 13:55:39)
+1193.312 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1193.314 (3) Examining (for files) backup set with nonce=7bce21d44eb2, datestamp=1475064012 (Sep 28 2016 12:00:12)
+1193.315 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1193.316 (3) Examining (for files) backup set with nonce=ec0b4e5efb65, datestamp=1475049173 (Sep 28 2016 07:52:53)
+1193.318 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1193.319 (3) Examining (for files) backup set with nonce=3d6a5f926fe3, datestamp=1475027756 (Sep 28 2016 01:55:56)
+1193.320 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1193.322 (3) Examining (for files) backup set with nonce=624257a0acdc, datestamp=1475013450 (Sep 27 2016 21:57:30)
+1193.323 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1193.325 (3) Examining (for files) backup set with nonce=4792ba825627, datestamp=1474999042 (Sep 27 2016 17:57:22)
+1193.327 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1193.328 (3) Examining (for files) backup set with nonce=2421b20d68f8, datestamp=1474996577 (Sep 27 2016 17:16:17)
+1193.330 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1193.332 (3) Examining (for files) backup set with nonce=0893862fbf73, datestamp=1474927045 (Sep 26 2016 21:57:25)
+1193.333 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1193.335 (3) Examining (for files) backup set with nonce=a17fd181b2d5, datestamp=1474914209 (Sep 26 2016 18:23:29)
+1193.337 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1193.339 (3) Examining (for files) backup set with nonce=25ef273a687d, datestamp=1474912528 (Sep 26 2016 17:55:28)
+1193.341 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1193.343 (3) Retain: saving new backup history (sets now: 18) and finishing retain operation
+1193.348 (3) Resume backup (90176db964e9, 3): finish run
+1193.352 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1193.356 (3) The backup has not finished; a resumption is scheduled
+1691.087 (4) Opened log file at time: Fri, 30 Sep 2016 12:07:52 +0000 on http://localhost:8888
+1691.089 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.20 WP: 4.6.1 PHP: 7.0.10 (Darwin Kyles-Air.fios-router.home 14.5.0 Darwin Kernel Version 14.5.0: Mon Aug 29 21:14:16 PDT 2016; root:xnu-2782.50.6~1/RELEASE_X86_64 x86_64) MySQL: 5.6.28 WPLANG: en_US Server: Apache/2.2.31 (Unix) mod_wsgi/3.5 Python/2.7.12 PHP/7.0.10 mod_ssl/2.2.31 OpenSSL/1.0.2h DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 17.3M | 2M) multisite: N openssl: OpenSSL 1.0.2h  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+1691.090 (4) Free space on disk containing Updraft's temporary directory: 48011.7 MB
+1691.095 (4) Backup run: resumption=4, nonce=90176db964e9, begun at=1475235580 (1692s ago), job type=backup
+1691.101 (4) Scheduling a resumption (5) after 420 seconds (1475237692) in case this run gets aborted
+1691.106 (4) Checking if we have a zip executable available
+1691.107 (4) Creation of backups of directories: already finished
+1691.109 (4) Saving backup status to database (elements: 8)
+1691.119 (4) Database dump (WordPress DB): Creation was completed already
+1691.139 (4) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1691.141 (4) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1691.143 (4) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1691.145 (4) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip: others: This file has not yet been successfully uploaded: will queue
+1691.147 (4) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz: db: This file has not yet been successfully uploaded: will queue
+1691.150 (4) Saving backup history. Total backup size: 21.6 MB
+1691.173 (4) Requesting upload of the files that have not yet been successfully uploaded (5)
+1691.178 (4) Cloud backup selection (1/1): dropbox (last)
+1691.180 (4) Beginning dispatch of backup to remote (dropbox)
+1691.182 (4) Dropbox: begin cloud upload
+1691.184 (4) Dropbox: access gained; setting chunk size to: 10240 KB
+1693.091 (4) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+1693.094 (4) This is a resumption: 11070582 bytes had already been uploaded
+1693.096 (4) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip
+1694.014 (4) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+1694.017 (4) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+1694.564 (4) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+1694.567 (4) This is a resumption: 8971906 bytes had already been uploaded
+1694.569 (4) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-themes.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-themes.zip
+1695.242 (4) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+1695.245 (4) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+1695.819 (4) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+1695.823 (4) This is a resumption: 2386791 bytes had already been uploaded
+1695.825 (4) File upload expected to fail: file data remaining to upload (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip) size is -2384460.14941 b (overall file size; 2330.85058594 b), whereas available quota is only -7733928 b
+1695.826 (4) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip
+1696.471 (4) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+1696.474 (4) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+1697.024 (4) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+1697.028 (4) This is a resumption: 1365 bytes had already been uploaded
+1697.030 (4) File upload expected to fail: file data remaining to upload (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip) size is -1363.66699219 b (overall file size; 1.3330078125 b), whereas available quota is only -7733928 b
+1697.031 (4) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip
+1698.007 (4) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+1698.010 (4) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+1698.553 (4) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+1698.557 (4) This is a resumption: 247510 bytes had already been uploaded
+1698.559 (4) File upload expected to fail: file data remaining to upload (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz) size is -247268.291016 b (overall file size; 241.708984375 b), whereas available quota is only -7733928 b
+1698.560 (4) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz
+1699.235 (4) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+1699.238 (4) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+1699.243 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=100, retain_db=100
+1699.246 (4) Number of backup sets in history: 18; groups (db): 1
+1699.248 (4) Examining (for databases) backup set with group_id=0, nonce=90176db964e9, datestamp=1475235580 (Sep 30 2016 11:39:40)
+1699.249 (4) This backup set is the backup set just made, so will not be deleted.
+1699.250 (4) Examining (for databases) backup set with group_id=0, nonce=fbb3bfed5fd3, datestamp=1475222141 (Sep 30 2016 07:55:41)
+1699.252 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1699.253 (4) Examining (for databases) backup set with group_id=0, nonce=0cf49109fa21, datestamp=1475200648 (Sep 30 2016 01:57:28)
+1699.255 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1699.256 (4) Examining (for databases) backup set with group_id=0, nonce=be4f062f7cac, datestamp=1475186233 (Sep 29 2016 21:57:13)
+1699.257 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1699.259 (4) Examining (for databases) backup set with group_id=0, nonce=467bf6b49fac, datestamp=1475171775 (Sep 29 2016 17:56:15)
+1699.260 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1699.262 (4) Examining (for databases) backup set with group_id=0, nonce=2c6f0de8215c, datestamp=1475157415 (Sep 29 2016 13:56:55)
+1699.263 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1699.265 (4) Examining (for databases) backup set with group_id=0, nonce=2c6f0de8215c, datestamp=1475154601 (Sep 29 2016 13:10:01)
+1699.266 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1699.267 (4) Examining (for databases) backup set with group_id=0, nonce=ec0b4e5efb65, datestamp=1475085429 (Sep 28 2016 17:57:09)
+1699.269 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1699.271 (4) Examining (for databases) backup set with group_id=0, nonce=2026f4eac86c, datestamp=1475070939 (Sep 28 2016 13:55:39)
+1699.272 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1699.274 (4) Examining (for databases) backup set with group_id=0, nonce=7bce21d44eb2, datestamp=1475064012 (Sep 28 2016 12:00:12)
+1699.275 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1699.277 (4) Examining (for databases) backup set with group_id=0, nonce=ec0b4e5efb65, datestamp=1475049173 (Sep 28 2016 07:52:53)
+1699.278 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1699.280 (4) Examining (for databases) backup set with group_id=0, nonce=3d6a5f926fe3, datestamp=1475027756 (Sep 28 2016 01:55:56)
+1699.281 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1699.283 (4) Examining (for databases) backup set with group_id=0, nonce=624257a0acdc, datestamp=1475013450 (Sep 27 2016 21:57:30)
+1699.284 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1699.285 (4) Examining (for databases) backup set with group_id=0, nonce=4792ba825627, datestamp=1474999042 (Sep 27 2016 17:57:22)
+1699.287 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1699.288 (4) Examining (for databases) backup set with group_id=0, nonce=2421b20d68f8, datestamp=1474996577 (Sep 27 2016 17:16:17)
+1699.289 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1699.291 (4) Examining (for databases) backup set with group_id=0, nonce=0893862fbf73, datestamp=1474927045 (Sep 26 2016 21:57:25)
+1699.292 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1699.294 (4) Examining (for databases) backup set with group_id=0, nonce=a17fd181b2d5, datestamp=1474914209 (Sep 26 2016 18:23:29)
+1699.296 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1699.297 (4) Examining (for databases) backup set with group_id=0, nonce=25ef273a687d, datestamp=1474912528 (Sep 26 2016 17:55:28)
+1699.299 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1699.300 (4) Number of backup sets in history: 18; groups (files): 1
+1699.302 (4) Examining (for files) backup set with nonce=90176db964e9, datestamp=1475235580 (Sep 30 2016 11:39:40)
+1699.303 (4) This backup set is the backup set just made, so will not be deleted.
+1699.305 (4) This backup set is the backup set just made, so will not be deleted.
+1699.305 (4) This backup set is the backup set just made, so will not be deleted.
+1699.305 (4) This backup set is the backup set just made, so will not be deleted.
+1699.305 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1699.307 (4) Examining (for files) backup set with nonce=fbb3bfed5fd3, datestamp=1475222141 (Sep 30 2016 07:55:41)
+1699.308 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1699.310 (4) Examining (for files) backup set with nonce=0cf49109fa21, datestamp=1475200648 (Sep 30 2016 01:57:28)
+1699.311 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1699.313 (4) Examining (for files) backup set with nonce=be4f062f7cac, datestamp=1475186233 (Sep 29 2016 21:57:13)
+1699.314 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1699.315 (4) Examining (for files) backup set with nonce=467bf6b49fac, datestamp=1475171775 (Sep 29 2016 17:56:15)
+1699.317 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1699.318 (4) Examining (for files) backup set with nonce=2c6f0de8215c, datestamp=1475157415 (Sep 29 2016 13:56:55)
+1699.320 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1699.322 (4) Examining (for files) backup set with nonce=2c6f0de8215c, datestamp=1475154601 (Sep 29 2016 13:10:01)
+1699.323 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1699.324 (4) Examining (for files) backup set with nonce=ec0b4e5efb65, datestamp=1475085429 (Sep 28 2016 17:57:09)
+1699.326 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1699.327 (4) Examining (for files) backup set with nonce=2026f4eac86c, datestamp=1475070939 (Sep 28 2016 13:55:39)
+1699.329 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1699.330 (4) Examining (for files) backup set with nonce=7bce21d44eb2, datestamp=1475064012 (Sep 28 2016 12:00:12)
+1699.332 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1699.334 (4) Examining (for files) backup set with nonce=ec0b4e5efb65, datestamp=1475049173 (Sep 28 2016 07:52:53)
+1699.335 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1699.337 (4) Examining (for files) backup set with nonce=3d6a5f926fe3, datestamp=1475027756 (Sep 28 2016 01:55:56)
+1699.338 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1699.340 (4) Examining (for files) backup set with nonce=624257a0acdc, datestamp=1475013450 (Sep 27 2016 21:57:30)
+1699.341 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1699.343 (4) Examining (for files) backup set with nonce=4792ba825627, datestamp=1474999042 (Sep 27 2016 17:57:22)
+1699.345 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1699.346 (4) Examining (for files) backup set with nonce=2421b20d68f8, datestamp=1474996577 (Sep 27 2016 17:16:17)
+1699.348 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1699.349 (4) Examining (for files) backup set with nonce=0893862fbf73, datestamp=1474927045 (Sep 26 2016 21:57:25)
+1699.350 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1699.352 (4) Examining (for files) backup set with nonce=a17fd181b2d5, datestamp=1474914209 (Sep 26 2016 18:23:29)
+1699.353 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1699.354 (4) Examining (for files) backup set with nonce=25ef273a687d, datestamp=1474912528 (Sep 26 2016 17:55:28)
+1699.356 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1699.357 (4) Retain: saving new backup history (sets now: 18) and finishing retain operation
+1699.363 (4) Resume backup (90176db964e9, 4): finish run
+1699.367 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1699.372 (4) The backup has not finished; a resumption is scheduled
+2185.333 (5) Opened log file at time: Fri, 30 Sep 2016 12:16:06 +0000 on http://localhost:8888
+2185.335 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.20 WP: 4.6.1 PHP: 7.0.10 (Darwin Kyles-Air.fios-router.home 14.5.0 Darwin Kernel Version 14.5.0: Mon Aug 29 21:14:16 PDT 2016; root:xnu-2782.50.6~1/RELEASE_X86_64 x86_64) MySQL: 5.6.28 WPLANG: en_US Server: Apache/2.2.31 (Unix) mod_wsgi/3.5 Python/2.7.12 PHP/7.0.10 mod_ssl/2.2.31 OpenSSL/1.0.2h DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 17.3M | 2M) multisite: N openssl: OpenSSL 1.0.2h  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+2185.337 (5) Free space on disk containing Updraft's temporary directory: 48007.5 MB
+2185.345 (5) Backup run: resumption=5, nonce=90176db964e9, begun at=1475235580 (2186s ago), job type=backup
+2185.353 (5) Scheduling a resumption (6) after 420 seconds (1475238186) in case this run gets aborted
+2185.357 (5) Checking if we have a zip executable available
+2185.359 (5) Creation of backups of directories: already finished
+2185.361 (5) Saving backup status to database (elements: 8)
+2185.371 (5) Database dump (WordPress DB): Creation was completed already
+2185.390 (5) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2185.392 (5) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2185.394 (5) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2185.396 (5) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip: others: This file has not yet been successfully uploaded: will queue
+2185.397 (5) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz: db: This file has not yet been successfully uploaded: will queue
+2185.401 (5) Saving backup history. Total backup size: 21.6 MB
+2185.413 (5) Requesting upload of the files that have not yet been successfully uploaded (5)
+2185.418 (5) Cloud backup selection (1/1): dropbox (last)
+2185.419 (5) Beginning dispatch of backup to remote (dropbox)
+2185.421 (5) Dropbox: begin cloud upload
+2185.423 (5) Dropbox: access gained; setting chunk size to: 10240 KB
+2185.986 (5) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+2185.989 (5) This is a resumption: 11070582 bytes had already been uploaded
+2185.991 (5) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip
+2186.548 (5) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+2186.551 (5) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+2188.299 (5) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+2188.302 (5) This is a resumption: 8971906 bytes had already been uploaded
+2188.332 (5) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-themes.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-themes.zip
+2188.916 (5) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+2188.919 (5) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+2189.449 (5) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+2189.452 (5) This is a resumption: 2386791 bytes had already been uploaded
+2189.454 (5) File upload expected to fail: file data remaining to upload (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip) size is -2384460.14941 b (overall file size; 2330.85058594 b), whereas available quota is only -7733928 b
+2189.456 (5) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip
+2190.142 (5) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+2190.145 (5) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+2190.729 (5) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+2190.731 (5) This is a resumption: 1365 bytes had already been uploaded
+2190.732 (5) File upload expected to fail: file data remaining to upload (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip) size is -1363.66699219 b (overall file size; 1.3330078125 b), whereas available quota is only -7733928 b
+2190.734 (5) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip
+2191.371 (5) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+2191.375 (5) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+2191.952 (5) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+2191.956 (5) This is a resumption: 247510 bytes had already been uploaded
+2191.958 (5) File upload expected to fail: file data remaining to upload (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz) size is -247268.291016 b (overall file size; 241.708984375 b), whereas available quota is only -7733928 b
+2191.959 (5) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz
+2192.601 (5) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+2192.605 (5) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+2192.611 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=100, retain_db=100
+2192.613 (5) Number of backup sets in history: 18; groups (db): 1
+2192.614 (5) Examining (for databases) backup set with group_id=0, nonce=90176db964e9, datestamp=1475235580 (Sep 30 2016 11:39:40)
+2192.616 (5) This backup set is the backup set just made, so will not be deleted.
+2192.617 (5) Examining (for databases) backup set with group_id=0, nonce=fbb3bfed5fd3, datestamp=1475222141 (Sep 30 2016 07:55:41)
+2192.619 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2192.620 (5) Examining (for databases) backup set with group_id=0, nonce=0cf49109fa21, datestamp=1475200648 (Sep 30 2016 01:57:28)
+2192.622 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2192.623 (5) Examining (for databases) backup set with group_id=0, nonce=be4f062f7cac, datestamp=1475186233 (Sep 29 2016 21:57:13)
+2192.625 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2192.626 (5) Examining (for databases) backup set with group_id=0, nonce=467bf6b49fac, datestamp=1475171775 (Sep 29 2016 17:56:15)
+2192.628 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2192.629 (5) Examining (for databases) backup set with group_id=0, nonce=2c6f0de8215c, datestamp=1475157415 (Sep 29 2016 13:56:55)
+2192.630 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2192.632 (5) Examining (for databases) backup set with group_id=0, nonce=2c6f0de8215c, datestamp=1475154601 (Sep 29 2016 13:10:01)
+2192.633 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2192.635 (5) Examining (for databases) backup set with group_id=0, nonce=ec0b4e5efb65, datestamp=1475085429 (Sep 28 2016 17:57:09)
+2192.636 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2192.638 (5) Examining (for databases) backup set with group_id=0, nonce=2026f4eac86c, datestamp=1475070939 (Sep 28 2016 13:55:39)
+2192.639 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2192.641 (5) Examining (for databases) backup set with group_id=0, nonce=7bce21d44eb2, datestamp=1475064012 (Sep 28 2016 12:00:12)
+2192.643 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2192.644 (5) Examining (for databases) backup set with group_id=0, nonce=ec0b4e5efb65, datestamp=1475049173 (Sep 28 2016 07:52:53)
+2192.646 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2192.647 (5) Examining (for databases) backup set with group_id=0, nonce=3d6a5f926fe3, datestamp=1475027756 (Sep 28 2016 01:55:56)
+2192.649 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2192.650 (5) Examining (for databases) backup set with group_id=0, nonce=624257a0acdc, datestamp=1475013450 (Sep 27 2016 21:57:30)
+2192.651 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2192.653 (5) Examining (for databases) backup set with group_id=0, nonce=4792ba825627, datestamp=1474999042 (Sep 27 2016 17:57:22)
+2192.654 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2192.656 (5) Examining (for databases) backup set with group_id=0, nonce=2421b20d68f8, datestamp=1474996577 (Sep 27 2016 17:16:17)
+2192.658 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2192.659 (5) Examining (for databases) backup set with group_id=0, nonce=0893862fbf73, datestamp=1474927045 (Sep 26 2016 21:57:25)
+2192.661 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2192.662 (5) Examining (for databases) backup set with group_id=0, nonce=a17fd181b2d5, datestamp=1474914209 (Sep 26 2016 18:23:29)
+2192.663 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2192.665 (5) Examining (for databases) backup set with group_id=0, nonce=25ef273a687d, datestamp=1474912528 (Sep 26 2016 17:55:28)
+2192.667 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2192.668 (5) Number of backup sets in history: 18; groups (files): 1
+2192.670 (5) Examining (for files) backup set with nonce=90176db964e9, datestamp=1475235580 (Sep 30 2016 11:39:40)
+2192.671 (5) This backup set is the backup set just made, so will not be deleted.
+2192.673 (5) This backup set is the backup set just made, so will not be deleted.
+2192.673 (5) This backup set is the backup set just made, so will not be deleted.
+2192.673 (5) This backup set is the backup set just made, so will not be deleted.
+2192.674 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2192.675 (5) Examining (for files) backup set with nonce=fbb3bfed5fd3, datestamp=1475222141 (Sep 30 2016 07:55:41)
+2192.677 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2192.678 (5) Examining (for files) backup set with nonce=0cf49109fa21, datestamp=1475200648 (Sep 30 2016 01:57:28)
+2192.679 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2192.681 (5) Examining (for files) backup set with nonce=be4f062f7cac, datestamp=1475186233 (Sep 29 2016 21:57:13)
+2192.682 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2192.684 (5) Examining (for files) backup set with nonce=467bf6b49fac, datestamp=1475171775 (Sep 29 2016 17:56:15)
+2192.685 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2192.687 (5) Examining (for files) backup set with nonce=2c6f0de8215c, datestamp=1475157415 (Sep 29 2016 13:56:55)
+2192.688 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2192.690 (5) Examining (for files) backup set with nonce=2c6f0de8215c, datestamp=1475154601 (Sep 29 2016 13:10:01)
+2192.691 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2192.693 (5) Examining (for files) backup set with nonce=ec0b4e5efb65, datestamp=1475085429 (Sep 28 2016 17:57:09)
+2192.694 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2192.696 (5) Examining (for files) backup set with nonce=2026f4eac86c, datestamp=1475070939 (Sep 28 2016 13:55:39)
+2192.697 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2192.698 (5) Examining (for files) backup set with nonce=7bce21d44eb2, datestamp=1475064012 (Sep 28 2016 12:00:12)
+2192.700 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2192.701 (5) Examining (for files) backup set with nonce=ec0b4e5efb65, datestamp=1475049173 (Sep 28 2016 07:52:53)
+2192.702 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2192.704 (5) Examining (for files) backup set with nonce=3d6a5f926fe3, datestamp=1475027756 (Sep 28 2016 01:55:56)
+2192.706 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2192.707 (5) Examining (for files) backup set with nonce=624257a0acdc, datestamp=1475013450 (Sep 27 2016 21:57:30)
+2192.709 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2192.711 (5) Examining (for files) backup set with nonce=4792ba825627, datestamp=1474999042 (Sep 27 2016 17:57:22)
+2192.712 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2192.714 (5) Examining (for files) backup set with nonce=2421b20d68f8, datestamp=1474996577 (Sep 27 2016 17:16:17)
+2192.716 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2192.718 (5) Examining (for files) backup set with nonce=0893862fbf73, datestamp=1474927045 (Sep 26 2016 21:57:25)
+2192.720 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2192.722 (5) Examining (for files) backup set with nonce=a17fd181b2d5, datestamp=1474914209 (Sep 26 2016 18:23:29)
+2192.724 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2192.725 (5) Examining (for files) backup set with nonce=25ef273a687d, datestamp=1474912528 (Sep 26 2016 17:55:28)
+2192.727 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2192.728 (5) Retain: saving new backup history (sets now: 18) and finishing retain operation
+2192.733 (5) Resume backup (90176db964e9, 5): finish run
+2192.737 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2192.741 (5) The backup has not finished; a resumption is scheduled
+2682.739 (6) Opened log file at time: Fri, 30 Sep 2016 12:24:23 +0000 on http://localhost:8888
+2682.742 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.20 WP: 4.6.1 PHP: 7.0.10 (Darwin Kyles-Air.fios-router.home 14.5.0 Darwin Kernel Version 14.5.0: Mon Aug 29 21:14:16 PDT 2016; root:xnu-2782.50.6~1/RELEASE_X86_64 x86_64) MySQL: 5.6.28 WPLANG: en_US Server: Apache/2.2.31 (Unix) mod_wsgi/3.5 Python/2.7.12 PHP/7.0.10 mod_ssl/2.2.31 OpenSSL/1.0.2h DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 17.3M | 2M) multisite: N openssl: OpenSSL 1.0.2h  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+2682.743 (6) Free space on disk containing Updraft's temporary directory: 48006.3 MB
+2682.748 (6) Backup run: resumption=6, nonce=90176db964e9, begun at=1475235580 (2683s ago), job type=backup
+2682.760 (6) Scheduling a resumption (7) after 420 seconds (1475238683) in case this run gets aborted
+2682.764 (6) Checking if we have a zip executable available
+2682.766 (6) Creation of backups of directories: already finished
+2682.768 (6) Saving backup status to database (elements: 8)
+2682.778 (6) Database dump (WordPress DB): Creation was completed already
+2682.799 (6) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2682.801 (6) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2682.804 (6) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2682.809 (6) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip: others: This file has not yet been successfully uploaded: will queue
+2682.812 (6) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz: db: This file has not yet been successfully uploaded: will queue
+2682.815 (6) Saving backup history. Total backup size: 21.6 MB
+2682.830 (6) Requesting upload of the files that have not yet been successfully uploaded (5)
+2682.838 (6) Cloud backup selection (1/1): dropbox (last)
+2682.839 (6) Beginning dispatch of backup to remote (dropbox)
+2682.841 (6) Dropbox: begin cloud upload
+2682.844 (6) Dropbox: access gained; setting chunk size to: 10240 KB
+2683.416 (6) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+2683.419 (6) This is a resumption: 11070582 bytes had already been uploaded
+2683.421 (6) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip
+2683.986 (6) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+2683.990 (6) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+2684.532 (6) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+2684.535 (6) This is a resumption: 8971906 bytes had already been uploaded
+2684.537 (6) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-themes.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-themes.zip
+2685.142 (6) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+2685.146 (6) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+2685.681 (6) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+2685.685 (6) This is a resumption: 2386791 bytes had already been uploaded
+2685.687 (6) File upload expected to fail: file data remaining to upload (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip) size is -2384460.14941 b (overall file size; 2330.85058594 b), whereas available quota is only -7733928 b
+2685.689 (6) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip
+2686.273 (6) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+2686.275 (6) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+2686.832 (6) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+2686.836 (6) This is a resumption: 1365 bytes had already been uploaded
+2686.837 (6) File upload expected to fail: file data remaining to upload (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip) size is -1363.66699219 b (overall file size; 1.3330078125 b), whereas available quota is only -7733928 b
+2686.839 (6) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip
+2687.395 (6) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+2687.398 (6) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+2687.934 (6) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+2687.937 (6) This is a resumption: 247510 bytes had already been uploaded
+2687.939 (6) File upload expected to fail: file data remaining to upload (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz) size is -247268.291016 b (overall file size; 241.708984375 b), whereas available quota is only -7733928 b
+2687.940 (6) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz
+2688.488 (6) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+2688.491 (6) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+2688.496 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=100, retain_db=100
+2688.499 (6) Number of backup sets in history: 18; groups (db): 1
+2688.500 (6) Examining (for databases) backup set with group_id=0, nonce=90176db964e9, datestamp=1475235580 (Sep 30 2016 11:39:40)
+2688.502 (6) This backup set is the backup set just made, so will not be deleted.
+2688.503 (6) Examining (for databases) backup set with group_id=0, nonce=fbb3bfed5fd3, datestamp=1475222141 (Sep 30 2016 07:55:41)
+2688.505 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2688.506 (6) Examining (for databases) backup set with group_id=0, nonce=0cf49109fa21, datestamp=1475200648 (Sep 30 2016 01:57:28)
+2688.507 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2688.510 (6) Examining (for databases) backup set with group_id=0, nonce=be4f062f7cac, datestamp=1475186233 (Sep 29 2016 21:57:13)
+2688.511 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2688.512 (6) Examining (for databases) backup set with group_id=0, nonce=467bf6b49fac, datestamp=1475171775 (Sep 29 2016 17:56:15)
+2688.514 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2688.515 (6) Examining (for databases) backup set with group_id=0, nonce=2c6f0de8215c, datestamp=1475157415 (Sep 29 2016 13:56:55)
+2688.517 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2688.518 (6) Examining (for databases) backup set with group_id=0, nonce=2c6f0de8215c, datestamp=1475154601 (Sep 29 2016 13:10:01)
+2688.520 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2688.522 (6) Examining (for databases) backup set with group_id=0, nonce=ec0b4e5efb65, datestamp=1475085429 (Sep 28 2016 17:57:09)
+2688.524 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2688.526 (6) Examining (for databases) backup set with group_id=0, nonce=2026f4eac86c, datestamp=1475070939 (Sep 28 2016 13:55:39)
+2688.527 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2688.529 (6) Examining (for databases) backup set with group_id=0, nonce=7bce21d44eb2, datestamp=1475064012 (Sep 28 2016 12:00:12)
+2688.531 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2688.533 (6) Examining (for databases) backup set with group_id=0, nonce=ec0b4e5efb65, datestamp=1475049173 (Sep 28 2016 07:52:53)
+2688.534 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2688.536 (6) Examining (for databases) backup set with group_id=0, nonce=3d6a5f926fe3, datestamp=1475027756 (Sep 28 2016 01:55:56)
+2688.538 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2688.539 (6) Examining (for databases) backup set with group_id=0, nonce=624257a0acdc, datestamp=1475013450 (Sep 27 2016 21:57:30)
+2688.541 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2688.542 (6) Examining (for databases) backup set with group_id=0, nonce=4792ba825627, datestamp=1474999042 (Sep 27 2016 17:57:22)
+2688.544 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2688.545 (6) Examining (for databases) backup set with group_id=0, nonce=2421b20d68f8, datestamp=1474996577 (Sep 27 2016 17:16:17)
+2688.547 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2688.548 (6) Examining (for databases) backup set with group_id=0, nonce=0893862fbf73, datestamp=1474927045 (Sep 26 2016 21:57:25)
+2688.550 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2688.551 (6) Examining (for databases) backup set with group_id=0, nonce=a17fd181b2d5, datestamp=1474914209 (Sep 26 2016 18:23:29)
+2688.553 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2688.554 (6) Examining (for databases) backup set with group_id=0, nonce=25ef273a687d, datestamp=1474912528 (Sep 26 2016 17:55:28)
+2688.556 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2688.557 (6) Number of backup sets in history: 18; groups (files): 1
+2688.559 (6) Examining (for files) backup set with nonce=90176db964e9, datestamp=1475235580 (Sep 30 2016 11:39:40)
+2688.560 (6) This backup set is the backup set just made, so will not be deleted.
+2688.562 (6) This backup set is the backup set just made, so will not be deleted.
+2688.562 (6) This backup set is the backup set just made, so will not be deleted.
+2688.562 (6) This backup set is the backup set just made, so will not be deleted.
+2688.563 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2688.564 (6) Examining (for files) backup set with nonce=fbb3bfed5fd3, datestamp=1475222141 (Sep 30 2016 07:55:41)
+2688.566 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2688.567 (6) Examining (for files) backup set with nonce=0cf49109fa21, datestamp=1475200648 (Sep 30 2016 01:57:28)
+2688.568 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2688.570 (6) Examining (for files) backup set with nonce=be4f062f7cac, datestamp=1475186233 (Sep 29 2016 21:57:13)
+2688.571 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2688.572 (6) Examining (for files) backup set with nonce=467bf6b49fac, datestamp=1475171775 (Sep 29 2016 17:56:15)
+2688.574 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2688.576 (6) Examining (for files) backup set with nonce=2c6f0de8215c, datestamp=1475157415 (Sep 29 2016 13:56:55)
+2688.577 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2688.578 (6) Examining (for files) backup set with nonce=2c6f0de8215c, datestamp=1475154601 (Sep 29 2016 13:10:01)
+2688.580 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2688.581 (6) Examining (for files) backup set with nonce=ec0b4e5efb65, datestamp=1475085429 (Sep 28 2016 17:57:09)
+2688.583 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2688.585 (6) Examining (for files) backup set with nonce=2026f4eac86c, datestamp=1475070939 (Sep 28 2016 13:55:39)
+2688.587 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2688.588 (6) Examining (for files) backup set with nonce=7bce21d44eb2, datestamp=1475064012 (Sep 28 2016 12:00:12)
+2688.590 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2688.591 (6) Examining (for files) backup set with nonce=ec0b4e5efb65, datestamp=1475049173 (Sep 28 2016 07:52:53)
+2688.593 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2688.594 (6) Examining (for files) backup set with nonce=3d6a5f926fe3, datestamp=1475027756 (Sep 28 2016 01:55:56)
+2688.596 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2688.597 (6) Examining (for files) backup set with nonce=624257a0acdc, datestamp=1475013450 (Sep 27 2016 21:57:30)
+2688.599 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2688.600 (6) Examining (for files) backup set with nonce=4792ba825627, datestamp=1474999042 (Sep 27 2016 17:57:22)
+2688.601 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2688.603 (6) Examining (for files) backup set with nonce=2421b20d68f8, datestamp=1474996577 (Sep 27 2016 17:16:17)
+2688.605 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2688.606 (6) Examining (for files) backup set with nonce=0893862fbf73, datestamp=1474927045 (Sep 26 2016 21:57:25)
+2688.608 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2688.609 (6) Examining (for files) backup set with nonce=a17fd181b2d5, datestamp=1474914209 (Sep 26 2016 18:23:29)
+2688.611 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2688.612 (6) Examining (for files) backup set with nonce=25ef273a687d, datestamp=1474912528 (Sep 26 2016 17:55:28)
+2688.614 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2688.615 (6) Retain: saving new backup history (sets now: 18) and finishing retain operation
+2688.621 (6) Resume backup (90176db964e9, 6): finish run
+2688.624 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2688.629 (6) The backup has not finished; a resumption is scheduled
+3196.377 (7) Opened log file at time: Fri, 30 Sep 2016 12:32:57 +0000 on http://localhost:8888
+3196.379 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.20 WP: 4.6.1 PHP: 7.0.10 (Darwin Kyles-Air.fios-router.home 14.5.0 Darwin Kernel Version 14.5.0: Mon Aug 29 21:14:16 PDT 2016; root:xnu-2782.50.6~1/RELEASE_X86_64 x86_64) MySQL: 5.6.28 WPLANG: en_US Server: Apache/2.2.31 (Unix) mod_wsgi/3.5 Python/2.7.12 PHP/7.0.10 mod_ssl/2.2.31 OpenSSL/1.0.2h DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 17.3M | 2M) multisite: N openssl: OpenSSL 1.0.2h  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+3196.380 (7) Free space on disk containing Updraft's temporary directory: 47999.9 MB
+3196.385 (7) Backup run: resumption=7, nonce=90176db964e9, begun at=1475235580 (3197s ago), job type=backup
+3196.391 (7) Scheduling a resumption (8) after 420 seconds (1475239197) in case this run gets aborted
+3196.395 (7) Checking if we have a zip executable available
+3196.397 (7) Creation of backups of directories: already finished
+3196.399 (7) Saving backup status to database (elements: 8)
+3196.408 (7) Database dump (WordPress DB): Creation was completed already
+3196.429 (7) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+3196.432 (7) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+3196.435 (7) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+3196.437 (7) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip: others: This file has not yet been successfully uploaded: will queue
+3196.439 (7) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz: db: This file has not yet been successfully uploaded: will queue
+3196.442 (7) Saving backup history. Total backup size: 21.6 MB
+3196.453 (7) Requesting upload of the files that have not yet been successfully uploaded (5)
+3196.458 (7) Cloud backup selection (1/1): dropbox (last)
+3196.460 (7) Beginning dispatch of backup to remote (dropbox)
+3196.462 (7) Dropbox: begin cloud upload
+3196.464 (7) Dropbox: access gained; setting chunk size to: 10240 KB
+3196.997 (7) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+3197.000 (7) This is a resumption: 11070582 bytes had already been uploaded
+3197.002 (7) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip
+3197.654 (7) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+3197.658 (7) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+3198.243 (7) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+3198.246 (7) This is a resumption: 8971906 bytes had already been uploaded
+3198.248 (7) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-themes.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-themes.zip
+3198.799 (7) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+3198.803 (7) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+3199.375 (7) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+3199.379 (7) This is a resumption: 2386791 bytes had already been uploaded
+3199.380 (7) File upload expected to fail: file data remaining to upload (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip) size is -2384460.14941 b (overall file size; 2330.85058594 b), whereas available quota is only -7733928 b
+3199.382 (7) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip
+3200.222 (7) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+3200.225 (7) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+3201.669 (7) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+3201.672 (7) This is a resumption: 1365 bytes had already been uploaded
+3201.674 (7) File upload expected to fail: file data remaining to upload (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip) size is -1363.66699219 b (overall file size; 1.3330078125 b), whereas available quota is only -7733928 b
+3201.675 (7) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip
+3202.230 (7) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+3202.235 (7) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+3202.782 (7) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+3202.786 (7) This is a resumption: 247510 bytes had already been uploaded
+3202.788 (7) File upload expected to fail: file data remaining to upload (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz) size is -247268.291016 b (overall file size; 241.708984375 b), whereas available quota is only -7733928 b
+3202.789 (7) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz
+3203.601 (7) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+3203.605 (7) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+3203.610 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=100, retain_db=100
+3203.612 (7) Number of backup sets in history: 18; groups (db): 1
+3203.614 (7) Examining (for databases) backup set with group_id=0, nonce=90176db964e9, datestamp=1475235580 (Sep 30 2016 11:39:40)
+3203.615 (7) This backup set is the backup set just made, so will not be deleted.
+3203.617 (7) Examining (for databases) backup set with group_id=0, nonce=fbb3bfed5fd3, datestamp=1475222141 (Sep 30 2016 07:55:41)
+3203.618 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+3203.619 (7) Examining (for databases) backup set with group_id=0, nonce=0cf49109fa21, datestamp=1475200648 (Sep 30 2016 01:57:28)
+3203.621 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+3203.623 (7) Examining (for databases) backup set with group_id=0, nonce=be4f062f7cac, datestamp=1475186233 (Sep 29 2016 21:57:13)
+3203.624 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+3203.625 (7) Examining (for databases) backup set with group_id=0, nonce=467bf6b49fac, datestamp=1475171775 (Sep 29 2016 17:56:15)
+3203.627 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+3203.628 (7) Examining (for databases) backup set with group_id=0, nonce=2c6f0de8215c, datestamp=1475157415 (Sep 29 2016 13:56:55)
+3203.630 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+3203.632 (7) Examining (for databases) backup set with group_id=0, nonce=2c6f0de8215c, datestamp=1475154601 (Sep 29 2016 13:10:01)
+3203.633 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+3203.634 (7) Examining (for databases) backup set with group_id=0, nonce=ec0b4e5efb65, datestamp=1475085429 (Sep 28 2016 17:57:09)
+3203.636 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+3203.637 (7) Examining (for databases) backup set with group_id=0, nonce=2026f4eac86c, datestamp=1475070939 (Sep 28 2016 13:55:39)
+3203.639 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+3203.640 (7) Examining (for databases) backup set with group_id=0, nonce=7bce21d44eb2, datestamp=1475064012 (Sep 28 2016 12:00:12)
+3203.642 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+3203.644 (7) Examining (for databases) backup set with group_id=0, nonce=ec0b4e5efb65, datestamp=1475049173 (Sep 28 2016 07:52:53)
+3203.645 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+3203.647 (7) Examining (for databases) backup set with group_id=0, nonce=3d6a5f926fe3, datestamp=1475027756 (Sep 28 2016 01:55:56)
+3203.648 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+3203.649 (7) Examining (for databases) backup set with group_id=0, nonce=624257a0acdc, datestamp=1475013450 (Sep 27 2016 21:57:30)
+3203.651 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+3203.652 (7) Examining (for databases) backup set with group_id=0, nonce=4792ba825627, datestamp=1474999042 (Sep 27 2016 17:57:22)
+3203.654 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+3203.655 (7) Examining (for databases) backup set with group_id=0, nonce=2421b20d68f8, datestamp=1474996577 (Sep 27 2016 17:16:17)
+3203.656 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+3203.658 (7) Examining (for databases) backup set with group_id=0, nonce=0893862fbf73, datestamp=1474927045 (Sep 26 2016 21:57:25)
+3203.659 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+3203.661 (7) Examining (for databases) backup set with group_id=0, nonce=a17fd181b2d5, datestamp=1474914209 (Sep 26 2016 18:23:29)
+3203.662 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+3203.664 (7) Examining (for databases) backup set with group_id=0, nonce=25ef273a687d, datestamp=1474912528 (Sep 26 2016 17:55:28)
+3203.666 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+3203.667 (7) Number of backup sets in history: 18; groups (files): 1
+3203.669 (7) Examining (for files) backup set with nonce=90176db964e9, datestamp=1475235580 (Sep 30 2016 11:39:40)
+3203.670 (7) This backup set is the backup set just made, so will not be deleted.
+3203.671 (7) This backup set is the backup set just made, so will not be deleted.
+3203.671 (7) This backup set is the backup set just made, so will not be deleted.
+3203.672 (7) This backup set is the backup set just made, so will not be deleted.
+3203.672 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+3203.673 (7) Examining (for files) backup set with nonce=fbb3bfed5fd3, datestamp=1475222141 (Sep 30 2016 07:55:41)
+3203.675 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+3203.676 (7) Examining (for files) backup set with nonce=0cf49109fa21, datestamp=1475200648 (Sep 30 2016 01:57:28)
+3203.678 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+3203.679 (7) Examining (for files) backup set with nonce=be4f062f7cac, datestamp=1475186233 (Sep 29 2016 21:57:13)
+3203.681 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+3203.682 (7) Examining (for files) backup set with nonce=467bf6b49fac, datestamp=1475171775 (Sep 29 2016 17:56:15)
+3203.684 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+3203.685 (7) Examining (for files) backup set with nonce=2c6f0de8215c, datestamp=1475157415 (Sep 29 2016 13:56:55)
+3203.686 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+3203.688 (7) Examining (for files) backup set with nonce=2c6f0de8215c, datestamp=1475154601 (Sep 29 2016 13:10:01)
+3203.690 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+3203.691 (7) Examining (for files) backup set with nonce=ec0b4e5efb65, datestamp=1475085429 (Sep 28 2016 17:57:09)
+3203.693 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+3203.694 (7) Examining (for files) backup set with nonce=2026f4eac86c, datestamp=1475070939 (Sep 28 2016 13:55:39)
+3203.696 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+3203.698 (7) Examining (for files) backup set with nonce=7bce21d44eb2, datestamp=1475064012 (Sep 28 2016 12:00:12)
+3203.699 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+3203.701 (7) Examining (for files) backup set with nonce=ec0b4e5efb65, datestamp=1475049173 (Sep 28 2016 07:52:53)
+3203.703 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+3203.704 (7) Examining (for files) backup set with nonce=3d6a5f926fe3, datestamp=1475027756 (Sep 28 2016 01:55:56)
+3203.706 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+3203.707 (7) Examining (for files) backup set with nonce=624257a0acdc, datestamp=1475013450 (Sep 27 2016 21:57:30)
+3203.709 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+3203.710 (7) Examining (for files) backup set with nonce=4792ba825627, datestamp=1474999042 (Sep 27 2016 17:57:22)
+3203.712 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+3203.714 (7) Examining (for files) backup set with nonce=2421b20d68f8, datestamp=1474996577 (Sep 27 2016 17:16:17)
+3203.715 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+3203.717 (7) Examining (for files) backup set with nonce=0893862fbf73, datestamp=1474927045 (Sep 26 2016 21:57:25)
+3203.718 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+3203.719 (7) Examining (for files) backup set with nonce=a17fd181b2d5, datestamp=1474914209 (Sep 26 2016 18:23:29)
+3203.721 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+3203.722 (7) Examining (for files) backup set with nonce=25ef273a687d, datestamp=1474912528 (Sep 26 2016 17:55:28)
+3203.724 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+3203.725 (7) Retain: saving new backup history (sets now: 18) and finishing retain operation
+3203.731 (7) Resume backup (90176db964e9, 7): finish run
+3203.734 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+3203.739 (7) The backup has not finished; a resumption is scheduled
+3702.708 (8) Opened log file at time: Fri, 30 Sep 2016 12:41:23 +0000 on http://localhost:8888
+3702.709 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.20 WP: 4.6.1 PHP: 7.0.10 (Darwin Kyles-Air.fios-router.home 14.5.0 Darwin Kernel Version 14.5.0: Mon Aug 29 21:14:16 PDT 2016; root:xnu-2782.50.6~1/RELEASE_X86_64 x86_64) MySQL: 5.6.28 WPLANG: en_US Server: Apache/2.2.31 (Unix) mod_wsgi/3.5 Python/2.7.12 PHP/7.0.10 mod_ssl/2.2.31 OpenSSL/1.0.2h DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 19.7M | 2M) multisite: N openssl: OpenSSL 1.0.2h  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+3702.711 (8) Free space on disk containing Updraft's temporary directory: 48001.1 MB
+3702.716 (8) Backup run: resumption=8, nonce=90176db964e9, begun at=1475235580 (3703s ago), job type=backup
+3702.721 (8) Scheduling a resumption (9) after 420 seconds (1475239703) in case this run gets aborted
+3702.726 (8) Checking if we have a zip executable available
+3702.727 (8) Creation of backups of directories: already finished
+3702.729 (8) Saving backup status to database (elements: 8)
+3702.738 (8) Database dump (WordPress DB): Creation was completed already
+3702.755 (8) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+3702.757 (8) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+3702.759 (8) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+3702.760 (8) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip: others: This file has not yet been successfully uploaded: will queue
+3702.762 (8) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz: db: This file has not yet been successfully uploaded: will queue
+3702.763 (8) Saving backup history. Total backup size: 21.6 MB
+3702.772 (8) Requesting upload of the files that have not yet been successfully uploaded (5)
+3702.777 (8) Cloud backup selection (1/1): dropbox (last)
+3702.778 (8) Beginning dispatch of backup to remote (dropbox)
+3702.780 (8) Dropbox: begin cloud upload
+3702.783 (8) Dropbox: access gained; setting chunk size to: 10240 KB
+3703.469 (8) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+3703.471 (8) This is a resumption: 11070582 bytes had already been uploaded
+3703.473 (8) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip
+3703.912 (8) Opened log file at time: Fri, 30 Sep 2016 12:41:24 +0000 on http://localhost:8888
+3703.914 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.20 WP: 4.6.1 PHP: 7.0.10 (Darwin Kyles-Air.fios-router.home 14.5.0 Darwin Kernel Version 14.5.0: Mon Aug 29 21:14:16 PDT 2016; root:xnu-2782.50.6~1/RELEASE_X86_64 x86_64) MySQL: 5.6.28 WPLANG: en_US Server: Apache/2.2.31 (Unix) mod_wsgi/3.5 Python/2.7.12 PHP/7.0.10 mod_ssl/2.2.31 OpenSSL/1.0.2h DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 19.7M | 4M) multisite: N openssl: OpenSSL 1.0.2h  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+3703.916 (8) Free space on disk containing Updraft's temporary directory: 48000.8 MB
+3703.922 (8) Backup run: resumption=8, nonce=90176db964e9, begun at=1475235580 (3704s ago), job type=backup
+3703.928 (8) Scheduling a resumption (9) after 420 seconds (1475239704) in case this run gets aborted
+3703.932 (8) Checking if we have a zip executable available
+3703.935 (8) Creation of backups of directories: already finished
+3703.941 (8) Saving backup status to database (elements: 8)
+3703.953 (8) Database dump (WordPress DB): Creation was completed already
+3703.973 (8) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+3703.975 (8) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+3703.977 (8) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+3703.979 (8) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip: others: This file has not yet been successfully uploaded: will queue
+3703.981 (8) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz: db: This file has not yet been successfully uploaded: will queue
+3703.982 (8) Saving backup history. Total backup size: 21.6 MB
+3703.994 (8) Requesting upload of the files that have not yet been successfully uploaded (5)
+3703.996 (8) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+3703.998 (8) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+3703.999 (8) Cloud backup selection (1/1): dropbox (last)
+3704.000 (8) Beginning dispatch of backup to remote (dropbox)
+3704.002 (8) Dropbox: begin cloud upload
+3704.004 (8) Dropbox: access gained; setting chunk size to: 10240 KB
+3704.556 (8) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+3704.557 (8) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+3704.558 (8) This is a resumption: 8971906 bytes had already been uploaded
+3704.559 (8) This is a resumption: 11070582 bytes had already been uploaded
+3704.559 (8) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-themes.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-themes.zip
+3704.560 (8) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip
+3705.111 (8) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+3705.114 (8) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+3705.178 (8) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+3705.182 (8) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+3705.661 (8) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+3705.665 (8) This is a resumption: 2386791 bytes had already been uploaded
+3705.667 (8) File upload expected to fail: file data remaining to upload (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip) size is -2384460.14941 b (overall file size; 2330.85058594 b), whereas available quota is only -7733928 b
+3705.668 (8) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip
+3705.745 (8) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+3705.749 (8) This is a resumption: 8971906 bytes had already been uploaded
+3705.750 (8) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-themes.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-themes.zip
+3706.166 (8) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+3706.169 (8) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+3706.335 (8) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+3706.339 (8) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+3706.694 (8) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+3706.696 (8) This is a resumption: 1365 bytes had already been uploaded
+3706.698 (8) File upload expected to fail: file data remaining to upload (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip) size is -1363.66699219 b (overall file size; 1.3330078125 b), whereas available quota is only -7733928 b
+3706.700 (8) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip
+3706.903 (8) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+3706.905 (8) This is a resumption: 2386791 bytes had already been uploaded
+3706.907 (8) File upload expected to fail: file data remaining to upload (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip) size is -2384460.14941 b (overall file size; 2330.85058594 b), whereas available quota is only -7733928 b
+3706.909 (8) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip
+3707.267 (8) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+3707.276 (8) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+3707.481 (8) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+3707.484 (8) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+3707.828 (8) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+3707.832 (8) This is a resumption: 247510 bytes had already been uploaded
+3707.834 (8) File upload expected to fail: file data remaining to upload (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz) size is -247268.291016 b (overall file size; 241.708984375 b), whereas available quota is only -7733928 b
+3707.837 (8) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz
+3708.044 (8) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+3708.047 (8) This is a resumption: 1365 bytes had already been uploaded
+3708.051 (8) File upload expected to fail: file data remaining to upload (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip) size is -1363.66699219 b (overall file size; 1.3330078125 b), whereas available quota is only -7733928 b
+3708.054 (8) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip
+3708.413 (8) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+3708.418 (8) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+3708.424 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=100, retain_db=100
+3708.428 (8) Number of backup sets in history: 18; groups (db): 1
+3708.431 (8) Examining (for databases) backup set with group_id=0, nonce=90176db964e9, datestamp=1475235580 (Sep 30 2016 11:39:40)
+3708.433 (8) This backup set is the backup set just made, so will not be deleted.
+3708.436 (8) Examining (for databases) backup set with group_id=0, nonce=fbb3bfed5fd3, datestamp=1475222141 (Sep 30 2016 07:55:41)
+3708.438 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3708.440 (8) Examining (for databases) backup set with group_id=0, nonce=0cf49109fa21, datestamp=1475200648 (Sep 30 2016 01:57:28)
+3708.443 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3708.445 (8) Examining (for databases) backup set with group_id=0, nonce=be4f062f7cac, datestamp=1475186233 (Sep 29 2016 21:57:13)
+3708.448 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3708.451 (8) Examining (for databases) backup set with group_id=0, nonce=467bf6b49fac, datestamp=1475171775 (Sep 29 2016 17:56:15)
+3708.454 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3708.456 (8) Examining (for databases) backup set with group_id=0, nonce=2c6f0de8215c, datestamp=1475157415 (Sep 29 2016 13:56:55)
+3708.459 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3708.461 (8) Examining (for databases) backup set with group_id=0, nonce=2c6f0de8215c, datestamp=1475154601 (Sep 29 2016 13:10:01)
+3708.464 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3708.466 (8) Examining (for databases) backup set with group_id=0, nonce=ec0b4e5efb65, datestamp=1475085429 (Sep 28 2016 17:57:09)
+3708.469 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3708.471 (8) Examining (for databases) backup set with group_id=0, nonce=2026f4eac86c, datestamp=1475070939 (Sep 28 2016 13:55:39)
+3708.474 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3708.476 (8) Examining (for databases) backup set with group_id=0, nonce=7bce21d44eb2, datestamp=1475064012 (Sep 28 2016 12:00:12)
+3708.479 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3708.481 (8) Examining (for databases) backup set with group_id=0, nonce=ec0b4e5efb65, datestamp=1475049173 (Sep 28 2016 07:52:53)
+3708.484 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3708.487 (8) Examining (for databases) backup set with group_id=0, nonce=3d6a5f926fe3, datestamp=1475027756 (Sep 28 2016 01:55:56)
+3708.490 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3708.494 (8) Examining (for databases) backup set with group_id=0, nonce=624257a0acdc, datestamp=1475013450 (Sep 27 2016 21:57:30)
+3708.496 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3708.499 (8) Examining (for databases) backup set with group_id=0, nonce=4792ba825627, datestamp=1474999042 (Sep 27 2016 17:57:22)
+3708.501 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3708.504 (8) Examining (for databases) backup set with group_id=0, nonce=2421b20d68f8, datestamp=1474996577 (Sep 27 2016 17:16:17)
+3708.507 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3708.509 (8) Examining (for databases) backup set with group_id=0, nonce=0893862fbf73, datestamp=1474927045 (Sep 26 2016 21:57:25)
+3708.512 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3708.514 (8) Examining (for databases) backup set with group_id=0, nonce=a17fd181b2d5, datestamp=1474914209 (Sep 26 2016 18:23:29)
+3708.516 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3708.519 (8) Examining (for databases) backup set with group_id=0, nonce=25ef273a687d, datestamp=1474912528 (Sep 26 2016 17:55:28)
+3708.522 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3708.525 (8) Number of backup sets in history: 18; groups (files): 1
+3708.527 (8) Examining (for files) backup set with nonce=90176db964e9, datestamp=1475235580 (Sep 30 2016 11:39:40)
+3708.530 (8) This backup set is the backup set just made, so will not be deleted.
+3708.532 (8) This backup set is the backup set just made, so will not be deleted.
+3708.533 (8) This backup set is the backup set just made, so will not be deleted.
+3708.534 (8) This backup set is the backup set just made, so will not be deleted.
+3708.535 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3708.537 (8) Examining (for files) backup set with nonce=fbb3bfed5fd3, datestamp=1475222141 (Sep 30 2016 07:55:41)
+3708.540 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3708.542 (8) Examining (for files) backup set with nonce=0cf49109fa21, datestamp=1475200648 (Sep 30 2016 01:57:28)
+3708.545 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3708.548 (8) Examining (for files) backup set with nonce=be4f062f7cac, datestamp=1475186233 (Sep 29 2016 21:57:13)
+3708.551 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3708.553 (8) Examining (for files) backup set with nonce=467bf6b49fac, datestamp=1475171775 (Sep 29 2016 17:56:15)
+3708.556 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3708.558 (8) Examining (for files) backup set with nonce=2c6f0de8215c, datestamp=1475157415 (Sep 29 2016 13:56:55)
+3708.562 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3708.565 (8) Examining (for files) backup set with nonce=2c6f0de8215c, datestamp=1475154601 (Sep 29 2016 13:10:01)
+3708.568 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3708.571 (8) Examining (for files) backup set with nonce=ec0b4e5efb65, datestamp=1475085429 (Sep 28 2016 17:57:09)
+3708.573 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3708.576 (8) Examining (for files) backup set with nonce=2026f4eac86c, datestamp=1475070939 (Sep 28 2016 13:55:39)
+3708.578 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3708.581 (8) Examining (for files) backup set with nonce=7bce21d44eb2, datestamp=1475064012 (Sep 28 2016 12:00:12)
+3708.584 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3708.587 (8) Examining (for files) backup set with nonce=ec0b4e5efb65, datestamp=1475049173 (Sep 28 2016 07:52:53)
+3708.590 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3708.592 (8) Examining (for files) backup set with nonce=3d6a5f926fe3, datestamp=1475027756 (Sep 28 2016 01:55:56)
+3708.595 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3708.597 (8) Examining (for files) backup set with nonce=624257a0acdc, datestamp=1475013450 (Sep 27 2016 21:57:30)
+3708.600 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3708.601 (8) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+3708.603 (8) Examining (for files) backup set with nonce=4792ba825627, datestamp=1474999042 (Sep 27 2016 17:57:22)
+3708.604 (8) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+3708.606 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3708.609 (8) Examining (for files) backup set with nonce=2421b20d68f8, datestamp=1474996577 (Sep 27 2016 17:16:17)
+3708.611 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3708.614 (8) Examining (for files) backup set with nonce=0893862fbf73, datestamp=1474927045 (Sep 26 2016 21:57:25)
+3708.617 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3708.619 (8) Examining (for files) backup set with nonce=a17fd181b2d5, datestamp=1474914209 (Sep 26 2016 18:23:29)
+3708.622 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3708.624 (8) Examining (for files) backup set with nonce=25ef273a687d, datestamp=1474912528 (Sep 26 2016 17:55:28)
+3708.627 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3708.629 (8) Retain: saving new backup history (sets now: 18) and finishing retain operation
+3708.636 (8) Resume backup (90176db964e9, 8): finish run
+3708.641 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+3708.647 (8) The backup has not finished; a resumption is scheduled
+3709.162 (8) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+3709.167 (8) This is a resumption: 247510 bytes had already been uploaded
+3709.170 (8) File upload expected to fail: file data remaining to upload (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz) size is -247268.291016 b (overall file size; 241.708984375 b), whereas available quota is only -7733928 b
+3709.173 (8) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz
+3709.762 (8) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+3709.766 (8) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+3709.772 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=100, retain_db=100
+3709.776 (8) Number of backup sets in history: 18; groups (db): 1
+3709.778 (8) Examining (for databases) backup set with group_id=0, nonce=c80b1da246e4, datestamp=1475235580 (Sep 30 2016 11:39:40)
+3709.781 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3709.784 (8) Examining (for databases) backup set with group_id=0, nonce=fbb3bfed5fd3, datestamp=1475222141 (Sep 30 2016 07:55:41)
+3709.786 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3709.789 (8) Examining (for databases) backup set with group_id=0, nonce=0cf49109fa21, datestamp=1475200648 (Sep 30 2016 01:57:28)
+3709.792 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3709.794 (8) Examining (for databases) backup set with group_id=0, nonce=be4f062f7cac, datestamp=1475186233 (Sep 29 2016 21:57:13)
+3709.796 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3709.799 (8) Examining (for databases) backup set with group_id=0, nonce=467bf6b49fac, datestamp=1475171775 (Sep 29 2016 17:56:15)
+3709.801 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3709.805 (8) Examining (for databases) backup set with group_id=0, nonce=2c6f0de8215c, datestamp=1475157415 (Sep 29 2016 13:56:55)
+3709.807 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3709.810 (8) Examining (for databases) backup set with group_id=0, nonce=2c6f0de8215c, datestamp=1475154601 (Sep 29 2016 13:10:01)
+3709.813 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3709.815 (8) Examining (for databases) backup set with group_id=0, nonce=ec0b4e5efb65, datestamp=1475085429 (Sep 28 2016 17:57:09)
+3709.818 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3709.821 (8) Examining (for databases) backup set with group_id=0, nonce=2026f4eac86c, datestamp=1475070939 (Sep 28 2016 13:55:39)
+3709.824 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3709.828 (8) Examining (for databases) backup set with group_id=0, nonce=7bce21d44eb2, datestamp=1475064012 (Sep 28 2016 12:00:12)
+3709.831 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3709.834 (8) Examining (for databases) backup set with group_id=0, nonce=ec0b4e5efb65, datestamp=1475049173 (Sep 28 2016 07:52:53)
+3709.837 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3709.839 (8) Examining (for databases) backup set with group_id=0, nonce=3d6a5f926fe3, datestamp=1475027756 (Sep 28 2016 01:55:56)
+3709.842 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3709.844 (8) Examining (for databases) backup set with group_id=0, nonce=624257a0acdc, datestamp=1475013450 (Sep 27 2016 21:57:30)
+3709.847 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3709.850 (8) Examining (for databases) backup set with group_id=0, nonce=4792ba825627, datestamp=1474999042 (Sep 27 2016 17:57:22)
+3709.852 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3709.855 (8) Examining (for databases) backup set with group_id=0, nonce=2421b20d68f8, datestamp=1474996577 (Sep 27 2016 17:16:17)
+3709.858 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3709.860 (8) Examining (for databases) backup set with group_id=0, nonce=0893862fbf73, datestamp=1474927045 (Sep 26 2016 21:57:25)
+3709.863 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3709.865 (8) Examining (for databases) backup set with group_id=0, nonce=a17fd181b2d5, datestamp=1474914209 (Sep 26 2016 18:23:29)
+3709.868 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3709.871 (8) Examining (for databases) backup set with group_id=0, nonce=25ef273a687d, datestamp=1474912528 (Sep 26 2016 17:55:28)
+3709.873 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3709.876 (8) Number of backup sets in history: 18; groups (files): 1
+3709.879 (8) Examining (for files) backup set with nonce=c80b1da246e4, datestamp=1475235580 (Sep 30 2016 11:39:40)
+3709.882 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3709.884 (8) Examining (for files) backup set with nonce=fbb3bfed5fd3, datestamp=1475222141 (Sep 30 2016 07:55:41)
+3709.887 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3709.890 (8) Examining (for files) backup set with nonce=0cf49109fa21, datestamp=1475200648 (Sep 30 2016 01:57:28)
+3709.892 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3709.895 (8) Examining (for files) backup set with nonce=be4f062f7cac, datestamp=1475186233 (Sep 29 2016 21:57:13)
+3709.897 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3709.900 (8) Examining (for files) backup set with nonce=467bf6b49fac, datestamp=1475171775 (Sep 29 2016 17:56:15)
+3709.902 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3709.904 (8) Examining (for files) backup set with nonce=2c6f0de8215c, datestamp=1475157415 (Sep 29 2016 13:56:55)
+3709.907 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3709.909 (8) Examining (for files) backup set with nonce=2c6f0de8215c, datestamp=1475154601 (Sep 29 2016 13:10:01)
+3709.912 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3709.914 (8) Examining (for files) backup set with nonce=ec0b4e5efb65, datestamp=1475085429 (Sep 28 2016 17:57:09)
+3709.918 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3709.920 (8) Examining (for files) backup set with nonce=2026f4eac86c, datestamp=1475070939 (Sep 28 2016 13:55:39)
+3709.923 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3709.925 (8) Examining (for files) backup set with nonce=7bce21d44eb2, datestamp=1475064012 (Sep 28 2016 12:00:12)
+3709.928 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3709.931 (8) Examining (for files) backup set with nonce=ec0b4e5efb65, datestamp=1475049173 (Sep 28 2016 07:52:53)
+3709.934 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3709.937 (8) Examining (for files) backup set with nonce=3d6a5f926fe3, datestamp=1475027756 (Sep 28 2016 01:55:56)
+3709.940 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3709.943 (8) Examining (for files) backup set with nonce=624257a0acdc, datestamp=1475013450 (Sep 27 2016 21:57:30)
+3709.945 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3709.948 (8) Examining (for files) backup set with nonce=4792ba825627, datestamp=1474999042 (Sep 27 2016 17:57:22)
+3709.950 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3709.953 (8) Examining (for files) backup set with nonce=2421b20d68f8, datestamp=1474996577 (Sep 27 2016 17:16:17)
+3709.955 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3709.958 (8) Examining (for files) backup set with nonce=0893862fbf73, datestamp=1474927045 (Sep 26 2016 21:57:25)
+3709.961 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3709.963 (8) Examining (for files) backup set with nonce=a17fd181b2d5, datestamp=1474914209 (Sep 26 2016 18:23:29)
+3709.966 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3709.969 (8) Examining (for files) backup set with nonce=25ef273a687d, datestamp=1474912528 (Sep 26 2016 17:55:28)
+3709.972 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3709.979 (8) Retain: saving new backup history (sets now: 18) and finishing retain operation
+3709.988 (8) Resume backup (90176db964e9, 8): finish run
+3709.994 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+3710.005 (8) The backup has not finished; a resumption is scheduled
+4191.909 (9) Opened log file at time: Fri, 30 Sep 2016 12:49:32 +0000 on http://localhost:8888
+4191.912 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.20 WP: 4.6.1 PHP: 7.0.10 (Darwin Kyles-Air.fios-router.home 14.5.0 Darwin Kernel Version 14.5.0: Mon Aug 29 21:14:16 PDT 2016; root:xnu-2782.50.6~1/RELEASE_X86_64 x86_64) MySQL: 5.6.28 WPLANG: en_US Server: Apache/2.2.31 (Unix) mod_wsgi/3.5 Python/2.7.12 PHP/7.0.10 mod_ssl/2.2.31 OpenSSL/1.0.2h DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 16.4M | 2M) multisite: N openssl: OpenSSL 1.0.2h  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+4191.915 (9) Free space on disk containing Updraft's temporary directory: 47973.7 MB
+4191.920 (9) Backup run: resumption=9, nonce=90176db964e9, begun at=1475235580 (4192s ago), job type=backup
+4191.924 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: 0) - will not schedule a further attempt until we see something useful happening this time
+4191.949 (9) Creation of backups of directories: already finished
+4191.951 (9) Saving backup status to database (elements: 8)
+4191.960 (9) Database dump (WordPress DB): Creation was completed already
+4191.979 (9) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+4191.981 (9) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+4191.982 (9) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+4191.984 (9) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip: others: This file has not yet been successfully uploaded: will queue
+4191.985 (9) backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz: db: This file has not yet been successfully uploaded: will queue
+4191.987 (9) Saving backup history. Total backup size: 21.6 MB
+4191.997 (9) Requesting upload of the files that have not yet been successfully uploaded (5)
+4192.001 (9) Cloud backup selection (1/1): dropbox (last)
+4192.007 (9) Beginning dispatch of backup to remote (dropbox)
+4192.009 (9) Dropbox: begin cloud upload
+4192.020 (9) Dropbox: access gained; setting chunk size to: 10240 KB
+4193.005 (9) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+4193.009 (9) This is a resumption: 11070582 bytes had already been uploaded
+4193.010 (9) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-plugins.zip
+4193.616 (9) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+4193.618 (9) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+4193.621 (9) An error condition has occurred for the first time during this job
+4194.187 (9) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+4194.190 (9) This is a resumption: 8971906 bytes had already been uploaded
+4194.192 (9) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-themes.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-themes.zip
+4194.741 (9) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+4194.745 (9) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+4195.332 (9) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+4195.335 (9) This is a resumption: 2386791 bytes had already been uploaded
+4195.337 (9) File upload expected to fail: file data remaining to upload (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip) size is -2384460.14941 b (overall file size; 2330.85058594 b), whereas available quota is only -7733928 b
+4195.339 (9) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-uploads.zip
+4195.869 (9) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+4195.873 (9) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+4196.460 (9) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+4196.463 (9) This is a resumption: 1365 bytes had already been uploaded
+4196.465 (9) File upload expected to fail: file data remaining to upload (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip) size is -1363.66699219 b (overall file size; 1.3330078125 b), whereas available quota is only -7733928 b
+4196.467 (9) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-others.zip
+4197.099 (9) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+4197.102 (9) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+4197.628 (9) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+4197.631 (9) This is a resumption: 247510 bytes had already been uploaded
+4197.633 (9) File upload expected to fail: file data remaining to upload (backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz) size is -247268.291016 b (overall file size; 241.708984375 b), whereas available quota is only -7733928 b
+4197.635 (9) Dropbox: Attempt to upload: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz to: backup_2016-09-30-1139_I_Build_Awesome_to_Use_Web_Sites_90176db964e9-db.gz
+4198.325 (9) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+4198.329 (9) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+4198.335 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=100, retain_db=100
+4198.337 (9) Number of backup sets in history: 18; groups (db): 1
+4198.339 (9) Examining (for databases) backup set with group_id=0, nonce=90176db964e9, datestamp=1475235580 (Sep 30 2016 11:39:40)
+4198.340 (9) This backup set is the backup set just made, so will not be deleted.
+4198.342 (9) Examining (for databases) backup set with group_id=0, nonce=fbb3bfed5fd3, datestamp=1475222141 (Sep 30 2016 07:55:41)
+4198.343 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+4198.345 (9) Examining (for databases) backup set with group_id=0, nonce=0cf49109fa21, datestamp=1475200648 (Sep 30 2016 01:57:28)
+4198.347 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+4198.348 (9) Examining (for databases) backup set with group_id=0, nonce=be4f062f7cac, datestamp=1475186233 (Sep 29 2016 21:57:13)
+4198.350 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+4198.351 (9) Examining (for databases) backup set with group_id=0, nonce=467bf6b49fac, datestamp=1475171775 (Sep 29 2016 17:56:15)
+4198.352 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+4198.354 (9) Examining (for databases) backup set with group_id=0, nonce=2c6f0de8215c, datestamp=1475157415 (Sep 29 2016 13:56:55)
+4198.355 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+4198.357 (9) Examining (for databases) backup set with group_id=0, nonce=2c6f0de8215c, datestamp=1475154601 (Sep 29 2016 13:10:01)
+4198.358 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+4198.360 (9) Examining (for databases) backup set with group_id=0, nonce=ec0b4e5efb65, datestamp=1475085429 (Sep 28 2016 17:57:09)
+4198.361 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+4198.362 (9) Examining (for databases) backup set with group_id=0, nonce=2026f4eac86c, datestamp=1475070939 (Sep 28 2016 13:55:39)
+4198.364 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+4198.365 (9) Examining (for databases) backup set with group_id=0, nonce=7bce21d44eb2, datestamp=1475064012 (Sep 28 2016 12:00:12)
+4198.367 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+4198.368 (9) Examining (for databases) backup set with group_id=0, nonce=ec0b4e5efb65, datestamp=1475049173 (Sep 28 2016 07:52:53)
+4198.370 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+4198.371 (9) Examining (for databases) backup set with group_id=0, nonce=3d6a5f926fe3, datestamp=1475027756 (Sep 28 2016 01:55:56)
+4198.373 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+4198.374 (9) Examining (for databases) backup set with group_id=0, nonce=624257a0acdc, datestamp=1475013450 (Sep 27 2016 21:57:30)
+4198.375 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+4198.377 (9) Examining (for databases) backup set with group_id=0, nonce=4792ba825627, datestamp=1474999042 (Sep 27 2016 17:57:22)
+4198.378 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+4198.380 (9) Examining (for databases) backup set with group_id=0, nonce=2421b20d68f8, datestamp=1474996577 (Sep 27 2016 17:16:17)
+4198.382 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+4198.383 (9) Examining (for databases) backup set with group_id=0, nonce=0893862fbf73, datestamp=1474927045 (Sep 26 2016 21:57:25)
+4198.385 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+4198.386 (9) Examining (for databases) backup set with group_id=0, nonce=a17fd181b2d5, datestamp=1474914209 (Sep 26 2016 18:23:29)
+4198.387 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+4198.389 (9) Examining (for databases) backup set with group_id=0, nonce=25ef273a687d, datestamp=1474912528 (Sep 26 2016 17:55:28)
+4198.390 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+4198.392 (9) Number of backup sets in history: 18; groups (files): 1
+4198.394 (9) Examining (for files) backup set with nonce=90176db964e9, datestamp=1475235580 (Sep 30 2016 11:39:40)
+4198.395 (9) This backup set is the backup set just made, so will not be deleted.
+4198.397 (9) This backup set is the backup set just made, so will not be deleted.
+4198.397 (9) This backup set is the backup set just made, so will not be deleted.
+4198.397 (9) This backup set is the backup set just made, so will not be deleted.
+4198.397 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+4198.399 (9) Examining (for files) backup set with nonce=fbb3bfed5fd3, datestamp=1475222141 (Sep 30 2016 07:55:41)
+4198.400 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+4198.401 (9) Examining (for files) backup set with nonce=0cf49109fa21, datestamp=1475200648 (Sep 30 2016 01:57:28)
+4198.403 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+4198.404 (9) Examining (for files) backup set with nonce=be4f062f7cac, datestamp=1475186233 (Sep 29 2016 21:57:13)
+4198.406 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+4198.407 (9) Examining (for files) backup set with nonce=467bf6b49fac, datestamp=1475171775 (Sep 29 2016 17:56:15)
+4198.409 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+4198.410 (9) Examining (for files) backup set with nonce=2c6f0de8215c, datestamp=1475157415 (Sep 29 2016 13:56:55)
+4198.411 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+4198.413 (9) Examining (for files) backup set with nonce=2c6f0de8215c, datestamp=1475154601 (Sep 29 2016 13:10:01)
+4198.415 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+4198.416 (9) Examining (for files) backup set with nonce=ec0b4e5efb65, datestamp=1475085429 (Sep 28 2016 17:57:09)
+4198.418 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+4198.419 (9) Examining (for files) backup set with nonce=2026f4eac86c, datestamp=1475070939 (Sep 28 2016 13:55:39)
+4198.420 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+4198.422 (9) Examining (for files) backup set with nonce=7bce21d44eb2, datestamp=1475064012 (Sep 28 2016 12:00:12)
+4198.424 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+4198.425 (9) Examining (for files) backup set with nonce=ec0b4e5efb65, datestamp=1475049173 (Sep 28 2016 07:52:53)
+4198.427 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+4198.428 (9) Examining (for files) backup set with nonce=3d6a5f926fe3, datestamp=1475027756 (Sep 28 2016 01:55:56)
+4198.429 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+4198.431 (9) Examining (for files) backup set with nonce=624257a0acdc, datestamp=1475013450 (Sep 27 2016 21:57:30)
+4198.432 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+4198.433 (9) Examining (for files) backup set with nonce=4792ba825627, datestamp=1474999042 (Sep 27 2016 17:57:22)
+4198.436 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+4198.437 (9) Examining (for files) backup set with nonce=2421b20d68f8, datestamp=1474996577 (Sep 27 2016 17:16:17)
+4198.439 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+4198.440 (9) Examining (for files) backup set with nonce=0893862fbf73, datestamp=1474927045 (Sep 26 2016 21:57:25)
+4198.441 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+4198.443 (9) Examining (for files) backup set with nonce=a17fd181b2d5, datestamp=1474914209 (Sep 26 2016 18:23:29)
+4198.444 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+4198.445 (9) Examining (for files) backup set with nonce=25ef273a687d, datestamp=1474912528 (Sep 26 2016 17:55:28)
+4198.447 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+4198.448 (9) Retain: saving new backup history (sets now: 18) and finishing retain operation
+4198.454 (9) Resume backup (90176db964e9, 9): finish run
+4198.458 (9) There were errors in the uploads, so the 'resume' event is remaining scheduled
+4198.463 (9) Fetching RSS news feed
+4198.518 (9) Fetched RSS news feed; result is a: SimplePie
+4198.523 (9) Sending email ('Files and database (Full backup)') report (attachments: 1, size: 192.6 KB) to: kylee...
+4198.598 (9) The backup attempt has finished, apparently unsuccessfully

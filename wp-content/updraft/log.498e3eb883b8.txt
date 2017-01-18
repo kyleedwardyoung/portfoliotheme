@@ -1,0 +1,248 @@
+0000.002 (0) Opened log file at time: Thu, 29 Sep 2016 21:57:13 +0000 on http://localhost:8888
+0000.005 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.20 WP: 4.6.1 PHP: 7.0.10 (Darwin Kyles-Air.fios-router.home 14.5.0 Darwin Kernel Version 14.5.0: Mon Aug 29 21:14:16 PDT 2016; root:xnu-2782.50.6~1/RELEASE_X86_64 x86_64) MySQL: 5.6.28 WPLANG: en_US Server: Apache/2.2.31 (Unix) mod_wsgi/3.5 Python/2.7.12 PHP/7.0.10 mod_ssl/2.2.31 OpenSSL/1.0.2h DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 16.4M | 2M) multisite: N openssl: OpenSSL 1.0.2h  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.007 (0) Free space on disk containing Updraft's temporary directory: 48056.9 MB
+0000.025 (0) Tasks: Backup files: 1 (schedule: every4hours) Backup DB:  (schedule: every4hours)
+0000.027 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.039 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1475171775, seconds_ago=14458)
+0000.045 (0) Set semaphore last lock (fd) time to 2016-09-29 21:57:13
+0000.046 (0) Semaphore lock (fd) complete
+0000.055 (0) Backup run: resumption=0, nonce=498e3eb883b8, begun at=1475186233 (0s ago), job type=backup
+0000.058 (0) Scheduling a resumption (1) after 300 seconds (1475186533) in case this run gets aborted
+0000.087 (0) Checking if we have a zip executable available
+0000.090 (0) Testing: /usr/bin/zip
+0000.105 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.107 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.108 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.110 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.112 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.124 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.126 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.154 (0) Working binary zip found: /usr/bin/zip
+0000.159 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.160 (0) Creation of backups of directories: beginning
+0000.168 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.399 (0) Total entities for the zip file: 256 directories, 1914 files (0 skipped as non-modified), 26.8 MB
+0000.416 (0) Zip: backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.430 (0) Zip: backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.447 (0) Zip: backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.463 (0) Zip: backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.478 (0) Zip: backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.481 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7 MB, 1914 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0001.313 (0) backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-plugins.zip.tmp: size is now: 3.50 MB
+0001.331 (0) Zip: backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-plugins.zip.tmp: 600 files added (on-disk size: 3560.6 KB)
+0001.347 (0) Zip: backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-plugins.zip.tmp: 700 files added (on-disk size: 3560.6 KB)
+0001.362 (0) Zip: backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-plugins.zip.tmp: 800 files added (on-disk size: 3560.6 KB)
+0001.378 (0) Zip: backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-plugins.zip.tmp: 900 files added (on-disk size: 3560.6 KB)
+0001.396 (0) Zip: backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-plugins.zip.tmp: 1000 files added (on-disk size: 3560.6 KB)
+0001.398 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.5 MB, 1914 files batched, 501 (1002) added so far); re-opening (prior size: 3560.6 KB)
+0002.020 (0) backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-plugins.zip.tmp: size is now: 6.40 MB
+0002.049 (0) Zip: backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-plugins.zip.tmp: 1100 files added (on-disk size: 6518.9 KB)
+0002.064 (0) Zip: backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-plugins.zip.tmp: 1200 files added (on-disk size: 6518.9 KB)
+0002.080 (0) Zip: backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-plugins.zip.tmp: 1300 files added (on-disk size: 6518.9 KB)
+0002.095 (0) Zip: backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-plugins.zip.tmp: 1400 files added (on-disk size: 6518.9 KB)
+0002.110 (0) Zip: backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-plugins.zip.tmp: 1500 files added (on-disk size: 6518.9 KB)
+0002.113 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (13 MB, 1914 files batched, 501 (1503) added so far); re-opening (prior size: 6518.9 KB)
+0003.584 (0) backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-plugins.zip.tmp: size is now: 10.10 MB
+0003.607 (0) Zip: backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-plugins.zip.tmp: 1600 files added (on-disk size: 10348.3 KB)
+0003.625 (0) Zip: backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-plugins.zip.tmp: 1700 files added (on-disk size: 10348.3 KB)
+0003.642 (0) Zip: backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-plugins.zip.tmp: 1800 files added (on-disk size: 10348.3 KB)
+0003.658 (0) Zip: backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-plugins.zip.tmp: 1900 files added (on-disk size: 10348.3 KB)
+0004.246 (0) Created plugins zip (0) - 10944.3 KB in 4.1 s (2688.7 KB/s) (SHA1 checksum: 6987211e3fe6ecdb23cc75cffeac9078a81e09cd)
+0004.253 (0) Beginning creation of dump of themes (split every: 400 MB)
+0004.292 (0) Total entities for the zip file: 34 directories, 267 files (0 skipped as non-modified), 12.4 MB
+0004.307 (0) Zip: backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0004.323 (0) Zip: backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0005.117 (0) backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-themes.zip.tmp: size is now: 8.60 MB
+0005.251 (0) Created themes zip (0) - 8784.8 KB in 1 s (8845.6 KB/s) (SHA1 checksum: 88d4511b8c6bcebb09396533430fdbf03d3b5e99)
+0005.257 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0005.258 (0) Looking for candidates to back up in: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/uploads
+0005.260 (0) finding files: 2016: adding to list (1)
+0005.262 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0005.277 (0) Total entities for the zip file: 2 directories, 46 files (0 skipped as non-modified), 2.3 MB
+0005.356 (0) backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-uploads.zip.tmp: size is now: 2.30 MB
+0005.412 (0) Created uploads zip (0) - 2333.3 KB in 0.1 s (16343.2 KB/s) (SHA1 checksum: 660647955907f53fb9f6eb771f746acc5cdf4234)
+0005.419 (0) Beginning backup of other directories found in the content directory (index: 0)
+0005.421 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0005.423 (0) Looking for candidates to back up in: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content
+0005.425 (0) finding files: .DS_Store: adding to list (1)
+0005.426 (0) finding files: index.php: adding to list (2)
+0005.428 (0) finding files: plugins: skipping: this is the plugins directory
+0005.429 (0) finding files: themes: skipping: this is the themes directory
+0005.431 (0) finding files: updraft: skipping: this is the updraft directory
+0005.432 (0) finding files: upgrade: skipping: excluded by options
+0005.434 (0) finding files: uploads: skipping: this is the uploads directory
+0005.443 (0) Total entities for the zip file: 0 directories, 2 files (0 skipped as non-modified), 0 MB
+0005.462 (0) backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-others.zip.tmp: size is now: 0.00 MB
+0005.473 (0) Created others zip (0) - 1.4 KB in 0 s (41 KB/s) (SHA1 checksum: 0a1cddc9d6ce6145372c61cc9f9765626629cef8)
+0005.488 (0) Saving backup status to database (elements: 8)
+0005.497 (0) Beginning creation of database dump (WordPress DB)
+0005.527 (0) Table dbbs_options: Total expected rows (approximate): 750
+0005.678 (0) Table dbbs_options: Total rows added: 203 in 0.15 seconds
+0005.683 (0) Table dbbs_options: finishing file (backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-db-table-dbbs_options.table.gz - 192 KB)
+0005.694 (0) Table dbbs_users: Total expected rows (approximate): 1
+0005.702 (0) Table dbbs_users: Total rows added: 1 in 0.01 seconds
+0005.705 (0) Table dbbs_users: finishing file (backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-db-table-dbbs_users.table.gz - 0.6 KB)
+0005.716 (0) Table dbbs_usermeta: Total expected rows (approximate): 31
+0005.725 (0) Table dbbs_usermeta: Total rows added: 31 in 0.01 seconds
+0005.728 (0) Table dbbs_usermeta: finishing file (backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-db-table-dbbs_usermeta.table.gz - 1.5 KB)
+0005.739 (0) Table dbbs_commentmeta: Total expected rows (approximate): 0
+0005.746 (0) Table dbbs_commentmeta: Total rows added: 0 in 0.00 seconds
+0005.748 (0) Table dbbs_commentmeta: finishing file (backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-db-table-dbbs_commentmeta.table.gz - 0.4 KB)
+0005.759 (0) Table dbbs_comments: Total expected rows (approximate): 2
+0005.769 (0) Table dbbs_comments: Total rows added: 2 in 0.01 seconds
+0005.772 (0) Table dbbs_comments: finishing file (backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-db-table-dbbs_comments.table.gz - 0.9 KB)
+0005.784 (0) Table dbbs_links: Total expected rows (approximate): 0
+0005.795 (0) Table dbbs_links: Total rows added: 0 in 0.01 seconds
+0005.801 (0) Table dbbs_links: finishing file (backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-db-table-dbbs_links.table.gz - 0.4 KB)
+0005.813 (0) Table dbbs_postmeta: Total expected rows (approximate): 2458
+0005.997 (0) Table dbbs_postmeta: Total rows added: 2469 in 0.18 seconds
+0006.000 (0) Table dbbs_postmeta: finishing file (backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-db-table-dbbs_postmeta.table.gz - 33.1 KB)
+0006.011 (0) Table dbbs_posts: Total expected rows (approximate): 141
+0006.047 (0) Table dbbs_posts: Total rows added: 163 in 0.03 seconds
+0006.049 (0) Table dbbs_posts: finishing file (backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-db-table-dbbs_posts.table.gz - 12 KB)
+0006.058 (0) Table dbbs_term_relationships: Total expected rows (approximate): 23
+0006.064 (0) Table dbbs_term_relationships: Total rows added: 23 in 0.00 seconds
+0006.067 (0) Table dbbs_term_relationships: finishing file (backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-db-table-dbbs_term_relationships.table.gz - 0.4 KB)
+0006.075 (0) Table dbbs_term_taxonomy: Total expected rows (approximate): 12
+0006.084 (0) Table dbbs_term_taxonomy: Total rows added: 12 in 0.01 seconds
+0006.087 (0) Table dbbs_term_taxonomy: finishing file (backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-db-table-dbbs_term_taxonomy.table.gz - 0.5 KB)
+0006.098 (0) Table dbbs_termmeta: Total expected rows (approximate): 0
+0006.103 (0) Table dbbs_termmeta: Total rows added: 0 in 0.00 seconds
+0006.105 (0) Table dbbs_termmeta: finishing file (backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-db-table-dbbs_termmeta.table.gz - 0.4 KB)
+0006.120 (0) Table dbbs_terms: Total expected rows (approximate): 12
+0006.130 (0) Table dbbs_terms: Total rows added: 12 in 0.01 seconds
+0006.133 (0) Table dbbs_terms: finishing file (backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-db-table-dbbs_terms.table.gz - 0.6 KB)
+0006.144 (0) Table dbbs_sgmb_widget: Total expected rows (approximate): 1
+0006.151 (0) Table dbbs_sgmb_widget: Total rows added: 1 in 0.01 seconds
+0006.154 (0) Table dbbs_sgmb_widget: finishing file (backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-db-table-dbbs_sgmb_widget.table.gz - 0.7 KB)
+0006.163 (0) backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-db-table-dbbs_options.table.gz (1/13): adding to final database dump
+0006.308 (0) backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-db-table-dbbs_users.table.gz (2/13): adding to final database dump
+0006.311 (0) backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-db-table-dbbs_usermeta.table.gz (3/13): adding to final database dump
+0006.313 (0) backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-db-table-dbbs_commentmeta.table.gz (4/13): adding to final database dump
+0006.315 (0) backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-db-table-dbbs_comments.table.gz (5/13): adding to final database dump
+0006.319 (0) backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-db-table-dbbs_links.table.gz (6/13): adding to final database dump
+0006.322 (0) backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-db-table-dbbs_postmeta.table.gz (7/13): adding to final database dump
+0006.359 (0) backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-db-table-dbbs_posts.table.gz (8/13): adding to final database dump
+0006.369 (0) backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-db-table-dbbs_term_relationships.table.gz (9/13): adding to final database dump
+0006.371 (0) backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-db-table-dbbs_term_taxonomy.table.gz (10/13): adding to final database dump
+0006.373 (0) backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-db-table-dbbs_termmeta.table.gz (11/13): adding to final database dump
+0006.375 (0) backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-db-table-dbbs_terms.table.gz (12/13): adding to final database dump
+0006.386 (0) backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-db-table-dbbs_sgmb_widget.table.gz (13/13): adding to final database dump
+0006.389 (0) backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-db.gz: finished writing out complete database file (216 KB)
+0006.413 (0) Total database tables backed up: 13 (backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-db.gz, size: 246422, checksum (SHA1): bb763534c463650c99d627e5294dc7d005784adb)
+0006.436 (0) backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0006.437 (0) backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0006.439 (0) backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0006.441 (0) backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-others.zip: others: This file has not yet been successfully uploaded: will queue
+0006.442 (0) backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-db.gz: db: This file has not yet been successfully uploaded: will queue
+0006.444 (0) Saving backup history. Total backup size: 21.8 MB
+0006.453 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0006.464 (0) Cloud backup selection (1/1): dropbox (last)
+0006.465 (0) Beginning dispatch of backup to remote (dropbox)
+0006.467 (0) Dropbox: begin cloud upload
+0006.477 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0007.518 (0) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+0007.520 (0) File upload expected to fail: file data remaining to upload (backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-plugins.zip) size is 10944.2675781 b (overall file size; 10944.2675781 b), whereas available quota is only -7733928 b
+0007.522 (0) An error condition has occurred for the first time during this job
+0007.524 (0) Dropbox: Attempt to upload: backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-plugins.zip to: backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-plugins.zip
+0009.410 (0) Dropbox chunked upload: 9.4 % uploaded (AAAAAAAAJ8y3xdpCDNdY-A, 1048576, 2560 KB)
+0012.373 (0) Dropbox chunked upload: 32.7 % uploaded (AAAAAAAAJ8y3xdpCDNdY-A, 3670016, 5632 KB)
+0018.000 (0) Dropbox chunked upload: 84.2 % uploaded (AAAAAAAAJ8y3xdpCDNdY-A, 9437184, 8704 KB)
+0020.767 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAJ8y3xdpCDNdY-A, 11206930, 8704 KB)
+0023.390 (0) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+0023.393 (0) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+0023.934 (0) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+0023.938 (0) File upload expected to fail: file data remaining to upload (backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-themes.zip) size is 8784.82128906 b (overall file size; 8784.82128906 b), whereas available quota is only -7733928 b
+0023.940 (0) Dropbox: Attempt to upload: backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-themes.zip to: backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-themes.zip
+0030.138 (0) Dropbox chunked upload: 99.1 % uploaded (AAAAAAAAJ88c3ZRqt3FLEA, 8912896, 10240 KB)
+0032.133 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAJ88c3ZRqt3FLEA, 8995657, 10240 KB)
+0034.944 (0) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+0034.948 (0) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+0035.475 (0) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+0035.478 (0) File upload expected to fail: file data remaining to upload (backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-uploads.zip) size is 2333.28808594 b (overall file size; 2333.28808594 b), whereas available quota is only -7733928 b
+0035.480 (0) Dropbox: Attempt to upload: backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-uploads.zip to: backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-uploads.zip
+0037.769 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAJ9Hd9bVe9pJDJQ, 2389287, 10240 KB)
+0040.145 (0) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+0040.147 (0) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+0040.772 (0) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+0040.775 (0) File upload expected to fail: file data remaining to upload (backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-others.zip) size is 1.443359375 b (overall file size; 1.443359375 b), whereas available quota is only -7733928 b
+0040.777 (0) Dropbox: Attempt to upload: backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-others.zip to: backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-others.zip
+0041.608 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAJ9LyNH2zNbFDLw, 1478, 10240 KB)
+0042.777 (0) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+0042.781 (0) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+0043.333 (0) Dropbox quota usage: normal=167.2 MB, shared=1888.2 MB, total=2048 MB, available=-7.4 MB
+0043.336 (0) File upload expected to fail: file data remaining to upload (backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-db.gz) size is 240.646484375 b (overall file size; 240.646484375 b), whereas available quota is only -7733928 b
+0043.338 (0) Dropbox: Attempt to upload: backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-db.gz to: backup_2016-09-29-2157_I_Build_Awesome_to_Use_Web_Sites_498e3eb883b8-db.gz
+0044.717 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAJ9QJ6ul4OCkvVg, 246422, 10240 KB)
+0046.180 (0) Dropbox chunked upload exception (Dropbox_Exception): Dropbox was unable to complete this action because of a storage quota limit. (line: 177, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+0046.184 (0) Dropbox error: Dropbox was unable to complete this action because of a storage quota limit.
+0046.189 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=100, retain_db=100
+0046.192 (0) Number of backup sets in history: 15; groups (db): 1
+0046.193 (0) Examining (for databases) backup set with group_id=0, nonce=be4f062f7cac, datestamp=1475186233 (Sep 29 2016 21:57:13)
+0046.195 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0046.196 (0) Examining (for databases) backup set with group_id=0, nonce=467bf6b49fac, datestamp=1475171775 (Sep 29 2016 17:56:15)
+0046.198 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0046.199 (0) Examining (for databases) backup set with group_id=0, nonce=2c6f0de8215c, datestamp=1475157415 (Sep 29 2016 13:56:55)
+0046.201 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0046.203 (0) Examining (for databases) backup set with group_id=0, nonce=2c6f0de8215c, datestamp=1475154601 (Sep 29 2016 13:10:01)
+0046.205 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0046.207 (0) Examining (for databases) backup set with group_id=0, nonce=ec0b4e5efb65, datestamp=1475085429 (Sep 28 2016 17:57:09)
+0046.209 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0046.211 (0) Examining (for databases) backup set with group_id=0, nonce=2026f4eac86c, datestamp=1475070939 (Sep 28 2016 13:55:39)
+0046.213 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0046.215 (0) Examining (for databases) backup set with group_id=0, nonce=7bce21d44eb2, datestamp=1475064012 (Sep 28 2016 12:00:12)
+0046.217 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0046.219 (0) Examining (for databases) backup set with group_id=0, nonce=ec0b4e5efb65, datestamp=1475049173 (Sep 28 2016 07:52:53)
+0046.220 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0046.222 (0) Examining (for databases) backup set with group_id=0, nonce=3d6a5f926fe3, datestamp=1475027756 (Sep 28 2016 01:55:56)
+0046.224 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0046.225 (0) Examining (for databases) backup set with group_id=0, nonce=624257a0acdc, datestamp=1475013450 (Sep 27 2016 21:57:30)
+0046.227 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0046.228 (0) Examining (for databases) backup set with group_id=0, nonce=4792ba825627, datestamp=1474999042 (Sep 27 2016 17:57:22)
+0046.229 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0046.231 (0) Examining (for databases) backup set with group_id=0, nonce=2421b20d68f8, datestamp=1474996577 (Sep 27 2016 17:16:17)
+0046.233 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0046.234 (0) Examining (for databases) backup set with group_id=0, nonce=0893862fbf73, datestamp=1474927045 (Sep 26 2016 21:57:25)
+0046.236 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0046.238 (0) Examining (for databases) backup set with group_id=0, nonce=a17fd181b2d5, datestamp=1474914209 (Sep 26 2016 18:23:29)
+0046.240 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0046.242 (0) Examining (for databases) backup set with group_id=0, nonce=25ef273a687d, datestamp=1474912528 (Sep 26 2016 17:55:28)
+0046.243 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0046.244 (0) Number of backup sets in history: 15; groups (files): 1
+0046.246 (0) Examining (for files) backup set with nonce=be4f062f7cac, datestamp=1475186233 (Sep 29 2016 21:57:13)
+0046.247 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0046.249 (0) Examining (for files) backup set with nonce=467bf6b49fac, datestamp=1475171775 (Sep 29 2016 17:56:15)
+0046.250 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0046.252 (0) Examining (for files) backup set with nonce=2c6f0de8215c, datestamp=1475157415 (Sep 29 2016 13:56:55)
+0046.253 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0046.255 (0) Examining (for files) backup set with nonce=2c6f0de8215c, datestamp=1475154601 (Sep 29 2016 13:10:01)
+0046.256 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0046.257 (0) Examining (for files) backup set with nonce=ec0b4e5efb65, datestamp=1475085429 (Sep 28 2016 17:57:09)
+0046.260 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0046.261 (0) Examining (for files) backup set with nonce=2026f4eac86c, datestamp=1475070939 (Sep 28 2016 13:55:39)
+0046.263 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0046.264 (0) Examining (for files) backup set with nonce=7bce21d44eb2, datestamp=1475064012 (Sep 28 2016 12:00:12)
+0046.266 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0046.267 (0) Examining (for files) backup set with nonce=ec0b4e5efb65, datestamp=1475049173 (Sep 28 2016 07:52:53)
+0046.269 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0046.270 (0) Examining (for files) backup set with nonce=3d6a5f926fe3, datestamp=1475027756 (Sep 28 2016 01:55:56)
+0046.272 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0046.274 (0) Examining (for files) backup set with nonce=624257a0acdc, datestamp=1475013450 (Sep 27 2016 21:57:30)
+0046.275 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0046.277 (0) Examining (for files) backup set with nonce=4792ba825627, datestamp=1474999042 (Sep 27 2016 17:57:22)
+0046.278 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0046.279 (0) Examining (for files) backup set with nonce=2421b20d68f8, datestamp=1474996577 (Sep 27 2016 17:16:17)
+0046.281 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0046.283 (0) Examining (for files) backup set with nonce=0893862fbf73, datestamp=1474927045 (Sep 26 2016 21:57:25)
+0046.284 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0046.286 (0) Examining (for files) backup set with nonce=a17fd181b2d5, datestamp=1474914209 (Sep 26 2016 18:23:29)
+0046.287 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0046.288 (0) Examining (for files) backup set with nonce=25ef273a687d, datestamp=1474912528 (Sep 26 2016 17:55:28)
+0046.290 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0046.291 (0) Retain: saving new backup history (sets now: 15) and finishing retain operation
+0046.301 (0) Resume backup (498e3eb883b8, 0): finish run
+0046.306 (0) Decremented the semaphore (fd) by 1
+0046.308 (0) Semaphore (fd) unlocked
+0046.310 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0046.316 (0) Rescheduling resumption 1: moving to 120 seconds from now (1475186399)
+0046.320 (0) The backup has not finished; a resumption is scheduled

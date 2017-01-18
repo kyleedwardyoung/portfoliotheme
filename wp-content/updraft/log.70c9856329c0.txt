@@ -1,0 +1,1320 @@
+53132.258 (1) Opened log file at time: Sat, 17 Dec 2016 15:12:28 +0000 on http://localhost:8888
+53132.259 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.12.24.22 WP: 4.6.1 PHP: 7.0.10 (apache2handler, Darwin Kyles-Air.fios-router.home 14.5.0 Darwin Kernel Version 14.5.0: Mon Aug 29 21:14:16 PDT 2016; root:xnu-2782.50.6~1/RELEASE_X86_64 x86_64) MySQL: 5.6.28 WPLANG: en_US Server: Apache/2.2.31 (Unix) mod_wsgi/3.5 Python/2.7.12 PHP/7.0.10 mod_ssl/2.2.31 OpenSSL/1.0.2h DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 29.1M | 32M) multisite: N openssl: OpenSSL 1.0.2h  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+53132.261 (1) Free space on disk containing Updraft's temporary directory: 44067.4 MB
+53132.265 (1) Backup run: resumption=1, nonce=70c9856329c0, begun at=1481934416 (53132s ago), job type=backup, previous check-in=49.5s
+53132.267 (1) Long time past since expected resumption time: approx expected=1481934765.9, now=1481987548.6, diff=52782.7
+53132.269 (1) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+53132.271 (1) Scheduling a resumption (2) after 300 seconds (1481987848) in case this run gets aborted
+53132.275 (1) Checking if we have a zip executable available
+53132.277 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+53132.278 (1) Creation of backups of directories: already finished
+53132.280 (1) Saving backup status to database (elements: 8)
+53132.302 (1) Database dump (WordPress DB): Creation was completed already
+53132.327 (1) backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+53132.329 (1) backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+53132.330 (1) backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+53132.332 (1) backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-others.zip: others: This file has not yet been successfully uploaded: will queue
+53132.334 (1) backup_2016-12-17-0026_Awesome_Websites_Customized_Just_70c9856329c0-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/updraft/backup_2016-12-17-0026_Awesome_Websites_Customized_Just_70c9856329c0-db.gz)
+53132.338 (1) Recording as successfully uploaded: backup_2016-12-17-0026_Awesome_Websites_Customized_Just_70c9856329c0-db.gz (15fcbc33e6edd8b88ba5c022962bacbe)
+53132.349 (1) Saving backup history. Total backup size: Unknown
+53132.374 (1) Requesting upload of the files that have not yet been successfully uploaded (4)
+53132.378 (1) Cloud backup selection (1/1): dropbox (last)
+53132.380 (1) Beginning dispatch of backup to remote (dropbox)
+53132.382 (1) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+53132.384 (1) Dropbox: access gained; setting chunk size to: 10240 KB
+53132.861 (1) Dropbox quota usage: used=2057.1 MB, total=2048 MB, available=-9.1 MB
+53132.864 (1) This is a resumption: 16091190 bytes had already been uploaded
+53132.867 (1) Dropbox: Attempt to upload: backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-plugins.zip to: backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-plugins.zip
+53133.508 (1) Dropbox chunked upload exception (Dropbox_Exception): path (line: 223, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+53133.511 (1) Dropbox error: path
+53133.959 (1) Dropbox quota usage: used=2057.1 MB, total=2048 MB, available=-9.1 MB
+53133.962 (1) This is a resumption: 22383349 bytes had already been uploaded
+53133.964 (1) Dropbox: Attempt to upload: backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-themes.zip to: backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-themes.zip
+53134.526 (1) Dropbox chunked upload exception (Dropbox_Exception): path (line: 223, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+53134.530 (1) Dropbox error: path
+53134.981 (1) Dropbox quota usage: used=2057.1 MB, total=2048 MB, available=-9.1 MB
+53134.985 (1) This is a resumption: 8165822 bytes had already been uploaded
+53134.987 (1) File upload expected to fail: file data remaining to upload (backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-uploads.zip) size is -8157847.56445 b (overall file size; 7974.43554688 b), whereas available quota is only -9504379 b
+53134.988 (1) Dropbox: Attempt to upload: backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-uploads.zip to: backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-uploads.zip
+53135.658 (1) Dropbox chunked upload exception (Dropbox_Exception): path (line: 223, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+53135.661 (1) Dropbox error: path
+53136.108 (1) Dropbox quota usage: used=2057.1 MB, total=2048 MB, available=-9.1 MB
+53136.111 (1) This is a resumption: 85675 bytes had already been uploaded
+53136.113 (1) File upload expected to fail: file data remaining to upload (backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-others.zip) size is -85591.3330078 b (overall file size; 83.6669921875 b), whereas available quota is only -9504379 b
+53136.115 (1) Dropbox: Attempt to upload: backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-others.zip to: backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-others.zip
+53136.787 (1) Dropbox chunked upload exception (Dropbox_Exception): path (line: 223, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+53136.790 (1) Dropbox error: path
+53136.795 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=100, retain_db=100
+53136.799 (1) Number of backup sets in history: 67; groups (db): 1
+53136.800 (1) Examining (for databases) backup set with group_id=0, nonce=70c9856329c0, datestamp=1481934416 (Dec 17 2016 00:26:56)
+53136.802 (1) This backup set is the backup set just made, so will not be deleted.
+53136.803 (1) Examining (for databases) backup set with group_id=0, nonce=746c1dcef570, datestamp=1481438007 (Dec 11 2016 06:33:27)
+53136.805 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.806 (1) Examining (for databases) backup set with group_id=0, nonce=51f40099ab98, datestamp=1480784016 (Dec 03 2016 16:53:36)
+53136.807 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.809 (1) Examining (for databases) backup set with group_id=0, nonce=7d240c92355e, datestamp=1480774804 (Dec 03 2016 14:20:04)
+53136.811 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.812 (1) Examining (for databases) backup set with group_id=0, nonce=5409e461d60a, datestamp=1480626316 (Dec 01 2016 21:05:16)
+53136.814 (1) This backup set (1480626316) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+53136.816 (1) Examining (for databases) backup set with group_id=0, nonce=b26414ea3f58, datestamp=1480626056 (Dec 01 2016 21:00:56)
+53136.818 (1) This backup set (1480626056) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+53136.819 (1) Examining (for databases) backup set with group_id=0, nonce=5409e461d60a, datestamp=1480625638 (Dec 01 2016 20:53:58)
+53136.821 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.823 (1) Examining (for databases) backup set with group_id=0, nonce=bd21d35f2a49, datestamp=1480611502 (Dec 01 2016 16:58:22)
+53136.825 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.827 (1) Examining (for databases) backup set with group_id=0, nonce=bd21d35f2a49, datestamp=1480603256 (Dec 01 2016 14:40:56)
+53136.828 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.830 (1) Examining (for databases) backup set with group_id=0, nonce=aad581484ae4, datestamp=1480452600 (Nov 29 2016 20:50:00)
+53136.832 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.833 (1) Examining (for databases) backup set with group_id=0, nonce=6bd65e03d082, datestamp=1480265881 (Nov 27 2016 16:58:01)
+53136.835 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.836 (1) Examining (for databases) backup set with group_id=0, nonce=29051c600b8a, datestamp=1479416083 (Nov 17 2016 20:54:43)
+53136.838 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.839 (1) Examining (for databases) backup set with group_id=0, nonce=9d4fff15b1a0, datestamp=1479405812 (Nov 17 2016 18:03:32)
+53136.840 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.842 (1) Examining (for databases) backup set with group_id=0, nonce=fa9cd0d5049c, datestamp=1479387220 (Nov 17 2016 12:53:40)
+53136.843 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.845 (1) Examining (for databases) backup set with group_id=0, nonce=34ebc7e57798, datestamp=1479385816 (Nov 17 2016 12:30:16)
+53136.846 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.847 (1) Examining (for databases) backup set with group_id=0, nonce=bea04e5a389f, datestamp=1479358420 (Nov 17 2016 04:53:40)
+53136.850 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.851 (1) Examining (for databases) backup set with group_id=0, nonce=30cc3c762c3b, datestamp=1479344016 (Nov 17 2016 00:53:36)
+53136.853 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.854 (1) Examining (for databases) backup set with group_id=0, nonce=7791126d0431, datestamp=1479336709 (Nov 16 2016 22:51:49)
+53136.855 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.857 (1) Examining (for databases) backup set with group_id=0, nonce=6a822e3a7624, datestamp=1479300814 (Nov 16 2016 12:53:34)
+53136.858 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.859 (1) Examining (for databases) backup set with group_id=0, nonce=0ea12ea83e37, datestamp=1479290055 (Nov 16 2016 09:54:15)
+53136.861 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.863 (1) Examining (for databases) backup set with group_id=0, nonce=f8d4162d5748, datestamp=1479272078 (Nov 16 2016 04:54:38)
+53136.864 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.866 (1) Examining (for databases) backup set with group_id=0, nonce=0262405e3b84, datestamp=1479257679 (Nov 16 2016 00:54:39)
+53136.867 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.869 (1) Examining (for databases) backup set with group_id=0, nonce=b7d33845004e, datestamp=1479243216 (Nov 15 2016 20:53:36)
+53136.870 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.872 (1) Examining (for databases) backup set with group_id=0, nonce=05a360587371, datestamp=1479232847 (Nov 15 2016 18:00:47)
+53136.874 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.875 (1) Examining (for databases) backup set with group_id=0, nonce=5c20c3cf0cfa, datestamp=1479214973 (Nov 15 2016 13:02:53)
+53136.877 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.878 (1) Examining (for databases) backup set with group_id=0, nonce=d5e997e4c014, datestamp=1479200518 (Nov 15 2016 09:01:58)
+53136.880 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.881 (1) Examining (for databases) backup set with group_id=0, nonce=d5e997e4c014, datestamp=1479189035 (Nov 15 2016 05:50:35)
+53136.882 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.884 (1) Examining (for databases) backup set with group_id=0, nonce=e7f8e2028303, datestamp=1479171216 (Nov 15 2016 00:53:36)
+53136.885 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.887 (1) Examining (for databases) backup set with group_id=0, nonce=e6af9eb25476, datestamp=1479159096 (Nov 14 2016 21:31:36)
+53136.889 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.890 (1) Examining (for databases) backup set with group_id=0, nonce=e6af9eb25476, datestamp=1479143390 (Nov 14 2016 17:09:50)
+53136.892 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.893 (1) Examining (for databases) backup set with group_id=0, nonce=91753e8c0e8e, datestamp=1479128017 (Nov 14 2016 12:53:37)
+53136.894 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.896 (1) Examining (for databases) backup set with group_id=0, nonce=a520c5afd1d0, datestamp=1479118457 (Nov 14 2016 10:14:17)
+53136.898 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.900 (1) Examining (for databases) backup set with group_id=0, nonce=3cdb898755ab, datestamp=1479101390 (Nov 14 2016 05:29:50)
+53136.901 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.902 (1) Examining (for databases) backup set with group_id=0, nonce=7d551e91551c, datestamp=1479087289 (Nov 14 2016 01:34:49)
+53136.904 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.905 (1) Examining (for databases) backup set with group_id=0, nonce=69f80026ed9b, datestamp=1479070815 (Nov 13 2016 21:00:15)
+53136.907 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.909 (1) Examining (for databases) backup set with group_id=0, nonce=cc71534114e8, datestamp=1479056019 (Nov 13 2016 16:53:39)
+53136.910 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.912 (1) Examining (for databases) backup set with group_id=0, nonce=f96f8b5f1153, datestamp=1479041619 (Nov 13 2016 12:53:39)
+53136.913 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.915 (1) Examining (for databases) backup set with group_id=0, nonce=f358519e20ec, datestamp=1479029379 (Nov 13 2016 09:29:39)
+53136.916 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.918 (1) Examining (for databases) backup set with group_id=0, nonce=4f3b1899814f, datestamp=1479012954 (Nov 13 2016 04:55:54)
+53136.920 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.921 (1) Examining (for databases) backup set with group_id=0, nonce=45a108fe075f, datestamp=1479003409 (Nov 13 2016 02:16:49)
+53136.923 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.924 (1) Examining (for databases) backup set with group_id=0, nonce=c7e524ef83f9, datestamp=1478990577 (Nov 12 2016 22:42:57)
+53136.926 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.927 (1) Examining (for databases) backup set with group_id=0, nonce=34a4c5b95ddd, datestamp=1478969618 (Nov 12 2016 16:53:38)
+53136.928 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.930 (1) Examining (for databases) backup set with group_id=0, nonce=9faaa1810f82, datestamp=1478955216 (Nov 12 2016 12:53:36)
+53136.931 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.933 (1) Examining (for databases) backup set with group_id=0, nonce=a613ad5eef17, datestamp=1478944576 (Nov 12 2016 09:56:16)
+53136.934 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.936 (1) Examining (for databases) backup set with group_id=0, nonce=69fbcb79f114, datestamp=1478931572 (Nov 12 2016 06:19:32)
+53136.937 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.939 (1) Examining (for databases) backup set with group_id=0, nonce=8f6f442a05ae, datestamp=1478912200 (Nov 12 2016 00:56:40)
+53136.941 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.943 (1) Examining (for databases) backup set with group_id=0, nonce=49fbe7525811, datestamp=1478897718 (Nov 11 2016 20:55:18)
+53136.944 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.945 (1) Examining (for databases) backup set with group_id=0, nonce=39c08e6bce8d, datestamp=1478882963 (Nov 11 2016 16:49:23)
+53136.947 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.948 (1) Examining (for databases) backup set with group_id=0, nonce=c558970e3664, datestamp=1475514268 (Oct 03 2016 17:04:28)
+53136.950 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.951 (1) Examining (for databases) backup set with group_id=0, nonce=c80b1da246e4, datestamp=1475235580 (Sep 30 2016 11:39:40)
+53136.953 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.955 (1) Examining (for databases) backup set with group_id=0, nonce=fbb3bfed5fd3, datestamp=1475222141 (Sep 30 2016 07:55:41)
+53136.956 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.957 (1) Examining (for databases) backup set with group_id=0, nonce=0cf49109fa21, datestamp=1475200648 (Sep 30 2016 01:57:28)
+53136.959 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.960 (1) Examining (for databases) backup set with group_id=0, nonce=be4f062f7cac, datestamp=1475186233 (Sep 29 2016 21:57:13)
+53136.962 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.964 (1) Examining (for databases) backup set with group_id=0, nonce=467bf6b49fac, datestamp=1475171775 (Sep 29 2016 17:56:15)
+53136.965 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.967 (1) Examining (for databases) backup set with group_id=0, nonce=2c6f0de8215c, datestamp=1475157415 (Sep 29 2016 13:56:55)
+53136.968 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.970 (1) Examining (for databases) backup set with group_id=0, nonce=2c6f0de8215c, datestamp=1475154601 (Sep 29 2016 13:10:01)
+53136.971 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.972 (1) Examining (for databases) backup set with group_id=0, nonce=ec0b4e5efb65, datestamp=1475085429 (Sep 28 2016 17:57:09)
+53136.974 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.975 (1) Examining (for databases) backup set with group_id=0, nonce=2026f4eac86c, datestamp=1475070939 (Sep 28 2016 13:55:39)
+53136.977 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.978 (1) Examining (for databases) backup set with group_id=0, nonce=7bce21d44eb2, datestamp=1475064012 (Sep 28 2016 12:00:12)
+53136.980 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.981 (1) Examining (for databases) backup set with group_id=0, nonce=ec0b4e5efb65, datestamp=1475049173 (Sep 28 2016 07:52:53)
+53136.982 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.984 (1) Examining (for databases) backup set with group_id=0, nonce=3d6a5f926fe3, datestamp=1475027756 (Sep 28 2016 01:55:56)
+53136.985 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.987 (1) Examining (for databases) backup set with group_id=0, nonce=624257a0acdc, datestamp=1475013450 (Sep 27 2016 21:57:30)
+53136.990 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.992 (1) Examining (for databases) backup set with group_id=0, nonce=4792ba825627, datestamp=1474999042 (Sep 27 2016 17:57:22)
+53136.993 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.995 (1) Examining (for databases) backup set with group_id=0, nonce=2421b20d68f8, datestamp=1474996577 (Sep 27 2016 17:16:17)
+53136.996 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53136.998 (1) Examining (for databases) backup set with group_id=0, nonce=0893862fbf73, datestamp=1474927045 (Sep 26 2016 21:57:25)
+53137.000 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.001 (1) Examining (for databases) backup set with group_id=0, nonce=a17fd181b2d5, datestamp=1474914209 (Sep 26 2016 18:23:29)
+53137.002 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.004 (1) Examining (for databases) backup set with group_id=0, nonce=25ef273a687d, datestamp=1474912528 (Sep 26 2016 17:55:28)
+53137.006 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.008 (1) Number of backup sets in history: 67; groups (files): 1
+53137.009 (1) Examining (for files) backup set with nonce=70c9856329c0, datestamp=1481934416 (Dec 17 2016 00:26:56)
+53137.011 (1) This backup set is the backup set just made, so will not be deleted.
+53137.012 (1) This backup set is the backup set just made, so will not be deleted.
+53137.012 (1) This backup set is the backup set just made, so will not be deleted.
+53137.013 (1) This backup set is the backup set just made, so will not be deleted.
+53137.013 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.014 (1) Examining (for files) backup set with nonce=746c1dcef570, datestamp=1481438007 (Dec 11 2016 06:33:27)
+53137.016 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.017 (1) Examining (for files) backup set with nonce=51f40099ab98, datestamp=1480784016 (Dec 03 2016 16:53:36)
+53137.018 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.020 (1) Examining (for files) backup set with nonce=7d240c92355e, datestamp=1480774804 (Dec 03 2016 14:20:04)
+53137.022 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.023 (1) Examining (for files) backup set with nonce=5409e461d60a, datestamp=1480626316 (Dec 01 2016 21:05:16)
+53137.024 (1) This backup set (1480626316) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+53137.026 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.027 (1) Examining (for files) backup set with nonce=b26414ea3f58, datestamp=1480626056 (Dec 01 2016 21:00:56)
+53137.029 (1) This backup set (1480626056) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+53137.030 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.031 (1) Examining (for files) backup set with nonce=5409e461d60a, datestamp=1480625638 (Dec 01 2016 20:53:58)
+53137.034 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.035 (1) Examining (for files) backup set with nonce=bd21d35f2a49, datestamp=1480611502 (Dec 01 2016 16:58:22)
+53137.037 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.038 (1) Examining (for files) backup set with nonce=bd21d35f2a49, datestamp=1480603256 (Dec 01 2016 14:40:56)
+53137.040 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.042 (1) Examining (for files) backup set with nonce=aad581484ae4, datestamp=1480452600 (Nov 29 2016 20:50:00)
+53137.043 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.044 (1) Examining (for files) backup set with nonce=6bd65e03d082, datestamp=1480265881 (Nov 27 2016 16:58:01)
+53137.047 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.048 (1) Examining (for files) backup set with nonce=29051c600b8a, datestamp=1479416083 (Nov 17 2016 20:54:43)
+53137.050 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.051 (1) Examining (for files) backup set with nonce=9d4fff15b1a0, datestamp=1479405812 (Nov 17 2016 18:03:32)
+53137.053 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.055 (1) Examining (for files) backup set with nonce=fa9cd0d5049c, datestamp=1479387220 (Nov 17 2016 12:53:40)
+53137.057 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.058 (1) Examining (for files) backup set with nonce=34ebc7e57798, datestamp=1479385816 (Nov 17 2016 12:30:16)
+53137.060 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.062 (1) Examining (for files) backup set with nonce=bea04e5a389f, datestamp=1479358420 (Nov 17 2016 04:53:40)
+53137.063 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.065 (1) Examining (for files) backup set with nonce=30cc3c762c3b, datestamp=1479344016 (Nov 17 2016 00:53:36)
+53137.066 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.068 (1) Examining (for files) backup set with nonce=7791126d0431, datestamp=1479336709 (Nov 16 2016 22:51:49)
+53137.069 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.071 (1) Examining (for files) backup set with nonce=6a822e3a7624, datestamp=1479300814 (Nov 16 2016 12:53:34)
+53137.072 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.074 (1) Examining (for files) backup set with nonce=0ea12ea83e37, datestamp=1479290055 (Nov 16 2016 09:54:15)
+53137.075 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.077 (1) Examining (for files) backup set with nonce=f8d4162d5748, datestamp=1479272078 (Nov 16 2016 04:54:38)
+53137.078 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.080 (1) Examining (for files) backup set with nonce=0262405e3b84, datestamp=1479257679 (Nov 16 2016 00:54:39)
+53137.081 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.083 (1) Examining (for files) backup set with nonce=b7d33845004e, datestamp=1479243216 (Nov 15 2016 20:53:36)
+53137.084 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.086 (1) Examining (for files) backup set with nonce=05a360587371, datestamp=1479232847 (Nov 15 2016 18:00:47)
+53137.088 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.089 (1) Examining (for files) backup set with nonce=5c20c3cf0cfa, datestamp=1479214973 (Nov 15 2016 13:02:53)
+53137.091 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.092 (1) Examining (for files) backup set with nonce=d5e997e4c014, datestamp=1479200518 (Nov 15 2016 09:01:58)
+53137.094 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.095 (1) Examining (for files) backup set with nonce=d5e997e4c014, datestamp=1479189035 (Nov 15 2016 05:50:35)
+53137.097 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.098 (1) Examining (for files) backup set with nonce=e7f8e2028303, datestamp=1479171216 (Nov 15 2016 00:53:36)
+53137.100 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.102 (1) Examining (for files) backup set with nonce=e6af9eb25476, datestamp=1479159096 (Nov 14 2016 21:31:36)
+53137.103 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.104 (1) Examining (for files) backup set with nonce=e6af9eb25476, datestamp=1479143390 (Nov 14 2016 17:09:50)
+53137.106 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.107 (1) Examining (for files) backup set with nonce=91753e8c0e8e, datestamp=1479128017 (Nov 14 2016 12:53:37)
+53137.109 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.110 (1) Examining (for files) backup set with nonce=a520c5afd1d0, datestamp=1479118457 (Nov 14 2016 10:14:17)
+53137.113 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.114 (1) Examining (for files) backup set with nonce=3cdb898755ab, datestamp=1479101390 (Nov 14 2016 05:29:50)
+53137.116 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.118 (1) Examining (for files) backup set with nonce=7d551e91551c, datestamp=1479087289 (Nov 14 2016 01:34:49)
+53137.120 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.121 (1) Examining (for files) backup set with nonce=69f80026ed9b, datestamp=1479070815 (Nov 13 2016 21:00:15)
+53137.123 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.124 (1) Examining (for files) backup set with nonce=cc71534114e8, datestamp=1479056019 (Nov 13 2016 16:53:39)
+53137.126 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.127 (1) Examining (for files) backup set with nonce=f96f8b5f1153, datestamp=1479041619 (Nov 13 2016 12:53:39)
+53137.129 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.130 (1) Examining (for files) backup set with nonce=f358519e20ec, datestamp=1479029379 (Nov 13 2016 09:29:39)
+53137.131 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.133 (1) Examining (for files) backup set with nonce=4f3b1899814f, datestamp=1479012954 (Nov 13 2016 04:55:54)
+53137.134 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.136 (1) Examining (for files) backup set with nonce=45a108fe075f, datestamp=1479003409 (Nov 13 2016 02:16:49)
+53137.137 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.140 (1) Examining (for files) backup set with nonce=c7e524ef83f9, datestamp=1478990577 (Nov 12 2016 22:42:57)
+53137.141 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.143 (1) Examining (for files) backup set with nonce=34a4c5b95ddd, datestamp=1478969618 (Nov 12 2016 16:53:38)
+53137.145 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.146 (1) Examining (for files) backup set with nonce=9faaa1810f82, datestamp=1478955216 (Nov 12 2016 12:53:36)
+53137.147 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.149 (1) Examining (for files) backup set with nonce=a613ad5eef17, datestamp=1478944576 (Nov 12 2016 09:56:16)
+53137.150 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.152 (1) Examining (for files) backup set with nonce=69fbcb79f114, datestamp=1478931572 (Nov 12 2016 06:19:32)
+53137.154 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.155 (1) Examining (for files) backup set with nonce=8f6f442a05ae, datestamp=1478912200 (Nov 12 2016 00:56:40)
+53137.157 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.158 (1) Examining (for files) backup set with nonce=49fbe7525811, datestamp=1478897718 (Nov 11 2016 20:55:18)
+53137.160 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.161 (1) Examining (for files) backup set with nonce=39c08e6bce8d, datestamp=1478882963 (Nov 11 2016 16:49:23)
+53137.163 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.164 (1) Examining (for files) backup set with nonce=c558970e3664, datestamp=1475514268 (Oct 03 2016 17:04:28)
+53137.166 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.167 (1) Examining (for files) backup set with nonce=c80b1da246e4, datestamp=1475235580 (Sep 30 2016 11:39:40)
+53137.169 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.170 (1) Examining (for files) backup set with nonce=fbb3bfed5fd3, datestamp=1475222141 (Sep 30 2016 07:55:41)
+53137.172 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.173 (1) Examining (for files) backup set with nonce=0cf49109fa21, datestamp=1475200648 (Sep 30 2016 01:57:28)
+53137.174 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.176 (1) Examining (for files) backup set with nonce=be4f062f7cac, datestamp=1475186233 (Sep 29 2016 21:57:13)
+53137.177 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.179 (1) Examining (for files) backup set with nonce=467bf6b49fac, datestamp=1475171775 (Sep 29 2016 17:56:15)
+53137.180 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.182 (1) Examining (for files) backup set with nonce=2c6f0de8215c, datestamp=1475157415 (Sep 29 2016 13:56:55)
+53137.183 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.185 (1) Examining (for files) backup set with nonce=2c6f0de8215c, datestamp=1475154601 (Sep 29 2016 13:10:01)
+53137.187 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.188 (1) Examining (for files) backup set with nonce=ec0b4e5efb65, datestamp=1475085429 (Sep 28 2016 17:57:09)
+53137.190 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.191 (1) Examining (for files) backup set with nonce=2026f4eac86c, datestamp=1475070939 (Sep 28 2016 13:55:39)
+53137.193 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.194 (1) Examining (for files) backup set with nonce=7bce21d44eb2, datestamp=1475064012 (Sep 28 2016 12:00:12)
+53137.196 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.197 (1) Examining (for files) backup set with nonce=ec0b4e5efb65, datestamp=1475049173 (Sep 28 2016 07:52:53)
+53137.199 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.200 (1) Examining (for files) backup set with nonce=3d6a5f926fe3, datestamp=1475027756 (Sep 28 2016 01:55:56)
+53137.202 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.203 (1) Examining (for files) backup set with nonce=624257a0acdc, datestamp=1475013450 (Sep 27 2016 21:57:30)
+53137.205 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.206 (1) Examining (for files) backup set with nonce=4792ba825627, datestamp=1474999042 (Sep 27 2016 17:57:22)
+53137.208 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.210 (1) Examining (for files) backup set with nonce=2421b20d68f8, datestamp=1474996577 (Sep 27 2016 17:16:17)
+53137.211 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.213 (1) Examining (for files) backup set with nonce=0893862fbf73, datestamp=1474927045 (Sep 26 2016 21:57:25)
+53137.215 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.216 (1) Examining (for files) backup set with nonce=a17fd181b2d5, datestamp=1474914209 (Sep 26 2016 18:23:29)
+53137.217 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.219 (1) Examining (for files) backup set with nonce=25ef273a687d, datestamp=1474912528 (Sep 26 2016 17:55:28)
+53137.221 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+53137.222 (1) Retain: saving new backup history (sets now: 67) and finishing retain operation
+53137.229 (1) Resume backup (70c9856329c0, 1): finish run
+53137.234 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+53137.240 (1) The backup has not finished; a resumption is scheduled
+53439.230 (2) Opened log file at time: Sat, 17 Dec 2016 15:17:35 +0000 on http://localhost:8888
+53439.231 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.12.24.22 WP: 4.6.1 PHP: 7.0.10 (apache2handler, Darwin Kyles-Air.fios-router.home 14.5.0 Darwin Kernel Version 14.5.0: Mon Aug 29 21:14:16 PDT 2016; root:xnu-2782.50.6~1/RELEASE_X86_64 x86_64) MySQL: 5.6.28 WPLANG: en_US Server: Apache/2.2.31 (Unix) mod_wsgi/3.5 Python/2.7.12 PHP/7.0.10 mod_ssl/2.2.31 OpenSSL/1.0.2h DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 28.8M | 2M) multisite: N openssl: OpenSSL 1.0.2h  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+53439.233 (2) Free space on disk containing Updraft's temporary directory: 43995.8 MB
+53439.238 (2) Backup run: resumption=2, nonce=70c9856329c0, begun at=1481934416 (53439s ago), job type=backup
+53439.243 (2) Scheduling a resumption (3) after 300 seconds (1481988155) in case this run gets aborted
+53439.263 (2) Checking if we have a zip executable available
+53439.265 (2) Zip engine: found/will use a binary zip: /usr/bin/zip
+53439.266 (2) Creation of backups of directories: already finished
+53439.268 (2) Saving backup status to database (elements: 8)
+53439.291 (2) Database dump (WordPress DB): Creation was completed already
+53439.318 (2) backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+53439.320 (2) backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+53439.322 (2) backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+53439.324 (2) backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-others.zip: others: This file has not yet been successfully uploaded: will queue
+53439.328 (2) backup_2016-12-17-0026_Awesome_Websites_Customized_Just_70c9856329c0-db.gz: db: This file has already been successfully uploaded
+53439.330 (2) Saving backup history. Total backup size: Unknown
+53439.358 (2) Requesting upload of the files that have not yet been successfully uploaded (4)
+53439.362 (2) Cloud backup selection (1/1): dropbox (last)
+53439.367 (2) Beginning dispatch of backup to remote (dropbox)
+53439.369 (2) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+53439.377 (2) Dropbox: access gained; setting chunk size to: 10240 KB
+53439.838 (2) Dropbox quota usage: used=2057.1 MB, total=2048 MB, available=-9.1 MB
+53439.842 (2) This is a resumption: 16091190 bytes had already been uploaded
+53439.845 (2) Dropbox: Attempt to upload: backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-plugins.zip to: backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-plugins.zip
+53440.836 (2) Dropbox chunked upload exception (Dropbox_Exception): path (line: 223, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+53440.838 (2) Dropbox error: path
+53440.839 (2) An error condition has occurred for the first time during this job
+53441.313 (2) Dropbox quota usage: used=2057.1 MB, total=2048 MB, available=-9.1 MB
+53441.315 (2) This is a resumption: 22383349 bytes had already been uploaded
+53441.317 (2) Dropbox: Attempt to upload: backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-themes.zip to: backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-themes.zip
+53442.455 (2) Dropbox chunked upload exception (Dropbox_Exception): path (line: 223, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+53442.457 (2) Dropbox error: path
+53442.920 (2) Dropbox quota usage: used=2057.1 MB, total=2048 MB, available=-9.1 MB
+53442.921 (2) This is a resumption: 8165822 bytes had already been uploaded
+53442.923 (2) File upload expected to fail: file data remaining to upload (backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-uploads.zip) size is -8157847.56445 b (overall file size; 7974.43554688 b), whereas available quota is only -9504379 b
+53442.925 (2) Dropbox: Attempt to upload: backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-uploads.zip to: backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-uploads.zip
+53443.582 (2) Dropbox chunked upload exception (Dropbox_Exception): path (line: 223, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+53443.584 (2) Dropbox error: path
+53444.055 (2) Dropbox quota usage: used=2057.1 MB, total=2048 MB, available=-9.1 MB
+53444.057 (2) This is a resumption: 85675 bytes had already been uploaded
+53444.058 (2) File upload expected to fail: file data remaining to upload (backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-others.zip) size is -85591.3330078 b (overall file size; 83.6669921875 b), whereas available quota is only -9504379 b
+53444.060 (2) Dropbox: Attempt to upload: backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-others.zip to: backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-others.zip
+53444.709 (2) Dropbox chunked upload exception (Dropbox_Exception): path (line: 223, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+53444.711 (2) Dropbox error: path
+53444.715 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=100, retain_db=100
+53444.722 (2) Number of backup sets in history: 68; groups (db): 1
+53444.724 (2) Examining (for databases) backup set with group_id=0, nonce=8f786775cf4a, datestamp=1481987553 (Dec 17 2016 15:12:33)
+53444.726 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.728 (2) Examining (for databases) backup set with group_id=0, nonce=70c9856329c0, datestamp=1481934416 (Dec 17 2016 00:26:56)
+53444.730 (2) This backup set is the backup set just made, so will not be deleted.
+53444.731 (2) Examining (for databases) backup set with group_id=0, nonce=746c1dcef570, datestamp=1481438007 (Dec 11 2016 06:33:27)
+53444.733 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.735 (2) Examining (for databases) backup set with group_id=0, nonce=51f40099ab98, datestamp=1480784016 (Dec 03 2016 16:53:36)
+53444.737 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.739 (2) Examining (for databases) backup set with group_id=0, nonce=7d240c92355e, datestamp=1480774804 (Dec 03 2016 14:20:04)
+53444.742 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.744 (2) Examining (for databases) backup set with group_id=0, nonce=5409e461d60a, datestamp=1480626316 (Dec 01 2016 21:05:16)
+53444.745 (2) This backup set (1480626316) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+53444.747 (2) Examining (for databases) backup set with group_id=0, nonce=b26414ea3f58, datestamp=1480626056 (Dec 01 2016 21:00:56)
+53444.748 (2) This backup set (1480626056) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+53444.750 (2) Examining (for databases) backup set with group_id=0, nonce=5409e461d60a, datestamp=1480625638 (Dec 01 2016 20:53:58)
+53444.753 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.755 (2) Examining (for databases) backup set with group_id=0, nonce=bd21d35f2a49, datestamp=1480611502 (Dec 01 2016 16:58:22)
+53444.757 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.759 (2) Examining (for databases) backup set with group_id=0, nonce=bd21d35f2a49, datestamp=1480603256 (Dec 01 2016 14:40:56)
+53444.761 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.763 (2) Examining (for databases) backup set with group_id=0, nonce=aad581484ae4, datestamp=1480452600 (Nov 29 2016 20:50:00)
+53444.764 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.766 (2) Examining (for databases) backup set with group_id=0, nonce=6bd65e03d082, datestamp=1480265881 (Nov 27 2016 16:58:01)
+53444.767 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.769 (2) Examining (for databases) backup set with group_id=0, nonce=29051c600b8a, datestamp=1479416083 (Nov 17 2016 20:54:43)
+53444.771 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.772 (2) Examining (for databases) backup set with group_id=0, nonce=9d4fff15b1a0, datestamp=1479405812 (Nov 17 2016 18:03:32)
+53444.774 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.776 (2) Examining (for databases) backup set with group_id=0, nonce=fa9cd0d5049c, datestamp=1479387220 (Nov 17 2016 12:53:40)
+53444.778 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.782 (2) Examining (for databases) backup set with group_id=0, nonce=34ebc7e57798, datestamp=1479385816 (Nov 17 2016 12:30:16)
+53444.784 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.786 (2) Examining (for databases) backup set with group_id=0, nonce=bea04e5a389f, datestamp=1479358420 (Nov 17 2016 04:53:40)
+53444.788 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.791 (2) Examining (for databases) backup set with group_id=0, nonce=30cc3c762c3b, datestamp=1479344016 (Nov 17 2016 00:53:36)
+53444.794 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.795 (2) Examining (for databases) backup set with group_id=0, nonce=7791126d0431, datestamp=1479336709 (Nov 16 2016 22:51:49)
+53444.797 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.799 (2) Examining (for databases) backup set with group_id=0, nonce=6a822e3a7624, datestamp=1479300814 (Nov 16 2016 12:53:34)
+53444.800 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.802 (2) Examining (for databases) backup set with group_id=0, nonce=0ea12ea83e37, datestamp=1479290055 (Nov 16 2016 09:54:15)
+53444.804 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.805 (2) Examining (for databases) backup set with group_id=0, nonce=f8d4162d5748, datestamp=1479272078 (Nov 16 2016 04:54:38)
+53444.806 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.808 (2) Examining (for databases) backup set with group_id=0, nonce=0262405e3b84, datestamp=1479257679 (Nov 16 2016 00:54:39)
+53444.810 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.811 (2) Examining (for databases) backup set with group_id=0, nonce=b7d33845004e, datestamp=1479243216 (Nov 15 2016 20:53:36)
+53444.813 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.814 (2) Examining (for databases) backup set with group_id=0, nonce=05a360587371, datestamp=1479232847 (Nov 15 2016 18:00:47)
+53444.816 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.817 (2) Examining (for databases) backup set with group_id=0, nonce=5c20c3cf0cfa, datestamp=1479214973 (Nov 15 2016 13:02:53)
+53444.819 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.820 (2) Examining (for databases) backup set with group_id=0, nonce=d5e997e4c014, datestamp=1479200518 (Nov 15 2016 09:01:58)
+53444.822 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.823 (2) Examining (for databases) backup set with group_id=0, nonce=d5e997e4c014, datestamp=1479189035 (Nov 15 2016 05:50:35)
+53444.825 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.826 (2) Examining (for databases) backup set with group_id=0, nonce=e7f8e2028303, datestamp=1479171216 (Nov 15 2016 00:53:36)
+53444.828 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.829 (2) Examining (for databases) backup set with group_id=0, nonce=e6af9eb25476, datestamp=1479159096 (Nov 14 2016 21:31:36)
+53444.831 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.832 (2) Examining (for databases) backup set with group_id=0, nonce=e6af9eb25476, datestamp=1479143390 (Nov 14 2016 17:09:50)
+53444.834 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.836 (2) Examining (for databases) backup set with group_id=0, nonce=91753e8c0e8e, datestamp=1479128017 (Nov 14 2016 12:53:37)
+53444.837 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.839 (2) Examining (for databases) backup set with group_id=0, nonce=a520c5afd1d0, datestamp=1479118457 (Nov 14 2016 10:14:17)
+53444.840 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.842 (2) Examining (for databases) backup set with group_id=0, nonce=3cdb898755ab, datestamp=1479101390 (Nov 14 2016 05:29:50)
+53444.844 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.845 (2) Examining (for databases) backup set with group_id=0, nonce=7d551e91551c, datestamp=1479087289 (Nov 14 2016 01:34:49)
+53444.847 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.849 (2) Examining (for databases) backup set with group_id=0, nonce=69f80026ed9b, datestamp=1479070815 (Nov 13 2016 21:00:15)
+53444.850 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.852 (2) Examining (for databases) backup set with group_id=0, nonce=cc71534114e8, datestamp=1479056019 (Nov 13 2016 16:53:39)
+53444.853 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.855 (2) Examining (for databases) backup set with group_id=0, nonce=f96f8b5f1153, datestamp=1479041619 (Nov 13 2016 12:53:39)
+53444.857 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.858 (2) Examining (for databases) backup set with group_id=0, nonce=f358519e20ec, datestamp=1479029379 (Nov 13 2016 09:29:39)
+53444.861 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.863 (2) Examining (for databases) backup set with group_id=0, nonce=4f3b1899814f, datestamp=1479012954 (Nov 13 2016 04:55:54)
+53444.864 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.866 (2) Examining (for databases) backup set with group_id=0, nonce=45a108fe075f, datestamp=1479003409 (Nov 13 2016 02:16:49)
+53444.868 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.869 (2) Examining (for databases) backup set with group_id=0, nonce=c7e524ef83f9, datestamp=1478990577 (Nov 12 2016 22:42:57)
+53444.870 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.872 (2) Examining (for databases) backup set with group_id=0, nonce=34a4c5b95ddd, datestamp=1478969618 (Nov 12 2016 16:53:38)
+53444.874 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.875 (2) Examining (for databases) backup set with group_id=0, nonce=9faaa1810f82, datestamp=1478955216 (Nov 12 2016 12:53:36)
+53444.877 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.878 (2) Examining (for databases) backup set with group_id=0, nonce=a613ad5eef17, datestamp=1478944576 (Nov 12 2016 09:56:16)
+53444.880 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.881 (2) Examining (for databases) backup set with group_id=0, nonce=69fbcb79f114, datestamp=1478931572 (Nov 12 2016 06:19:32)
+53444.883 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.885 (2) Examining (for databases) backup set with group_id=0, nonce=8f6f442a05ae, datestamp=1478912200 (Nov 12 2016 00:56:40)
+53444.886 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.888 (2) Examining (for databases) backup set with group_id=0, nonce=49fbe7525811, datestamp=1478897718 (Nov 11 2016 20:55:18)
+53444.889 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.891 (2) Examining (for databases) backup set with group_id=0, nonce=39c08e6bce8d, datestamp=1478882963 (Nov 11 2016 16:49:23)
+53444.893 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.895 (2) Examining (for databases) backup set with group_id=0, nonce=c558970e3664, datestamp=1475514268 (Oct 03 2016 17:04:28)
+53444.896 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.899 (2) Examining (for databases) backup set with group_id=0, nonce=c80b1da246e4, datestamp=1475235580 (Sep 30 2016 11:39:40)
+53444.900 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.902 (2) Examining (for databases) backup set with group_id=0, nonce=fbb3bfed5fd3, datestamp=1475222141 (Sep 30 2016 07:55:41)
+53444.903 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.905 (2) Examining (for databases) backup set with group_id=0, nonce=0cf49109fa21, datestamp=1475200648 (Sep 30 2016 01:57:28)
+53444.906 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.908 (2) Examining (for databases) backup set with group_id=0, nonce=be4f062f7cac, datestamp=1475186233 (Sep 29 2016 21:57:13)
+53444.911 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.912 (2) Examining (for databases) backup set with group_id=0, nonce=467bf6b49fac, datestamp=1475171775 (Sep 29 2016 17:56:15)
+53444.914 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.916 (2) Examining (for databases) backup set with group_id=0, nonce=2c6f0de8215c, datestamp=1475157415 (Sep 29 2016 13:56:55)
+53444.917 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.919 (2) Examining (for databases) backup set with group_id=0, nonce=2c6f0de8215c, datestamp=1475154601 (Sep 29 2016 13:10:01)
+53444.920 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.921 (2) Examining (for databases) backup set with group_id=0, nonce=ec0b4e5efb65, datestamp=1475085429 (Sep 28 2016 17:57:09)
+53444.924 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.926 (2) Examining (for databases) backup set with group_id=0, nonce=2026f4eac86c, datestamp=1475070939 (Sep 28 2016 13:55:39)
+53444.928 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.930 (2) Examining (for databases) backup set with group_id=0, nonce=7bce21d44eb2, datestamp=1475064012 (Sep 28 2016 12:00:12)
+53444.932 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.934 (2) Examining (for databases) backup set with group_id=0, nonce=ec0b4e5efb65, datestamp=1475049173 (Sep 28 2016 07:52:53)
+53444.936 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.937 (2) Examining (for databases) backup set with group_id=0, nonce=3d6a5f926fe3, datestamp=1475027756 (Sep 28 2016 01:55:56)
+53444.939 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.941 (2) Examining (for databases) backup set with group_id=0, nonce=624257a0acdc, datestamp=1475013450 (Sep 27 2016 21:57:30)
+53444.943 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.945 (2) Examining (for databases) backup set with group_id=0, nonce=4792ba825627, datestamp=1474999042 (Sep 27 2016 17:57:22)
+53444.947 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.950 (2) Examining (for databases) backup set with group_id=0, nonce=2421b20d68f8, datestamp=1474996577 (Sep 27 2016 17:16:17)
+53444.951 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.952 (2) Examining (for databases) backup set with group_id=0, nonce=0893862fbf73, datestamp=1474927045 (Sep 26 2016 21:57:25)
+53444.954 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.956 (2) Examining (for databases) backup set with group_id=0, nonce=a17fd181b2d5, datestamp=1474914209 (Sep 26 2016 18:23:29)
+53444.957 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.958 (2) Examining (for databases) backup set with group_id=0, nonce=25ef273a687d, datestamp=1474912528 (Sep 26 2016 17:55:28)
+53444.961 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.964 (2) Number of backup sets in history: 68; groups (files): 1
+53444.965 (2) Examining (for files) backup set with nonce=8f786775cf4a, datestamp=1481987553 (Dec 17 2016 15:12:33)
+53444.967 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.968 (2) Examining (for files) backup set with nonce=70c9856329c0, datestamp=1481934416 (Dec 17 2016 00:26:56)
+53444.970 (2) This backup set is the backup set just made, so will not be deleted.
+53444.971 (2) This backup set is the backup set just made, so will not be deleted.
+53444.972 (2) This backup set is the backup set just made, so will not be deleted.
+53444.972 (2) This backup set is the backup set just made, so will not be deleted.
+53444.972 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.974 (2) Examining (for files) backup set with nonce=746c1dcef570, datestamp=1481438007 (Dec 11 2016 06:33:27)
+53444.975 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.978 (2) Examining (for files) backup set with nonce=51f40099ab98, datestamp=1480784016 (Dec 03 2016 16:53:36)
+53444.981 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.982 (2) Examining (for files) backup set with nonce=7d240c92355e, datestamp=1480774804 (Dec 03 2016 14:20:04)
+53444.984 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.985 (2) Examining (for files) backup set with nonce=5409e461d60a, datestamp=1480626316 (Dec 01 2016 21:05:16)
+53444.987 (2) This backup set (1480626316) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+53444.989 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.990 (2) Examining (for files) backup set with nonce=b26414ea3f58, datestamp=1480626056 (Dec 01 2016 21:00:56)
+53444.991 (2) This backup set (1480626056) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+53444.993 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.996 (2) Examining (for files) backup set with nonce=5409e461d60a, datestamp=1480625638 (Dec 01 2016 20:53:58)
+53444.998 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53444.999 (2) Examining (for files) backup set with nonce=bd21d35f2a49, datestamp=1480611502 (Dec 01 2016 16:58:22)
+53445.001 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.003 (2) Examining (for files) backup set with nonce=bd21d35f2a49, datestamp=1480603256 (Dec 01 2016 14:40:56)
+53445.005 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.006 (2) Examining (for files) backup set with nonce=aad581484ae4, datestamp=1480452600 (Nov 29 2016 20:50:00)
+53445.008 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.010 (2) Examining (for files) backup set with nonce=6bd65e03d082, datestamp=1480265881 (Nov 27 2016 16:58:01)
+53445.012 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.013 (2) Examining (for files) backup set with nonce=29051c600b8a, datestamp=1479416083 (Nov 17 2016 20:54:43)
+53445.015 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.017 (2) Examining (for files) backup set with nonce=9d4fff15b1a0, datestamp=1479405812 (Nov 17 2016 18:03:32)
+53445.018 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.020 (2) Examining (for files) backup set with nonce=fa9cd0d5049c, datestamp=1479387220 (Nov 17 2016 12:53:40)
+53445.022 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.023 (2) Examining (for files) backup set with nonce=34ebc7e57798, datestamp=1479385816 (Nov 17 2016 12:30:16)
+53445.025 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.026 (2) Examining (for files) backup set with nonce=bea04e5a389f, datestamp=1479358420 (Nov 17 2016 04:53:40)
+53445.029 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.030 (2) Examining (for files) backup set with nonce=30cc3c762c3b, datestamp=1479344016 (Nov 17 2016 00:53:36)
+53445.032 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.034 (2) Examining (for files) backup set with nonce=7791126d0431, datestamp=1479336709 (Nov 16 2016 22:51:49)
+53445.036 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.037 (2) Examining (for files) backup set with nonce=6a822e3a7624, datestamp=1479300814 (Nov 16 2016 12:53:34)
+53445.039 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.040 (2) Examining (for files) backup set with nonce=0ea12ea83e37, datestamp=1479290055 (Nov 16 2016 09:54:15)
+53445.043 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.045 (2) Examining (for files) backup set with nonce=f8d4162d5748, datestamp=1479272078 (Nov 16 2016 04:54:38)
+53445.047 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.049 (2) Examining (for files) backup set with nonce=0262405e3b84, datestamp=1479257679 (Nov 16 2016 00:54:39)
+53445.051 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.052 (2) Examining (for files) backup set with nonce=b7d33845004e, datestamp=1479243216 (Nov 15 2016 20:53:36)
+53445.054 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.055 (2) Examining (for files) backup set with nonce=05a360587371, datestamp=1479232847 (Nov 15 2016 18:00:47)
+53445.057 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.059 (2) Examining (for files) backup set with nonce=5c20c3cf0cfa, datestamp=1479214973 (Nov 15 2016 13:02:53)
+53445.061 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.063 (2) Examining (for files) backup set with nonce=d5e997e4c014, datestamp=1479200518 (Nov 15 2016 09:01:58)
+53445.064 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.066 (2) Examining (for files) backup set with nonce=d5e997e4c014, datestamp=1479189035 (Nov 15 2016 05:50:35)
+53445.068 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.070 (2) Examining (for files) backup set with nonce=e7f8e2028303, datestamp=1479171216 (Nov 15 2016 00:53:36)
+53445.072 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.074 (2) Examining (for files) backup set with nonce=e6af9eb25476, datestamp=1479159096 (Nov 14 2016 21:31:36)
+53445.076 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.078 (2) Examining (for files) backup set with nonce=e6af9eb25476, datestamp=1479143390 (Nov 14 2016 17:09:50)
+53445.080 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.082 (2) Examining (for files) backup set with nonce=91753e8c0e8e, datestamp=1479128017 (Nov 14 2016 12:53:37)
+53445.085 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.087 (2) Examining (for files) backup set with nonce=a520c5afd1d0, datestamp=1479118457 (Nov 14 2016 10:14:17)
+53445.090 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.092 (2) Examining (for files) backup set with nonce=3cdb898755ab, datestamp=1479101390 (Nov 14 2016 05:29:50)
+53445.096 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.098 (2) Examining (for files) backup set with nonce=7d551e91551c, datestamp=1479087289 (Nov 14 2016 01:34:49)
+53445.101 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.102 (2) Examining (for files) backup set with nonce=69f80026ed9b, datestamp=1479070815 (Nov 13 2016 21:00:15)
+53445.104 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.105 (2) Examining (for files) backup set with nonce=cc71534114e8, datestamp=1479056019 (Nov 13 2016 16:53:39)
+53445.107 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.109 (2) Examining (for files) backup set with nonce=f96f8b5f1153, datestamp=1479041619 (Nov 13 2016 12:53:39)
+53445.110 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.112 (2) Examining (for files) backup set with nonce=f358519e20ec, datestamp=1479029379 (Nov 13 2016 09:29:39)
+53445.114 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.115 (2) Examining (for files) backup set with nonce=4f3b1899814f, datestamp=1479012954 (Nov 13 2016 04:55:54)
+53445.117 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.118 (2) Examining (for files) backup set with nonce=45a108fe075f, datestamp=1479003409 (Nov 13 2016 02:16:49)
+53445.120 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.122 (2) Examining (for files) backup set with nonce=c7e524ef83f9, datestamp=1478990577 (Nov 12 2016 22:42:57)
+53445.124 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.125 (2) Examining (for files) backup set with nonce=34a4c5b95ddd, datestamp=1478969618 (Nov 12 2016 16:53:38)
+53445.127 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.128 (2) Examining (for files) backup set with nonce=9faaa1810f82, datestamp=1478955216 (Nov 12 2016 12:53:36)
+53445.130 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.131 (2) Examining (for files) backup set with nonce=a613ad5eef17, datestamp=1478944576 (Nov 12 2016 09:56:16)
+53445.133 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.134 (2) Examining (for files) backup set with nonce=69fbcb79f114, datestamp=1478931572 (Nov 12 2016 06:19:32)
+53445.136 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.138 (2) Examining (for files) backup set with nonce=8f6f442a05ae, datestamp=1478912200 (Nov 12 2016 00:56:40)
+53445.139 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.141 (2) Examining (for files) backup set with nonce=49fbe7525811, datestamp=1478897718 (Nov 11 2016 20:55:18)
+53445.143 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.144 (2) Examining (for files) backup set with nonce=39c08e6bce8d, datestamp=1478882963 (Nov 11 2016 16:49:23)
+53445.146 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.148 (2) Examining (for files) backup set with nonce=c558970e3664, datestamp=1475514268 (Oct 03 2016 17:04:28)
+53445.150 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.152 (2) Examining (for files) backup set with nonce=c80b1da246e4, datestamp=1475235580 (Sep 30 2016 11:39:40)
+53445.154 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.155 (2) Examining (for files) backup set with nonce=fbb3bfed5fd3, datestamp=1475222141 (Sep 30 2016 07:55:41)
+53445.157 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.159 (2) Examining (for files) backup set with nonce=0cf49109fa21, datestamp=1475200648 (Sep 30 2016 01:57:28)
+53445.162 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.164 (2) Examining (for files) backup set with nonce=be4f062f7cac, datestamp=1475186233 (Sep 29 2016 21:57:13)
+53445.166 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.167 (2) Examining (for files) backup set with nonce=467bf6b49fac, datestamp=1475171775 (Sep 29 2016 17:56:15)
+53445.169 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.170 (2) Examining (for files) backup set with nonce=2c6f0de8215c, datestamp=1475157415 (Sep 29 2016 13:56:55)
+53445.172 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.173 (2) Examining (for files) backup set with nonce=2c6f0de8215c, datestamp=1475154601 (Sep 29 2016 13:10:01)
+53445.175 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.176 (2) Examining (for files) backup set with nonce=ec0b4e5efb65, datestamp=1475085429 (Sep 28 2016 17:57:09)
+53445.178 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.180 (2) Examining (for files) backup set with nonce=2026f4eac86c, datestamp=1475070939 (Sep 28 2016 13:55:39)
+53445.182 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.183 (2) Examining (for files) backup set with nonce=7bce21d44eb2, datestamp=1475064012 (Sep 28 2016 12:00:12)
+53445.185 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.187 (2) Examining (for files) backup set with nonce=ec0b4e5efb65, datestamp=1475049173 (Sep 28 2016 07:52:53)
+53445.189 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.190 (2) Examining (for files) backup set with nonce=3d6a5f926fe3, datestamp=1475027756 (Sep 28 2016 01:55:56)
+53445.192 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.194 (2) Examining (for files) backup set with nonce=624257a0acdc, datestamp=1475013450 (Sep 27 2016 21:57:30)
+53445.196 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.197 (2) Examining (for files) backup set with nonce=4792ba825627, datestamp=1474999042 (Sep 27 2016 17:57:22)
+53445.199 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.200 (2) Examining (for files) backup set with nonce=2421b20d68f8, datestamp=1474996577 (Sep 27 2016 17:16:17)
+53445.202 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.203 (2) Examining (for files) backup set with nonce=0893862fbf73, datestamp=1474927045 (Sep 26 2016 21:57:25)
+53445.206 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.207 (2) Examining (for files) backup set with nonce=a17fd181b2d5, datestamp=1474914209 (Sep 26 2016 18:23:29)
+53445.209 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.210 (2) Examining (for files) backup set with nonce=25ef273a687d, datestamp=1474912528 (Sep 26 2016 17:55:28)
+53445.212 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+53445.214 (2) Retain: saving new backup history (sets now: 68) and finishing retain operation
+53445.221 (2) Resume backup (70c9856329c0, 2): finish run
+53445.224 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+53445.229 (2) The backup has not finished; a resumption is scheduled
+54707.470 (3) Opened log file at time: Sat, 17 Dec 2016 15:38:43 +0000 on http://localhost:8888
+54707.472 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.12.24.22 WP: 4.6.1 PHP: 7.0.10 (apache2handler, Darwin Kyles-Air.fios-router.home 14.5.0 Darwin Kernel Version 14.5.0: Mon Aug 29 21:14:16 PDT 2016; root:xnu-2782.50.6~1/RELEASE_X86_64 x86_64) MySQL: 5.6.28 WPLANG: en_US Server: Apache/2.2.31 (Unix) mod_wsgi/3.5 Python/2.7.12 PHP/7.0.10 mod_ssl/2.2.31 OpenSSL/1.0.2h DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 29.7M | 32M) multisite: N openssl: OpenSSL 1.0.2h  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+54707.473 (3) Free space on disk containing Updraft's temporary directory: 43987.7 MB
+54707.480 (3) Backup run: resumption=3, nonce=70c9856329c0, begun at=1481934416 (54707s ago), job type=backup
+54707.482 (3) Long time past since expected resumption time: approx expected=1481988145, now=1481989123.8, diff=978.8
+54707.483 (3) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+54707.485 (3) Scheduling a resumption (4) after 300 seconds (1481989423) in case this run gets aborted
+54707.490 (3) Checking if we have a zip executable available
+54707.492 (3) Zip engine: found/will use a binary zip: /usr/bin/zip
+54707.493 (3) Creation of backups of directories: already finished
+54707.495 (3) Saving backup status to database (elements: 8)
+54707.519 (3) Database dump (WordPress DB): Creation was completed already
+54707.547 (3) backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+54707.548 (3) backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+54707.550 (3) backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+54707.552 (3) backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-others.zip: others: This file has not yet been successfully uploaded: will queue
+54707.554 (3) backup_2016-12-17-0026_Awesome_Websites_Customized_Just_70c9856329c0-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/updraft/backup_2016-12-17-0026_Awesome_Websites_Customized_Just_70c9856329c0-db.gz)
+54707.560 (3) Recording as successfully uploaded: backup_2016-12-17-0026_Awesome_Websites_Customized_Just_70c9856329c0-db.gz (15fcbc33e6edd8b88ba5c022962bacbe)
+54707.570 (3) Saving backup history. Total backup size: Unknown
+54707.593 (3) Requesting upload of the files that have not yet been successfully uploaded (4)
+54707.597 (3) Cloud backup selection (1/1): dropbox (last)
+54707.599 (3) Beginning dispatch of backup to remote (dropbox)
+54707.600 (3) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+54707.603 (3) Dropbox: access gained; setting chunk size to: 10240 KB
+54708.053 (3) Dropbox quota usage: used=2057.1 MB, total=2048 MB, available=-9.1 MB
+54708.057 (3) This is a resumption: 16091190 bytes had already been uploaded
+54708.058 (3) Dropbox: Attempt to upload: backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-plugins.zip to: backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-plugins.zip
+54708.645 (3) Dropbox chunked upload exception (Dropbox_Exception): path (line: 223, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+54708.648 (3) Dropbox error: path
+54709.126 (3) Dropbox quota usage: used=2057.1 MB, total=2048 MB, available=-9.1 MB
+54709.127 (3) This is a resumption: 22383349 bytes had already been uploaded
+54709.129 (3) Dropbox: Attempt to upload: backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-themes.zip to: backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-themes.zip
+54709.737 (3) Dropbox chunked upload exception (Dropbox_Exception): path (line: 223, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+54709.740 (3) Dropbox error: path
+54710.205 (3) Dropbox quota usage: used=2057.1 MB, total=2048 MB, available=-9.1 MB
+54710.208 (3) This is a resumption: 8165822 bytes had already been uploaded
+54710.210 (3) File upload expected to fail: file data remaining to upload (backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-uploads.zip) size is -8157847.56445 b (overall file size; 7974.43554688 b), whereas available quota is only -9504379 b
+54710.212 (3) Dropbox: Attempt to upload: backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-uploads.zip to: backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-uploads.zip
+54710.808 (3) Dropbox chunked upload exception (Dropbox_Exception): path (line: 223, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+54710.811 (3) Dropbox error: path
+54711.256 (3) Dropbox quota usage: used=2057.1 MB, total=2048 MB, available=-9.1 MB
+54711.259 (3) This is a resumption: 85675 bytes had already been uploaded
+54711.262 (3) File upload expected to fail: file data remaining to upload (backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-others.zip) size is -85591.3330078 b (overall file size; 83.6669921875 b), whereas available quota is only -9504379 b
+54711.263 (3) Dropbox: Attempt to upload: backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-others.zip to: backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-others.zip
+54711.936 (3) Dropbox chunked upload exception (Dropbox_Exception): path (line: 223, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+54711.939 (3) Dropbox error: path
+54711.944 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=100, retain_db=100
+54711.947 (3) Number of backup sets in history: 68; groups (db): 1
+54711.949 (3) Examining (for databases) backup set with group_id=0, nonce=8f786775cf4a, datestamp=1481987553 (Dec 17 2016 15:12:33)
+54711.951 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54711.952 (3) Examining (for databases) backup set with group_id=0, nonce=70c9856329c0, datestamp=1481934416 (Dec 17 2016 00:26:56)
+54711.954 (3) This backup set is the backup set just made, so will not be deleted.
+54711.956 (3) Examining (for databases) backup set with group_id=0, nonce=746c1dcef570, datestamp=1481438007 (Dec 11 2016 06:33:27)
+54711.957 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54711.959 (3) Examining (for databases) backup set with group_id=0, nonce=51f40099ab98, datestamp=1480784016 (Dec 03 2016 16:53:36)
+54711.961 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54711.962 (3) Examining (for databases) backup set with group_id=0, nonce=7d240c92355e, datestamp=1480774804 (Dec 03 2016 14:20:04)
+54711.963 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54711.965 (3) Examining (for databases) backup set with group_id=0, nonce=5409e461d60a, datestamp=1480626316 (Dec 01 2016 21:05:16)
+54711.967 (3) This backup set (1480626316) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+54711.970 (3) Examining (for databases) backup set with group_id=0, nonce=b26414ea3f58, datestamp=1480626056 (Dec 01 2016 21:00:56)
+54711.971 (3) This backup set (1480626056) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+54711.973 (3) Examining (for databases) backup set with group_id=0, nonce=5409e461d60a, datestamp=1480625638 (Dec 01 2016 20:53:58)
+54711.975 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54711.976 (3) Examining (for databases) backup set with group_id=0, nonce=bd21d35f2a49, datestamp=1480611502 (Dec 01 2016 16:58:22)
+54711.978 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54711.979 (3) Examining (for databases) backup set with group_id=0, nonce=bd21d35f2a49, datestamp=1480603256 (Dec 01 2016 14:40:56)
+54711.981 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54711.983 (3) Examining (for databases) backup set with group_id=0, nonce=aad581484ae4, datestamp=1480452600 (Nov 29 2016 20:50:00)
+54711.986 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54711.987 (3) Examining (for databases) backup set with group_id=0, nonce=6bd65e03d082, datestamp=1480265881 (Nov 27 2016 16:58:01)
+54711.988 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54711.990 (3) Examining (for databases) backup set with group_id=0, nonce=29051c600b8a, datestamp=1479416083 (Nov 17 2016 20:54:43)
+54711.992 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54711.993 (3) Examining (for databases) backup set with group_id=0, nonce=9d4fff15b1a0, datestamp=1479405812 (Nov 17 2016 18:03:32)
+54711.995 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54711.996 (3) Examining (for databases) backup set with group_id=0, nonce=fa9cd0d5049c, datestamp=1479387220 (Nov 17 2016 12:53:40)
+54711.998 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.000 (3) Examining (for databases) backup set with group_id=0, nonce=34ebc7e57798, datestamp=1479385816 (Nov 17 2016 12:30:16)
+54712.002 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.004 (3) Examining (for databases) backup set with group_id=0, nonce=bea04e5a389f, datestamp=1479358420 (Nov 17 2016 04:53:40)
+54712.006 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.007 (3) Examining (for databases) backup set with group_id=0, nonce=30cc3c762c3b, datestamp=1479344016 (Nov 17 2016 00:53:36)
+54712.009 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.011 (3) Examining (for databases) backup set with group_id=0, nonce=7791126d0431, datestamp=1479336709 (Nov 16 2016 22:51:49)
+54712.013 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.014 (3) Examining (for databases) backup set with group_id=0, nonce=6a822e3a7624, datestamp=1479300814 (Nov 16 2016 12:53:34)
+54712.016 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.019 (3) Examining (for databases) backup set with group_id=0, nonce=0ea12ea83e37, datestamp=1479290055 (Nov 16 2016 09:54:15)
+54712.020 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.022 (3) Examining (for databases) backup set with group_id=0, nonce=f8d4162d5748, datestamp=1479272078 (Nov 16 2016 04:54:38)
+54712.024 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.026 (3) Examining (for databases) backup set with group_id=0, nonce=0262405e3b84, datestamp=1479257679 (Nov 16 2016 00:54:39)
+54712.027 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.029 (3) Examining (for databases) backup set with group_id=0, nonce=b7d33845004e, datestamp=1479243216 (Nov 15 2016 20:53:36)
+54712.031 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.032 (3) Examining (for databases) backup set with group_id=0, nonce=05a360587371, datestamp=1479232847 (Nov 15 2016 18:00:47)
+54712.034 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.036 (3) Examining (for databases) backup set with group_id=0, nonce=5c20c3cf0cfa, datestamp=1479214973 (Nov 15 2016 13:02:53)
+54712.038 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.040 (3) Examining (for databases) backup set with group_id=0, nonce=d5e997e4c014, datestamp=1479200518 (Nov 15 2016 09:01:58)
+54712.041 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.043 (3) Examining (for databases) backup set with group_id=0, nonce=d5e997e4c014, datestamp=1479189035 (Nov 15 2016 05:50:35)
+54712.044 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.046 (3) Examining (for databases) backup set with group_id=0, nonce=e7f8e2028303, datestamp=1479171216 (Nov 15 2016 00:53:36)
+54712.047 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.049 (3) Examining (for databases) backup set with group_id=0, nonce=e6af9eb25476, datestamp=1479159096 (Nov 14 2016 21:31:36)
+54712.051 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.053 (3) Examining (for databases) backup set with group_id=0, nonce=e6af9eb25476, datestamp=1479143390 (Nov 14 2016 17:09:50)
+54712.055 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.057 (3) Examining (for databases) backup set with group_id=0, nonce=91753e8c0e8e, datestamp=1479128017 (Nov 14 2016 12:53:37)
+54712.058 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.060 (3) Examining (for databases) backup set with group_id=0, nonce=a520c5afd1d0, datestamp=1479118457 (Nov 14 2016 10:14:17)
+54712.063 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.065 (3) Examining (for databases) backup set with group_id=0, nonce=3cdb898755ab, datestamp=1479101390 (Nov 14 2016 05:29:50)
+54712.066 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.068 (3) Examining (for databases) backup set with group_id=0, nonce=7d551e91551c, datestamp=1479087289 (Nov 14 2016 01:34:49)
+54712.071 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.072 (3) Examining (for databases) backup set with group_id=0, nonce=69f80026ed9b, datestamp=1479070815 (Nov 13 2016 21:00:15)
+54712.074 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.076 (3) Examining (for databases) backup set with group_id=0, nonce=cc71534114e8, datestamp=1479056019 (Nov 13 2016 16:53:39)
+54712.077 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.079 (3) Examining (for databases) backup set with group_id=0, nonce=f96f8b5f1153, datestamp=1479041619 (Nov 13 2016 12:53:39)
+54712.080 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.082 (3) Examining (for databases) backup set with group_id=0, nonce=f358519e20ec, datestamp=1479029379 (Nov 13 2016 09:29:39)
+54712.083 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.085 (3) Examining (for databases) backup set with group_id=0, nonce=4f3b1899814f, datestamp=1479012954 (Nov 13 2016 04:55:54)
+54712.087 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.089 (3) Examining (for databases) backup set with group_id=0, nonce=45a108fe075f, datestamp=1479003409 (Nov 13 2016 02:16:49)
+54712.091 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.093 (3) Examining (for databases) backup set with group_id=0, nonce=c7e524ef83f9, datestamp=1478990577 (Nov 12 2016 22:42:57)
+54712.094 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.096 (3) Examining (for databases) backup set with group_id=0, nonce=34a4c5b95ddd, datestamp=1478969618 (Nov 12 2016 16:53:38)
+54712.097 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.099 (3) Examining (for databases) backup set with group_id=0, nonce=9faaa1810f82, datestamp=1478955216 (Nov 12 2016 12:53:36)
+54712.100 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.102 (3) Examining (for databases) backup set with group_id=0, nonce=a613ad5eef17, datestamp=1478944576 (Nov 12 2016 09:56:16)
+54712.104 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.106 (3) Examining (for databases) backup set with group_id=0, nonce=69fbcb79f114, datestamp=1478931572 (Nov 12 2016 06:19:32)
+54712.107 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.109 (3) Examining (for databases) backup set with group_id=0, nonce=8f6f442a05ae, datestamp=1478912200 (Nov 12 2016 00:56:40)
+54712.110 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.112 (3) Examining (for databases) backup set with group_id=0, nonce=49fbe7525811, datestamp=1478897718 (Nov 11 2016 20:55:18)
+54712.114 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.116 (3) Examining (for databases) backup set with group_id=0, nonce=39c08e6bce8d, datestamp=1478882963 (Nov 11 2016 16:49:23)
+54712.118 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.119 (3) Examining (for databases) backup set with group_id=0, nonce=c558970e3664, datestamp=1475514268 (Oct 03 2016 17:04:28)
+54712.122 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.123 (3) Examining (for databases) backup set with group_id=0, nonce=c80b1da246e4, datestamp=1475235580 (Sep 30 2016 11:39:40)
+54712.125 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.126 (3) Examining (for databases) backup set with group_id=0, nonce=fbb3bfed5fd3, datestamp=1475222141 (Sep 30 2016 07:55:41)
+54712.128 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.130 (3) Examining (for databases) backup set with group_id=0, nonce=0cf49109fa21, datestamp=1475200648 (Sep 30 2016 01:57:28)
+54712.132 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.133 (3) Examining (for databases) backup set with group_id=0, nonce=be4f062f7cac, datestamp=1475186233 (Sep 29 2016 21:57:13)
+54712.135 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.137 (3) Examining (for databases) backup set with group_id=0, nonce=467bf6b49fac, datestamp=1475171775 (Sep 29 2016 17:56:15)
+54712.139 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.141 (3) Examining (for databases) backup set with group_id=0, nonce=2c6f0de8215c, datestamp=1475157415 (Sep 29 2016 13:56:55)
+54712.142 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.144 (3) Examining (for databases) backup set with group_id=0, nonce=2c6f0de8215c, datestamp=1475154601 (Sep 29 2016 13:10:01)
+54712.146 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.148 (3) Examining (for databases) backup set with group_id=0, nonce=ec0b4e5efb65, datestamp=1475085429 (Sep 28 2016 17:57:09)
+54712.149 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.150 (3) Examining (for databases) backup set with group_id=0, nonce=2026f4eac86c, datestamp=1475070939 (Sep 28 2016 13:55:39)
+54712.152 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.154 (3) Examining (for databases) backup set with group_id=0, nonce=7bce21d44eb2, datestamp=1475064012 (Sep 28 2016 12:00:12)
+54712.156 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.158 (3) Examining (for databases) backup set with group_id=0, nonce=ec0b4e5efb65, datestamp=1475049173 (Sep 28 2016 07:52:53)
+54712.159 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.161 (3) Examining (for databases) backup set with group_id=0, nonce=3d6a5f926fe3, datestamp=1475027756 (Sep 28 2016 01:55:56)
+54712.162 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.164 (3) Examining (for databases) backup set with group_id=0, nonce=624257a0acdc, datestamp=1475013450 (Sep 27 2016 21:57:30)
+54712.165 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.167 (3) Examining (for databases) backup set with group_id=0, nonce=4792ba825627, datestamp=1474999042 (Sep 27 2016 17:57:22)
+54712.169 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.171 (3) Examining (for databases) backup set with group_id=0, nonce=2421b20d68f8, datestamp=1474996577 (Sep 27 2016 17:16:17)
+54712.173 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.175 (3) Examining (for databases) backup set with group_id=0, nonce=0893862fbf73, datestamp=1474927045 (Sep 26 2016 21:57:25)
+54712.177 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.178 (3) Examining (for databases) backup set with group_id=0, nonce=a17fd181b2d5, datestamp=1474914209 (Sep 26 2016 18:23:29)
+54712.179 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.181 (3) Examining (for databases) backup set with group_id=0, nonce=25ef273a687d, datestamp=1474912528 (Sep 26 2016 17:55:28)
+54712.182 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.184 (3) Number of backup sets in history: 68; groups (files): 1
+54712.186 (3) Examining (for files) backup set with nonce=8f786775cf4a, datestamp=1481987553 (Dec 17 2016 15:12:33)
+54712.188 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.190 (3) Examining (for files) backup set with nonce=70c9856329c0, datestamp=1481934416 (Dec 17 2016 00:26:56)
+54712.192 (3) This backup set is the backup set just made, so will not be deleted.
+54712.193 (3) This backup set is the backup set just made, so will not be deleted.
+54712.193 (3) This backup set is the backup set just made, so will not be deleted.
+54712.194 (3) This backup set is the backup set just made, so will not be deleted.
+54712.194 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.195 (3) Examining (for files) backup set with nonce=746c1dcef570, datestamp=1481438007 (Dec 11 2016 06:33:27)
+54712.197 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.198 (3) Examining (for files) backup set with nonce=51f40099ab98, datestamp=1480784016 (Dec 03 2016 16:53:36)
+54712.201 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.202 (3) Examining (for files) backup set with nonce=7d240c92355e, datestamp=1480774804 (Dec 03 2016 14:20:04)
+54712.204 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.206 (3) Examining (for files) backup set with nonce=5409e461d60a, datestamp=1480626316 (Dec 01 2016 21:05:16)
+54712.208 (3) This backup set (1480626316) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+54712.209 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.211 (3) Examining (for files) backup set with nonce=b26414ea3f58, datestamp=1480626056 (Dec 01 2016 21:00:56)
+54712.212 (3) This backup set (1480626056) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+54712.213 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.215 (3) Examining (for files) backup set with nonce=5409e461d60a, datestamp=1480625638 (Dec 01 2016 20:53:58)
+54712.217 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.218 (3) Examining (for files) backup set with nonce=bd21d35f2a49, datestamp=1480611502 (Dec 01 2016 16:58:22)
+54712.220 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.221 (3) Examining (for files) backup set with nonce=bd21d35f2a49, datestamp=1480603256 (Dec 01 2016 14:40:56)
+54712.224 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.226 (3) Examining (for files) backup set with nonce=aad581484ae4, datestamp=1480452600 (Nov 29 2016 20:50:00)
+54712.229 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.232 (3) Examining (for files) backup set with nonce=6bd65e03d082, datestamp=1480265881 (Nov 27 2016 16:58:01)
+54712.233 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.235 (3) Examining (for files) backup set with nonce=29051c600b8a, datestamp=1479416083 (Nov 17 2016 20:54:43)
+54712.236 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.238 (3) Examining (for files) backup set with nonce=9d4fff15b1a0, datestamp=1479405812 (Nov 17 2016 18:03:32)
+54712.240 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.242 (3) Examining (for files) backup set with nonce=fa9cd0d5049c, datestamp=1479387220 (Nov 17 2016 12:53:40)
+54712.244 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.246 (3) Examining (for files) backup set with nonce=34ebc7e57798, datestamp=1479385816 (Nov 17 2016 12:30:16)
+54712.249 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.251 (3) Examining (for files) backup set with nonce=bea04e5a389f, datestamp=1479358420 (Nov 17 2016 04:53:40)
+54712.253 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.255 (3) Examining (for files) backup set with nonce=30cc3c762c3b, datestamp=1479344016 (Nov 17 2016 00:53:36)
+54712.258 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.259 (3) Examining (for files) backup set with nonce=7791126d0431, datestamp=1479336709 (Nov 16 2016 22:51:49)
+54712.261 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.263 (3) Examining (for files) backup set with nonce=6a822e3a7624, datestamp=1479300814 (Nov 16 2016 12:53:34)
+54712.265 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.266 (3) Examining (for files) backup set with nonce=0ea12ea83e37, datestamp=1479290055 (Nov 16 2016 09:54:15)
+54712.268 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.269 (3) Examining (for files) backup set with nonce=f8d4162d5748, datestamp=1479272078 (Nov 16 2016 04:54:38)
+54712.271 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.273 (3) Examining (for files) backup set with nonce=0262405e3b84, datestamp=1479257679 (Nov 16 2016 00:54:39)
+54712.275 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.277 (3) Examining (for files) backup set with nonce=b7d33845004e, datestamp=1479243216 (Nov 15 2016 20:53:36)
+54712.280 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.282 (3) Examining (for files) backup set with nonce=05a360587371, datestamp=1479232847 (Nov 15 2016 18:00:47)
+54712.284 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.285 (3) Examining (for files) backup set with nonce=5c20c3cf0cfa, datestamp=1479214973 (Nov 15 2016 13:02:53)
+54712.287 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.289 (3) Examining (for files) backup set with nonce=d5e997e4c014, datestamp=1479200518 (Nov 15 2016 09:01:58)
+54712.291 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.293 (3) Examining (for files) backup set with nonce=d5e997e4c014, datestamp=1479189035 (Nov 15 2016 05:50:35)
+54712.295 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.296 (3) Examining (for files) backup set with nonce=e7f8e2028303, datestamp=1479171216 (Nov 15 2016 00:53:36)
+54712.298 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.299 (3) Examining (for files) backup set with nonce=e6af9eb25476, datestamp=1479159096 (Nov 14 2016 21:31:36)
+54712.301 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.302 (3) Examining (for files) backup set with nonce=e6af9eb25476, datestamp=1479143390 (Nov 14 2016 17:09:50)
+54712.305 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.306 (3) Examining (for files) backup set with nonce=91753e8c0e8e, datestamp=1479128017 (Nov 14 2016 12:53:37)
+54712.308 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.310 (3) Examining (for files) backup set with nonce=a520c5afd1d0, datestamp=1479118457 (Nov 14 2016 10:14:17)
+54712.311 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.313 (3) Examining (for files) backup set with nonce=3cdb898755ab, datestamp=1479101390 (Nov 14 2016 05:29:50)
+54712.314 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.316 (3) Examining (for files) backup set with nonce=7d551e91551c, datestamp=1479087289 (Nov 14 2016 01:34:49)
+54712.318 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.320 (3) Examining (for files) backup set with nonce=69f80026ed9b, datestamp=1479070815 (Nov 13 2016 21:00:15)
+54712.322 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.324 (3) Examining (for files) backup set with nonce=cc71534114e8, datestamp=1479056019 (Nov 13 2016 16:53:39)
+54712.327 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.328 (3) Examining (for files) backup set with nonce=f96f8b5f1153, datestamp=1479041619 (Nov 13 2016 12:53:39)
+54712.331 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.332 (3) Examining (for files) backup set with nonce=f358519e20ec, datestamp=1479029379 (Nov 13 2016 09:29:39)
+54712.334 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.336 (3) Examining (for files) backup set with nonce=4f3b1899814f, datestamp=1479012954 (Nov 13 2016 04:55:54)
+54712.337 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.339 (3) Examining (for files) backup set with nonce=45a108fe075f, datestamp=1479003409 (Nov 13 2016 02:16:49)
+54712.341 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.343 (3) Examining (for files) backup set with nonce=c7e524ef83f9, datestamp=1478990577 (Nov 12 2016 22:42:57)
+54712.345 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.347 (3) Examining (for files) backup set with nonce=34a4c5b95ddd, datestamp=1478969618 (Nov 12 2016 16:53:38)
+54712.348 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.350 (3) Examining (for files) backup set with nonce=9faaa1810f82, datestamp=1478955216 (Nov 12 2016 12:53:36)
+54712.352 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.354 (3) Examining (for files) backup set with nonce=a613ad5eef17, datestamp=1478944576 (Nov 12 2016 09:56:16)
+54712.356 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.358 (3) Examining (for files) backup set with nonce=69fbcb79f114, datestamp=1478931572 (Nov 12 2016 06:19:32)
+54712.360 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.362 (3) Examining (for files) backup set with nonce=8f6f442a05ae, datestamp=1478912200 (Nov 12 2016 00:56:40)
+54712.364 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.365 (3) Examining (for files) backup set with nonce=49fbe7525811, datestamp=1478897718 (Nov 11 2016 20:55:18)
+54712.368 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.369 (3) Examining (for files) backup set with nonce=39c08e6bce8d, datestamp=1478882963 (Nov 11 2016 16:49:23)
+54712.371 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.374 (3) Examining (for files) backup set with nonce=c558970e3664, datestamp=1475514268 (Oct 03 2016 17:04:28)
+54712.376 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.378 (3) Examining (for files) backup set with nonce=c80b1da246e4, datestamp=1475235580 (Sep 30 2016 11:39:40)
+54712.379 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.381 (3) Examining (for files) backup set with nonce=fbb3bfed5fd3, datestamp=1475222141 (Sep 30 2016 07:55:41)
+54712.383 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.385 (3) Examining (for files) backup set with nonce=0cf49109fa21, datestamp=1475200648 (Sep 30 2016 01:57:28)
+54712.387 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.388 (3) Examining (for files) backup set with nonce=be4f062f7cac, datestamp=1475186233 (Sep 29 2016 21:57:13)
+54712.390 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.392 (3) Examining (for files) backup set with nonce=467bf6b49fac, datestamp=1475171775 (Sep 29 2016 17:56:15)
+54712.394 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.396 (3) Examining (for files) backup set with nonce=2c6f0de8215c, datestamp=1475157415 (Sep 29 2016 13:56:55)
+54712.397 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.399 (3) Examining (for files) backup set with nonce=2c6f0de8215c, datestamp=1475154601 (Sep 29 2016 13:10:01)
+54712.402 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.403 (3) Examining (for files) backup set with nonce=ec0b4e5efb65, datestamp=1475085429 (Sep 28 2016 17:57:09)
+54712.405 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.407 (3) Examining (for files) backup set with nonce=2026f4eac86c, datestamp=1475070939 (Sep 28 2016 13:55:39)
+54712.409 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.410 (3) Examining (for files) backup set with nonce=7bce21d44eb2, datestamp=1475064012 (Sep 28 2016 12:00:12)
+54712.412 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.414 (3) Examining (for files) backup set with nonce=ec0b4e5efb65, datestamp=1475049173 (Sep 28 2016 07:52:53)
+54712.416 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.417 (3) Examining (for files) backup set with nonce=3d6a5f926fe3, datestamp=1475027756 (Sep 28 2016 01:55:56)
+54712.418 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.420 (3) Examining (for files) backup set with nonce=624257a0acdc, datestamp=1475013450 (Sep 27 2016 21:57:30)
+54712.422 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.423 (3) Examining (for files) backup set with nonce=4792ba825627, datestamp=1474999042 (Sep 27 2016 17:57:22)
+54712.426 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.427 (3) Examining (for files) backup set with nonce=2421b20d68f8, datestamp=1474996577 (Sep 27 2016 17:16:17)
+54712.431 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.433 (3) Examining (for files) backup set with nonce=0893862fbf73, datestamp=1474927045 (Sep 26 2016 21:57:25)
+54712.435 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.436 (3) Examining (for files) backup set with nonce=a17fd181b2d5, datestamp=1474914209 (Sep 26 2016 18:23:29)
+54712.438 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.440 (3) Examining (for files) backup set with nonce=25ef273a687d, datestamp=1474912528 (Sep 26 2016 17:55:28)
+54712.442 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+54712.444 (3) Retain: saving new backup history (sets now: 68) and finishing retain operation
+54712.453 (3) Resume backup (70c9856329c0, 3): finish run
+54712.458 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+54712.464 (3) The backup has not finished; a resumption is scheduled
+55667.607 (4) Opened log file at time: Sat, 17 Dec 2016 15:54:43 +0000 on http://localhost:8888
+55667.611 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.12.24.22 WP: 4.6.1 PHP: 7.0.10 (apache2handler, Darwin Kyles-Air.fios-router.home 14.5.0 Darwin Kernel Version 14.5.0: Mon Aug 29 21:14:16 PDT 2016; root:xnu-2782.50.6~1/RELEASE_X86_64 x86_64) MySQL: 5.6.28 WPLANG: en_US Server: Apache/2.2.31 (Unix) mod_wsgi/3.5 Python/2.7.12 PHP/7.0.10 mod_ssl/2.2.31 OpenSSL/1.0.2h DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 29.2M | 32M) multisite: N openssl: OpenSSL 1.0.2h  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+55667.616 (4) Free space on disk containing Updraft's temporary directory: 43973.8 MB
+55667.624 (4) Backup run: resumption=4, nonce=70c9856329c0, begun at=1481934416 (55667s ago), job type=backup
+55667.627 (4) Scheduling a resumption (5) after 300 seconds (1481990383) in case this run gets aborted
+55667.632 (4) Checking if we have a zip executable available
+55667.633 (4) Zip engine: found/will use a binary zip: /usr/bin/zip
+55667.635 (4) Creation of backups of directories: already finished
+55667.637 (4) Saving backup status to database (elements: 8)
+55667.666 (4) Database dump (WordPress DB): Creation was completed already
+55667.688 (4) backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+55667.690 (4) backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+55667.692 (4) backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+55667.694 (4) backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-others.zip: others: This file has not yet been successfully uploaded: will queue
+55667.695 (4) backup_2016-12-17-0026_Awesome_Websites_Customized_Just_70c9856329c0-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/updraft/backup_2016-12-17-0026_Awesome_Websites_Customized_Just_70c9856329c0-db.gz)
+55667.700 (4) Recording as successfully uploaded: backup_2016-12-17-0026_Awesome_Websites_Customized_Just_70c9856329c0-db.gz (15fcbc33e6edd8b88ba5c022962bacbe)
+55667.710 (4) Saving backup history. Total backup size: Unknown
+55667.735 (4) Requesting upload of the files that have not yet been successfully uploaded (4)
+55667.740 (4) Cloud backup selection (1/1): dropbox (last)
+55667.742 (4) Beginning dispatch of backup to remote (dropbox)
+55667.744 (4) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+55667.746 (4) Dropbox: access gained; setting chunk size to: 10240 KB
+55668.175 (4) Dropbox quota usage: used=2057.1 MB, total=2048 MB, available=-9.1 MB
+55668.179 (4) This is a resumption: 16091190 bytes had already been uploaded
+55668.181 (4) Dropbox: Attempt to upload: backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-plugins.zip to: backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-plugins.zip
+55668.734 (4) Dropbox chunked upload exception (Dropbox_Exception): path (line: 223, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+55668.736 (4) Dropbox error: path
+55669.149 (4) Dropbox quota usage: used=2057.1 MB, total=2048 MB, available=-9.1 MB
+55669.152 (4) This is a resumption: 22383349 bytes had already been uploaded
+55669.155 (4) Dropbox: Attempt to upload: backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-themes.zip to: backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-themes.zip
+55669.760 (4) Dropbox chunked upload exception (Dropbox_Exception): path (line: 223, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+55669.763 (4) Dropbox error: path
+55670.198 (4) Dropbox quota usage: used=2057.1 MB, total=2048 MB, available=-9.1 MB
+55670.201 (4) This is a resumption: 8165822 bytes had already been uploaded
+55670.203 (4) File upload expected to fail: file data remaining to upload (backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-uploads.zip) size is -8157847.56445 b (overall file size; 7974.43554688 b), whereas available quota is only -9504379 b
+55670.205 (4) Dropbox: Attempt to upload: backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-uploads.zip to: backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-uploads.zip
+55672.460 (4) Dropbox chunked upload exception (Dropbox_Exception): path (line: 223, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+55672.463 (4) Dropbox error: path
+55672.921 (4) Dropbox quota usage: used=2057.1 MB, total=2048 MB, available=-9.1 MB
+55672.924 (4) This is a resumption: 85675 bytes had already been uploaded
+55672.925 (4) File upload expected to fail: file data remaining to upload (backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-others.zip) size is -85591.3330078 b (overall file size; 83.6669921875 b), whereas available quota is only -9504379 b
+55672.927 (4) Dropbox: Attempt to upload: backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-others.zip to: backup_2016-12-17-0026_Awesome_Websites_Customized_Just_76c19336a349-others.zip
+55673.545 (4) Dropbox chunked upload exception (Dropbox_Exception): path (line: 223, file: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/plugins/updraftplus/includes/Dropbox2/OAuth/Consumer/Curl.php)
+55673.549 (4) Dropbox error: path
+55673.555 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=100, retain_db=100
+55673.559 (4) Number of backup sets in history: 68; groups (db): 1
+55673.561 (4) Examining (for databases) backup set with group_id=0, nonce=8f786775cf4a, datestamp=1481987553 (Dec 17 2016 15:12:33)
+55673.562 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.563 (4) Examining (for databases) backup set with group_id=0, nonce=70c9856329c0, datestamp=1481934416 (Dec 17 2016 00:26:56)
+55673.566 (4) This backup set is the backup set just made, so will not be deleted.
+55673.567 (4) Examining (for databases) backup set with group_id=0, nonce=746c1dcef570, datestamp=1481438007 (Dec 11 2016 06:33:27)
+55673.569 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.570 (4) Examining (for databases) backup set with group_id=0, nonce=51f40099ab98, datestamp=1480784016 (Dec 03 2016 16:53:36)
+55673.571 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.573 (4) Examining (for databases) backup set with group_id=0, nonce=7d240c92355e, datestamp=1480774804 (Dec 03 2016 14:20:04)
+55673.574 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.576 (4) Examining (for databases) backup set with group_id=0, nonce=5409e461d60a, datestamp=1480626316 (Dec 01 2016 21:05:16)
+55673.577 (4) This backup set (1480626316) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+55673.579 (4) Examining (for databases) backup set with group_id=0, nonce=b26414ea3f58, datestamp=1480626056 (Dec 01 2016 21:00:56)
+55673.580 (4) This backup set (1480626056) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+55673.581 (4) Examining (for databases) backup set with group_id=0, nonce=5409e461d60a, datestamp=1480625638 (Dec 01 2016 20:53:58)
+55673.583 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.584 (4) Examining (for databases) backup set with group_id=0, nonce=bd21d35f2a49, datestamp=1480611502 (Dec 01 2016 16:58:22)
+55673.586 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.588 (4) Examining (for databases) backup set with group_id=0, nonce=bd21d35f2a49, datestamp=1480603256 (Dec 01 2016 14:40:56)
+55673.589 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.591 (4) Examining (for databases) backup set with group_id=0, nonce=aad581484ae4, datestamp=1480452600 (Nov 29 2016 20:50:00)
+55673.592 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.593 (4) Examining (for databases) backup set with group_id=0, nonce=6bd65e03d082, datestamp=1480265881 (Nov 27 2016 16:58:01)
+55673.595 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.596 (4) Examining (for databases) backup set with group_id=0, nonce=29051c600b8a, datestamp=1479416083 (Nov 17 2016 20:54:43)
+55673.598 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.600 (4) Examining (for databases) backup set with group_id=0, nonce=9d4fff15b1a0, datestamp=1479405812 (Nov 17 2016 18:03:32)
+55673.601 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.602 (4) Examining (for databases) backup set with group_id=0, nonce=fa9cd0d5049c, datestamp=1479387220 (Nov 17 2016 12:53:40)
+55673.604 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.605 (4) Examining (for databases) backup set with group_id=0, nonce=34ebc7e57798, datestamp=1479385816 (Nov 17 2016 12:30:16)
+55673.607 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.608 (4) Examining (for databases) backup set with group_id=0, nonce=bea04e5a389f, datestamp=1479358420 (Nov 17 2016 04:53:40)
+55673.610 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.612 (4) Examining (for databases) backup set with group_id=0, nonce=30cc3c762c3b, datestamp=1479344016 (Nov 17 2016 00:53:36)
+55673.613 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.615 (4) Examining (for databases) backup set with group_id=0, nonce=7791126d0431, datestamp=1479336709 (Nov 16 2016 22:51:49)
+55673.616 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.618 (4) Examining (for databases) backup set with group_id=0, nonce=6a822e3a7624, datestamp=1479300814 (Nov 16 2016 12:53:34)
+55673.619 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.620 (4) Examining (for databases) backup set with group_id=0, nonce=0ea12ea83e37, datestamp=1479290055 (Nov 16 2016 09:54:15)
+55673.622 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.623 (4) Examining (for databases) backup set with group_id=0, nonce=f8d4162d5748, datestamp=1479272078 (Nov 16 2016 04:54:38)
+55673.625 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.626 (4) Examining (for databases) backup set with group_id=0, nonce=0262405e3b84, datestamp=1479257679 (Nov 16 2016 00:54:39)
+55673.628 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.629 (4) Examining (for databases) backup set with group_id=0, nonce=b7d33845004e, datestamp=1479243216 (Nov 15 2016 20:53:36)
+55673.630 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.632 (4) Examining (for databases) backup set with group_id=0, nonce=05a360587371, datestamp=1479232847 (Nov 15 2016 18:00:47)
+55673.634 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.635 (4) Examining (for databases) backup set with group_id=0, nonce=5c20c3cf0cfa, datestamp=1479214973 (Nov 15 2016 13:02:53)
+55673.637 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.638 (4) Examining (for databases) backup set with group_id=0, nonce=d5e997e4c014, datestamp=1479200518 (Nov 15 2016 09:01:58)
+55673.640 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.641 (4) Examining (for databases) backup set with group_id=0, nonce=d5e997e4c014, datestamp=1479189035 (Nov 15 2016 05:50:35)
+55673.643 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.644 (4) Examining (for databases) backup set with group_id=0, nonce=e7f8e2028303, datestamp=1479171216 (Nov 15 2016 00:53:36)
+55673.646 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.648 (4) Examining (for databases) backup set with group_id=0, nonce=e6af9eb25476, datestamp=1479159096 (Nov 14 2016 21:31:36)
+55673.649 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.651 (4) Examining (for databases) backup set with group_id=0, nonce=e6af9eb25476, datestamp=1479143390 (Nov 14 2016 17:09:50)
+55673.652 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.654 (4) Examining (for databases) backup set with group_id=0, nonce=91753e8c0e8e, datestamp=1479128017 (Nov 14 2016 12:53:37)
+55673.655 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.656 (4) Examining (for databases) backup set with group_id=0, nonce=a520c5afd1d0, datestamp=1479118457 (Nov 14 2016 10:14:17)
+55673.659 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.660 (4) Examining (for databases) backup set with group_id=0, nonce=3cdb898755ab, datestamp=1479101390 (Nov 14 2016 05:29:50)
+55673.662 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.663 (4) Examining (for databases) backup set with group_id=0, nonce=7d551e91551c, datestamp=1479087289 (Nov 14 2016 01:34:49)
+55673.665 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.666 (4) Examining (for databases) backup set with group_id=0, nonce=69f80026ed9b, datestamp=1479070815 (Nov 13 2016 21:00:15)
+55673.668 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.669 (4) Examining (for databases) backup set with group_id=0, nonce=cc71534114e8, datestamp=1479056019 (Nov 13 2016 16:53:39)
+55673.671 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.672 (4) Examining (for databases) backup set with group_id=0, nonce=f96f8b5f1153, datestamp=1479041619 (Nov 13 2016 12:53:39)
+55673.673 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.675 (4) Examining (for databases) backup set with group_id=0, nonce=f358519e20ec, datestamp=1479029379 (Nov 13 2016 09:29:39)
+55673.676 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.678 (4) Examining (for databases) backup set with group_id=0, nonce=4f3b1899814f, datestamp=1479012954 (Nov 13 2016 04:55:54)
+55673.680 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.682 (4) Examining (for databases) backup set with group_id=0, nonce=45a108fe075f, datestamp=1479003409 (Nov 13 2016 02:16:49)
+55673.683 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.685 (4) Examining (for databases) backup set with group_id=0, nonce=c7e524ef83f9, datestamp=1478990577 (Nov 12 2016 22:42:57)
+55673.686 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.688 (4) Examining (for databases) backup set with group_id=0, nonce=34a4c5b95ddd, datestamp=1478969618 (Nov 12 2016 16:53:38)
+55673.690 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.691 (4) Examining (for databases) backup set with group_id=0, nonce=9faaa1810f82, datestamp=1478955216 (Nov 12 2016 12:53:36)
+55673.693 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.695 (4) Examining (for databases) backup set with group_id=0, nonce=a613ad5eef17, datestamp=1478944576 (Nov 12 2016 09:56:16)
+55673.696 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.698 (4) Examining (for databases) backup set with group_id=0, nonce=69fbcb79f114, datestamp=1478931572 (Nov 12 2016 06:19:32)
+55673.699 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.701 (4) Examining (for databases) backup set with group_id=0, nonce=8f6f442a05ae, datestamp=1478912200 (Nov 12 2016 00:56:40)
+55673.703 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.704 (4) Examining (for databases) backup set with group_id=0, nonce=49fbe7525811, datestamp=1478897718 (Nov 11 2016 20:55:18)
+55673.706 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.707 (4) Examining (for databases) backup set with group_id=0, nonce=39c08e6bce8d, datestamp=1478882963 (Nov 11 2016 16:49:23)
+55673.709 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.711 (4) Examining (for databases) backup set with group_id=0, nonce=c558970e3664, datestamp=1475514268 (Oct 03 2016 17:04:28)
+55673.712 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.713 (4) Examining (for databases) backup set with group_id=0, nonce=c80b1da246e4, datestamp=1475235580 (Sep 30 2016 11:39:40)
+55673.715 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.716 (4) Examining (for databases) backup set with group_id=0, nonce=fbb3bfed5fd3, datestamp=1475222141 (Sep 30 2016 07:55:41)
+55673.718 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.719 (4) Examining (for databases) backup set with group_id=0, nonce=0cf49109fa21, datestamp=1475200648 (Sep 30 2016 01:57:28)
+55673.720 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.723 (4) Examining (for databases) backup set with group_id=0, nonce=be4f062f7cac, datestamp=1475186233 (Sep 29 2016 21:57:13)
+55673.725 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.726 (4) Examining (for databases) backup set with group_id=0, nonce=467bf6b49fac, datestamp=1475171775 (Sep 29 2016 17:56:15)
+55673.727 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.729 (4) Examining (for databases) backup set with group_id=0, nonce=2c6f0de8215c, datestamp=1475157415 (Sep 29 2016 13:56:55)
+55673.730 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.732 (4) Examining (for databases) backup set with group_id=0, nonce=2c6f0de8215c, datestamp=1475154601 (Sep 29 2016 13:10:01)
+55673.733 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.735 (4) Examining (for databases) backup set with group_id=0, nonce=ec0b4e5efb65, datestamp=1475085429 (Sep 28 2016 17:57:09)
+55673.736 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.738 (4) Examining (for databases) backup set with group_id=0, nonce=2026f4eac86c, datestamp=1475070939 (Sep 28 2016 13:55:39)
+55673.739 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.740 (4) Examining (for databases) backup set with group_id=0, nonce=7bce21d44eb2, datestamp=1475064012 (Sep 28 2016 12:00:12)
+55673.742 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.743 (4) Examining (for databases) backup set with group_id=0, nonce=ec0b4e5efb65, datestamp=1475049173 (Sep 28 2016 07:52:53)
+55673.745 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.747 (4) Examining (for databases) backup set with group_id=0, nonce=3d6a5f926fe3, datestamp=1475027756 (Sep 28 2016 01:55:56)
+55673.748 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.750 (4) Examining (for databases) backup set with group_id=0, nonce=624257a0acdc, datestamp=1475013450 (Sep 27 2016 21:57:30)
+55673.751 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.752 (4) Examining (for databases) backup set with group_id=0, nonce=4792ba825627, datestamp=1474999042 (Sep 27 2016 17:57:22)
+55673.754 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.755 (4) Examining (for databases) backup set with group_id=0, nonce=2421b20d68f8, datestamp=1474996577 (Sep 27 2016 17:16:17)
+55673.757 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.758 (4) Examining (for databases) backup set with group_id=0, nonce=0893862fbf73, datestamp=1474927045 (Sep 26 2016 21:57:25)
+55673.760 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.761 (4) Examining (for databases) backup set with group_id=0, nonce=a17fd181b2d5, datestamp=1474914209 (Sep 26 2016 18:23:29)
+55673.762 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.764 (4) Examining (for databases) backup set with group_id=0, nonce=25ef273a687d, datestamp=1474912528 (Sep 26 2016 17:55:28)
+55673.765 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.767 (4) Number of backup sets in history: 68; groups (files): 1
+55673.768 (4) Examining (for files) backup set with nonce=8f786775cf4a, datestamp=1481987553 (Dec 17 2016 15:12:33)
+55673.771 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.772 (4) Examining (for files) backup set with nonce=70c9856329c0, datestamp=1481934416 (Dec 17 2016 00:26:56)
+55673.773 (4) This backup set is the backup set just made, so will not be deleted.
+55673.775 (4) This backup set is the backup set just made, so will not be deleted.
+55673.775 (4) This backup set is the backup set just made, so will not be deleted.
+55673.775 (4) This backup set is the backup set just made, so will not be deleted.
+55673.776 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.778 (4) Examining (for files) backup set with nonce=746c1dcef570, datestamp=1481438007 (Dec 11 2016 06:33:27)
+55673.780 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.781 (4) Examining (for files) backup set with nonce=51f40099ab98, datestamp=1480784016 (Dec 03 2016 16:53:36)
+55673.783 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.785 (4) Examining (for files) backup set with nonce=7d240c92355e, datestamp=1480774804 (Dec 03 2016 14:20:04)
+55673.786 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.788 (4) Examining (for files) backup set with nonce=5409e461d60a, datestamp=1480626316 (Dec 01 2016 21:05:16)
+55673.789 (4) This backup set (1480626316) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+55673.790 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.792 (4) Examining (for files) backup set with nonce=b26414ea3f58, datestamp=1480626056 (Dec 01 2016 21:00:56)
+55673.793 (4) This backup set (1480626056) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+55673.795 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.796 (4) Examining (for files) backup set with nonce=5409e461d60a, datestamp=1480625638 (Dec 01 2016 20:53:58)
+55673.798 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.799 (4) Examining (for files) backup set with nonce=bd21d35f2a49, datestamp=1480611502 (Dec 01 2016 16:58:22)
+55673.800 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.802 (4) Examining (for files) backup set with nonce=bd21d35f2a49, datestamp=1480603256 (Dec 01 2016 14:40:56)
+55673.803 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.805 (4) Examining (for files) backup set with nonce=aad581484ae4, datestamp=1480452600 (Nov 29 2016 20:50:00)
+55673.807 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.808 (4) Examining (for files) backup set with nonce=6bd65e03d082, datestamp=1480265881 (Nov 27 2016 16:58:01)
+55673.810 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.811 (4) Examining (for files) backup set with nonce=29051c600b8a, datestamp=1479416083 (Nov 17 2016 20:54:43)
+55673.813 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.814 (4) Examining (for files) backup set with nonce=9d4fff15b1a0, datestamp=1479405812 (Nov 17 2016 18:03:32)
+55673.815 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.818 (4) Examining (for files) backup set with nonce=fa9cd0d5049c, datestamp=1479387220 (Nov 17 2016 12:53:40)
+55673.819 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.821 (4) Examining (for files) backup set with nonce=34ebc7e57798, datestamp=1479385816 (Nov 17 2016 12:30:16)
+55673.822 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.824 (4) Examining (for files) backup set with nonce=bea04e5a389f, datestamp=1479358420 (Nov 17 2016 04:53:40)
+55673.825 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.826 (4) Examining (for files) backup set with nonce=30cc3c762c3b, datestamp=1479344016 (Nov 17 2016 00:53:36)
+55673.829 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.830 (4) Examining (for files) backup set with nonce=7791126d0431, datestamp=1479336709 (Nov 16 2016 22:51:49)
+55673.832 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.833 (4) Examining (for files) backup set with nonce=6a822e3a7624, datestamp=1479300814 (Nov 16 2016 12:53:34)
+55673.835 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.836 (4) Examining (for files) backup set with nonce=0ea12ea83e37, datestamp=1479290055 (Nov 16 2016 09:54:15)
+55673.838 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.839 (4) Examining (for files) backup set with nonce=f8d4162d5748, datestamp=1479272078 (Nov 16 2016 04:54:38)
+55673.841 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.843 (4) Examining (for files) backup set with nonce=0262405e3b84, datestamp=1479257679 (Nov 16 2016 00:54:39)
+55673.844 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.846 (4) Examining (for files) backup set with nonce=b7d33845004e, datestamp=1479243216 (Nov 15 2016 20:53:36)
+55673.847 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.849 (4) Examining (for files) backup set with nonce=05a360587371, datestamp=1479232847 (Nov 15 2016 18:00:47)
+55673.850 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.852 (4) Examining (for files) backup set with nonce=5c20c3cf0cfa, datestamp=1479214973 (Nov 15 2016 13:02:53)
+55673.854 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.855 (4) Examining (for files) backup set with nonce=d5e997e4c014, datestamp=1479200518 (Nov 15 2016 09:01:58)
+55673.856 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.858 (4) Examining (for files) backup set with nonce=d5e997e4c014, datestamp=1479189035 (Nov 15 2016 05:50:35)
+55673.859 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.861 (4) Examining (for files) backup set with nonce=e7f8e2028303, datestamp=1479171216 (Nov 15 2016 00:53:36)
+55673.862 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.864 (4) Examining (for files) backup set with nonce=e6af9eb25476, datestamp=1479159096 (Nov 14 2016 21:31:36)
+55673.866 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.868 (4) Examining (for files) backup set with nonce=e6af9eb25476, datestamp=1479143390 (Nov 14 2016 17:09:50)
+55673.869 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.871 (4) Examining (for files) backup set with nonce=91753e8c0e8e, datestamp=1479128017 (Nov 14 2016 12:53:37)
+55673.872 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.874 (4) Examining (for files) backup set with nonce=a520c5afd1d0, datestamp=1479118457 (Nov 14 2016 10:14:17)
+55673.875 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.877 (4) Examining (for files) backup set with nonce=3cdb898755ab, datestamp=1479101390 (Nov 14 2016 05:29:50)
+55673.879 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.880 (4) Examining (for files) backup set with nonce=7d551e91551c, datestamp=1479087289 (Nov 14 2016 01:34:49)
+55673.882 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.883 (4) Examining (for files) backup set with nonce=69f80026ed9b, datestamp=1479070815 (Nov 13 2016 21:00:15)
+55673.885 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.886 (4) Examining (for files) backup set with nonce=cc71534114e8, datestamp=1479056019 (Nov 13 2016 16:53:39)
+55673.887 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.890 (4) Examining (for files) backup set with nonce=f96f8b5f1153, datestamp=1479041619 (Nov 13 2016 12:53:39)
+55673.891 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.893 (4) Examining (for files) backup set with nonce=f358519e20ec, datestamp=1479029379 (Nov 13 2016 09:29:39)
+55673.894 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.896 (4) Examining (for files) backup set with nonce=4f3b1899814f, datestamp=1479012954 (Nov 13 2016 04:55:54)
+55673.897 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.899 (4) Examining (for files) backup set with nonce=45a108fe075f, datestamp=1479003409 (Nov 13 2016 02:16:49)
+55673.900 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.902 (4) Examining (for files) backup set with nonce=c7e524ef83f9, datestamp=1478990577 (Nov 12 2016 22:42:57)
+55673.904 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.905 (4) Examining (for files) backup set with nonce=34a4c5b95ddd, datestamp=1478969618 (Nov 12 2016 16:53:38)
+55673.907 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.908 (4) Examining (for files) backup set with nonce=9faaa1810f82, datestamp=1478955216 (Nov 12 2016 12:53:36)
+55673.909 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.911 (4) Examining (for files) backup set with nonce=a613ad5eef17, datestamp=1478944576 (Nov 12 2016 09:56:16)
+55673.912 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.914 (4) Examining (for files) backup set with nonce=69fbcb79f114, datestamp=1478931572 (Nov 12 2016 06:19:32)
+55673.916 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.918 (4) Examining (for files) backup set with nonce=8f6f442a05ae, datestamp=1478912200 (Nov 12 2016 00:56:40)
+55673.919 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.921 (4) Examining (for files) backup set with nonce=49fbe7525811, datestamp=1478897718 (Nov 11 2016 20:55:18)
+55673.922 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.924 (4) Examining (for files) backup set with nonce=39c08e6bce8d, datestamp=1478882963 (Nov 11 2016 16:49:23)
+55673.925 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.926 (4) Examining (for files) backup set with nonce=c558970e3664, datestamp=1475514268 (Oct 03 2016 17:04:28)
+55673.928 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.930 (4) Examining (for files) backup set with nonce=c80b1da246e4, datestamp=1475235580 (Sep 30 2016 11:39:40)
+55673.932 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.933 (4) Examining (for files) backup set with nonce=fbb3bfed5fd3, datestamp=1475222141 (Sep 30 2016 07:55:41)
+55673.935 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.936 (4) Examining (for files) backup set with nonce=0cf49109fa21, datestamp=1475200648 (Sep 30 2016 01:57:28)
+55673.937 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.939 (4) Examining (for files) backup set with nonce=be4f062f7cac, datestamp=1475186233 (Sep 29 2016 21:57:13)
+55673.940 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.943 (4) Examining (for files) backup set with nonce=467bf6b49fac, datestamp=1475171775 (Sep 29 2016 17:56:15)
+55673.944 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.946 (4) Examining (for files) backup set with nonce=2c6f0de8215c, datestamp=1475157415 (Sep 29 2016 13:56:55)
+55673.947 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.949 (4) Examining (for files) backup set with nonce=2c6f0de8215c, datestamp=1475154601 (Sep 29 2016 13:10:01)
+55673.950 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.952 (4) Examining (for files) backup set with nonce=ec0b4e5efb65, datestamp=1475085429 (Sep 28 2016 17:57:09)
+55673.954 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.955 (4) Examining (for files) backup set with nonce=2026f4eac86c, datestamp=1475070939 (Sep 28 2016 13:55:39)
+55673.957 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.958 (4) Examining (for files) backup set with nonce=7bce21d44eb2, datestamp=1475064012 (Sep 28 2016 12:00:12)
+55673.960 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.961 (4) Examining (for files) backup set with nonce=ec0b4e5efb65, datestamp=1475049173 (Sep 28 2016 07:52:53)
+55673.962 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.964 (4) Examining (for files) backup set with nonce=3d6a5f926fe3, datestamp=1475027756 (Sep 28 2016 01:55:56)
+55673.966 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.968 (4) Examining (for files) backup set with nonce=624257a0acdc, datestamp=1475013450 (Sep 27 2016 21:57:30)
+55673.969 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.971 (4) Examining (for files) backup set with nonce=4792ba825627, datestamp=1474999042 (Sep 27 2016 17:57:22)
+55673.972 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.974 (4) Examining (for files) backup set with nonce=2421b20d68f8, datestamp=1474996577 (Sep 27 2016 17:16:17)
+55673.975 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.977 (4) Examining (for files) backup set with nonce=0893862fbf73, datestamp=1474927045 (Sep 26 2016 21:57:25)
+55673.979 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.980 (4) Examining (for files) backup set with nonce=a17fd181b2d5, datestamp=1474914209 (Sep 26 2016 18:23:29)
+55673.982 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.983 (4) Examining (for files) backup set with nonce=25ef273a687d, datestamp=1474912528 (Sep 26 2016 17:55:28)
+55673.984 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+55673.986 (4) Retain: saving new backup history (sets now: 68) and finishing retain operation
+55673.992 (4) Resume backup (70c9856329c0, 4): finish run
+55673.996 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+55674.003 (4) The backup has not finished; a resumption is scheduled
+1008510.851 (5) Opened log file at time: Wed, 28 Dec 2016 16:35:27 +0000 on http://localhost:8888
+1008510.860 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.12.24.22 WP: 4.6.1 PHP: 7.0.10 (apache2handler, Darwin Kyles-Air.fios-router.home 14.5.0 Darwin Kernel Version 14.5.0: Mon Aug 29 21:14:16 PDT 2016; root:xnu-2782.50.6~1/RELEASE_X86_64 x86_64) MySQL: 5.6.28 WPLANG: en_US Server: Apache/2.2.31 (Unix) mod_wsgi/3.5 Python/2.7.12 PHP/7.0.10 mod_ssl/2.2.31 OpenSSL/1.0.2h DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 33.9M | 14M) multisite: N openssl: OpenSSL 1.0.2h  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+1008510.863 (5) Free space on disk containing Updraft's temporary directory: 40618.5 MB
+1008510.865 (5) This backup task (70c9856329c0) is either complete or began over 2 days ago: ending (1482942927.18, 1481934416) (existing jobdata keys: resume_interval, job_type, jobstatus, backup_time, job_time_ms, service, split_every, maxzipbatch, job_file_entities, option_cache, uploaded_lastreset, one_shot, followsups_allowed, backup_database, backup_files, runs_started, current_resumption, binzip, filecreating_substatus, files_enumerated_at, run_times, useful_checkin, sha1-plugins0, sha1-themes0, sha1-uploads0, sha1-others0, backup_files_array, binsqldump, dbcreating_substatus, warnings, sha1-db0, uploading_substatus, updraf_dbid_55af131e31e4dfe32d26da98f2d757ed, updraf_dbof_55af131e31e4dfe32d26da98f2d757ed, dropbox_chunk_size, updraf_dbid_2896fc261db400ff7f8d16b8b3f38953, updraf_dbof_2896fc261db400ff7f8d16b8b3f38953, updraf_dbid_84df3cda412f585bdc2c85f17acfdca9, updraf_dbof_84df3cda412f585bdc2c85f17acfdca9, updraf_dbid_00e8fbce41f62b76ffffdb0563092539, updraf_dbof_00e8fbce41f62b76ffffdb0563092539, updraf_dbid_48850ca1932e2413a9e91f70dfaa0ddd, updraf_dbof_48850ca1932e2413a9e91f70dfaa0ddd, prune, uploaded_-15fcbc33e6edd8b88ba5c022962bacbe, uploaded_15fcbc33e6edd8b88ba5c022962bacbe)

@@ -1,0 +1,339 @@
+0000.006 (0) Opened log file at time: Mon, 14 Nov 2016 05:29:50 +0000 on http://localhost:8888
+0000.012 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.12.24.22 WP: 4.6.1 PHP: 7.0.10 (apache2handler, Darwin Kyles-MacBook-Air.local 14.5.0 Darwin Kernel Version 14.5.0: Mon Aug 29 21:14:16 PDT 2016; root:xnu-2782.50.6~1/RELEASE_X86_64 x86_64) MySQL: 5.6.28 WPLANG: en_US Server: Apache/2.2.31 (Unix) mod_wsgi/3.5 Python/2.7.12 PHP/7.0.10 mod_ssl/2.2.31 OpenSSL/1.0.2h DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 18.9M | 2M) multisite: N openssl: OpenSSL 1.0.2h  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.014 (0) Free space on disk containing Updraft's temporary directory: 44271.9 MB
+0000.025 (0) Tasks: Backup files: 1 (schedule: every4hours) Backup DB:  (schedule: every4hours)
+0000.027 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.042 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1479087289, seconds_ago=14101)
+0000.051 (0) Set semaphore last lock (fd) time to 2016-11-14 05:29:50
+0000.052 (0) Semaphore lock (fd) complete
+0000.068 (0) Backup run: resumption=0, nonce=3cdb898755ab, begun at=1479101390 (0s ago), job type=backup
+0000.072 (0) Scheduling a resumption (1) after 300 seconds (1479101690) in case this run gets aborted
+0000.101 (0) Checking if we have a zip executable available
+0000.104 (0) Testing: /usr/bin/zip
+0000.123 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.125 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.127 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.128 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.130 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.154 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.156 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.180 (0) Working binary zip found: /usr/bin/zip
+0000.184 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.186 (0) Creation of backups of directories: beginning
+0000.194 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.542 (0) Total entities for the zip file: 294 directories, 2127 files (0 skipped as non-modified), 23.9 MB
+0000.552 (0) Zip: backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.565 (0) Zip: backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.580 (0) Zip: backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.590 (0) Zip: backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.600 (0) Zip: backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.602 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7 MB, 2127 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0001.315 (0) backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-plugins.zip.tmp: size is now: 3.50 MB
+0001.332 (0) Zip: backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-plugins.zip.tmp: 600 files added (on-disk size: 3568.9 KB)
+0001.341 (0) Zip: backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-plugins.zip.tmp: 700 files added (on-disk size: 3568.9 KB)
+0001.350 (0) Zip: backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-plugins.zip.tmp: 800 files added (on-disk size: 3568.9 KB)
+0001.358 (0) Zip: backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-plugins.zip.tmp: 900 files added (on-disk size: 3568.9 KB)
+0001.366 (0) Zip: backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-plugins.zip.tmp: 1000 files added (on-disk size: 3568.9 KB)
+0001.368 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.3 MB, 2127 files batched, 501 (1002) added so far); re-opening (prior size: 3568.9 KB)
+0001.898 (0) backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-plugins.zip.tmp: size is now: 6.40 MB
+0001.918 (0) Zip: backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-plugins.zip.tmp: 1100 files added (on-disk size: 6574.1 KB)
+0001.928 (0) Zip: backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-plugins.zip.tmp: 1200 files added (on-disk size: 6574.1 KB)
+0001.937 (0) Zip: backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-plugins.zip.tmp: 1300 files added (on-disk size: 6574.1 KB)
+0001.945 (0) Zip: backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-plugins.zip.tmp: 1400 files added (on-disk size: 6574.1 KB)
+0001.952 (0) Zip: backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-plugins.zip.tmp: 1500 files added (on-disk size: 6574.1 KB)
+0001.954 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.5 MB, 2127 files batched, 501 (1503) added so far); re-opening (prior size: 6574.1 KB)
+0002.726 (0) backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-plugins.zip.tmp: size is now: 8.10 MB
+0002.748 (0) Zip: backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-plugins.zip.tmp: 1600 files added (on-disk size: 8295.9 KB)
+0002.760 (0) Zip: backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-plugins.zip.tmp: 1700 files added (on-disk size: 8295.9 KB)
+0002.769 (0) Zip: backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-plugins.zip.tmp: 1800 files added (on-disk size: 8295.9 KB)
+0002.779 (0) Zip: backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-plugins.zip.tmp: 1900 files added (on-disk size: 8295.9 KB)
+0002.789 (0) Zip: backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-plugins.zip.tmp: 2000 files added (on-disk size: 8295.9 KB)
+0002.792 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.7 MB, 2127 files batched, 501 (2004) added so far); re-opening (prior size: 8295.9 KB)
+0003.343 (0) Zip: backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-plugins.zip.tmp: 2100 files added (on-disk size: 8998.1 KB)
+0003.658 (0) Created plugins zip (0) - 9152.8 KB in 3.4 s (2659.8 KB/s) (SHA1 checksum: 9140d489e61095a1cb60c69434a14de1855643fa)
+0003.666 (0) Beginning creation of dump of themes (split every: 400 MB)
+0003.726 (0) Total entities for the zip file: 34 directories, 298 files (0 skipped as non-modified), 28.2 MB
+0003.736 (0) Zip: backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0003.742 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 298 files batched, 139 (139) added so far); re-opening (prior size: 0 KB)
+0004.804 (0) backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-themes.zip.tmp: size is now: 18.70 MB
+0004.811 (0) A useful amount of data was added after this amount of zip processing: 1.7 s (normalised: 1.7 s, rate: 14937.1 KB/s)
+0004.817 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.71401691437, normalised_time=1.71385209575, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=91773613)
+0004.827 (0) Zip: backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-themes.zip.tmp: 200 files added (on-disk size: 19184.4 KB)
+0005.579 (0) Created themes zip (0) - 21625.8 KB in 1.9 s (11391.6 KB/s) (SHA1 checksum: b5739e55f82a3efbbf2769a02c082adfeda6361b)
+0005.591 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0005.597 (0) Looking for candidates to back up in: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content/uploads
+0005.599 (0) finding files: 2016: adding to list (1)
+0005.601 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0005.628 (0) Total entities for the zip file: 4 directories, 84 files (0 skipped as non-modified), 8 MB
+0005.829 (0) backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-uploads.zip.tmp: size is now: 8.00 MB
+0005.964 (0) Created uploads zip (0) - 8197.8 KB in 0.4 s (22992.4 KB/s) (SHA1 checksum: e8bde5711e642e419c8c06691c369732dc0e0b8c)
+0005.971 (0) No backup of wpcore: excluded by user's options
+0005.974 (0) Beginning backup of other directories found in the content directory (index: 0)
+0005.976 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0005.979 (0) Looking for candidates to back up in: /Users/KyleEdwardYoung/Desktop/portfoliotheme/wp-content
+0005.982 (0) finding files: .DS_Store: adding to list (1)
+0005.984 (0) finding files: index.php: adding to list (2)
+0005.985 (0) finding files: plugins: skipping: this is the plugins directory
+0005.987 (0) finding files: themes: skipping: this is the themes directory
+0005.988 (0) finding files: updraft: skipping: this is the updraft directory
+0005.990 (0) finding files: upgrade: skipping: excluded by options
+0005.992 (0) finding files: uploads: skipping: this is the uploads directory
+0006.002 (0) Total entities for the zip file: 0 directories, 2 files (0 skipped as non-modified), 0 MB
+0006.014 (0) backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-others.zip.tmp: size is now: 0.00 MB
+0006.022 (0) Created others zip (0) - 1.4 KB in 0 s (60.2 KB/s) (SHA1 checksum: dfde52722deae7e2b03194cf2d48ac5550b81cbe)
+0006.028 (0) No backup of more: excluded by user's options
+0006.037 (0) Saving backup status to database (elements: 8)
+0006.053 (0) Beginning creation of database dump (WordPress DB)
+0006.091 (0) Table dbbs_options: Total expected rows (approximate): 1142
+0006.197 (0) Table dbbs_options: Total rows added: 209 in 0.10 seconds
+0006.200 (0) Table dbbs_options: finishing file (backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-db-table-dbbs_options.table.gz - 143.4 KB)
+0006.208 (0) Table dbbs_users: Total expected rows (approximate): 1
+0006.219 (0) Table dbbs_users: Total rows added: 1 in 0.01 seconds
+0006.221 (0) Table dbbs_users: finishing file (backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-db-table-dbbs_users.table.gz - 0.6 KB)
+0006.231 (0) Table dbbs_usermeta: Total expected rows (approximate): 33
+0006.239 (0) Table dbbs_usermeta: Total rows added: 33 in 0.01 seconds
+0006.241 (0) Table dbbs_usermeta: finishing file (backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-db-table-dbbs_usermeta.table.gz - 1.5 KB)
+0006.249 (0) Table dbbs_commentmeta: Total expected rows (approximate): 0
+0006.254 (0) Table dbbs_commentmeta: Total rows added: 0 in 0.00 seconds
+0006.257 (0) Table dbbs_commentmeta: finishing file (backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-db-table-dbbs_commentmeta.table.gz - 0.4 KB)
+0006.265 (0) Table dbbs_comments: Total expected rows (approximate): 2
+0006.273 (0) Table dbbs_comments: Total rows added: 2 in 0.01 seconds
+0006.275 (0) Table dbbs_comments: finishing file (backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-db-table-dbbs_comments.table.gz - 0.9 KB)
+0006.283 (0) Table dbbs_links: Total expected rows (approximate): 0
+0006.289 (0) Table dbbs_links: Total rows added: 0 in 0.00 seconds
+0006.290 (0) Table dbbs_links: finishing file (backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-db-table-dbbs_links.table.gz - 0.4 KB)
+0006.299 (0) Table dbbs_postmeta: Total expected rows (approximate): 17927
+0007.930 (0) Table dbbs_postmeta: Total rows added: 17487 in 1.63 seconds
+0007.934 (0) Table dbbs_postmeta: finishing file (backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-db-table-dbbs_postmeta.table.gz - 278.9 KB)
+0007.942 (0) Table dbbs_posts: Total expected rows (approximate): 273
+0007.985 (0) Table dbbs_posts: Total rows added: 247 in 0.04 seconds
+0007.988 (0) Table dbbs_posts: finishing file (backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-db-table-dbbs_posts.table.gz - 15.8 KB)
+0007.996 (0) Table dbbs_term_relationships: Total expected rows (approximate): 23
+0008.003 (0) Table dbbs_term_relationships: Total rows added: 23 in 0.01 seconds
+0008.007 (0) Table dbbs_term_relationships: finishing file (backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-db-table-dbbs_term_relationships.table.gz - 0.4 KB)
+0008.016 (0) Table dbbs_term_taxonomy: Total expected rows (approximate): 12
+0008.022 (0) Table dbbs_term_taxonomy: Total rows added: 12 in 0.00 seconds
+0008.024 (0) Table dbbs_term_taxonomy: finishing file (backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-db-table-dbbs_term_taxonomy.table.gz - 0.5 KB)
+0008.032 (0) Table dbbs_termmeta: Total expected rows (approximate): 0
+0008.036 (0) Table dbbs_termmeta: Total rows added: 0 in 0.00 seconds
+0008.038 (0) Table dbbs_termmeta: finishing file (backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-db-table-dbbs_termmeta.table.gz - 0.4 KB)
+0008.047 (0) Table dbbs_terms: Total expected rows (approximate): 12
+0008.053 (0) Table dbbs_terms: Total rows added: 12 in 0.00 seconds
+0008.055 (0) Table dbbs_terms: finishing file (backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-db-table-dbbs_terms.table.gz - 0.6 KB)
+0008.064 (0) Table dbbs_sgmb_widget: Total expected rows (approximate): 1
+0008.069 (0) Table dbbs_sgmb_widget: Total rows added: 1 in 0.00 seconds
+0008.071 (0) Table dbbs_sgmb_widget: finishing file (backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-db-table-dbbs_sgmb_widget.table.gz - 0.7 KB)
+0008.079 (0) backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-db-table-dbbs_options.table.gz (1/13): adding to final database dump
+0008.164 (0) backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-db-table-dbbs_users.table.gz (2/13): adding to final database dump
+0008.167 (0) backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-db-table-dbbs_usermeta.table.gz (3/13): adding to final database dump
+0008.173 (0) backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-db-table-dbbs_commentmeta.table.gz (4/13): adding to final database dump
+0008.176 (0) backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-db-table-dbbs_comments.table.gz (5/13): adding to final database dump
+0008.179 (0) backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-db-table-dbbs_links.table.gz (6/13): adding to final database dump
+0008.181 (0) backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-db-table-dbbs_postmeta.table.gz (7/13): adding to final database dump
+0008.439 (0) backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-db-table-dbbs_posts.table.gz (8/13): adding to final database dump
+0008.456 (0) backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-db-table-dbbs_term_relationships.table.gz (9/13): adding to final database dump
+0008.458 (0) backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-db-table-dbbs_term_taxonomy.table.gz (10/13): adding to final database dump
+0008.460 (0) backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-db-table-dbbs_termmeta.table.gz (11/13): adding to final database dump
+0008.462 (0) backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-db-table-dbbs_terms.table.gz (12/13): adding to final database dump
+0008.464 (0) backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-db-table-dbbs_sgmb_widget.table.gz (13/13): adding to final database dump
+0008.466 (0) backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-db.gz: finished writing out complete database file (432 KB)
+0008.482 (0) Total database tables backed up: 13 (backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-db.gz, size: 451686, checksum (SHA1): 79cafe615f69fe36247d41f98309583c190bb979)
+0008.517 (0) backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0008.519 (0) backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0008.520 (0) backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0008.522 (0) backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-others.zip: others: This file has not yet been successfully uploaded: will queue
+0008.524 (0) backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-db.gz: db: This file has not yet been successfully uploaded: will queue
+0008.525 (0) Saving backup history. Total backup size: 38.5 MB
+0008.546 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0008.556 (0) Cloud backup selection (1/1): dropbox (last)
+0008.558 (0) Beginning dispatch of backup to remote (dropbox)
+0008.561 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0008.580 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0009.514 (0) Dropbox quota usage: used=1911.5 MB, total=2048 MB, available=136.5 MB
+0009.515 (0) Dropbox: Attempt to upload: backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-plugins.zip to: backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-plugins.zip
+0011.684 (0) Dropbox chunked upload: 11.2 % uploaded (AAAAAAAAKEIcBIb96bu1cw, 1048576, 2560 KB)
+0013.389 (0) Dropbox chunked upload: 39.2 % uploaded (AAAAAAAAKEIcBIb96bu1cw, 3670016, 10240 KB)
+0017.135 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAKEIcBIb96bu1cw, 9372423, 10240 KB)
+0018.252 (0) Recording as successfully uploaded: backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-plugins.zip (cc9496d595dd547d8915ef9e1447b649)
+0018.262 (0) Deleting local file: backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-plugins.zip: OK
+0018.263 (0) Dropbox: File upload success (backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-plugins.zip): 9152 KB in 8s (1046 KB/s)
+0018.717 (0) Dropbox quota usage: used=1920.5 MB, total=2048 MB, available=127.5 MB
+0018.720 (0) Dropbox: Attempt to upload: backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-themes.zip to: backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-themes.zip
+0023.123 (0) Dropbox chunked upload: 47.4 % uploaded (AAAAAAAAKEP5cXotyigHkQ, 10485760, 10240 KB)
+0028.234 (0) Dropbox chunked upload: 94.7 % uploaded (AAAAAAAAKEP5cXotyigHkQ, 20971520, 10240 KB)
+0029.529 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAKEP5cXotyigHkQ, 22144823, 10240 KB)
+0031.063 (0) Recording as successfully uploaded: backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-themes.zip (75ffe7fb9fcc8df205681b1e4311bcd8)
+0031.075 (0) Deleting local file: backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-themes.zip: OK
+0031.077 (0) Dropbox: File upload success (backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-themes.zip): 21625 KB in 12s (1750 KB/s)
+0031.548 (0) Dropbox quota usage: used=1941.6 MB, total=2048 MB, available=106.4 MB
+0031.549 (0) Dropbox: Attempt to upload: backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-uploads.zip to: backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-uploads.zip
+0035.794 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAKERN2OMVXNQr0w, 8394591, 10240 KB)
+0037.035 (0) Recording as successfully uploaded: backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-uploads.zip (145e85f4a460e182d8ce462d029688d5)
+0037.044 (0) Deleting local file: backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-uploads.zip: OK
+0037.047 (0) Dropbox: File upload success (backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-uploads.zip): 8197 KB in 5s (1491 KB/s)
+0037.510 (0) Dropbox quota usage: used=1949.6 MB, total=2048 MB, available=98.4 MB
+0037.512 (0) Dropbox: Attempt to upload: backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-others.zip to: backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-others.zip
+0038.137 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAKEU-QV_elgyM1w, 1478, 10240 KB)
+0039.111 (0) Recording as successfully uploaded: backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-others.zip (8a60764e30b846ba53701e9bc6ef11ad)
+0039.123 (0) Deleting local file: backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-others.zip: OK
+0039.126 (0) Dropbox: File upload success (backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-others.zip): 1 KB in 1s (0 KB/s)
+0039.627 (0) Dropbox quota usage: used=1949.6 MB, total=2048 MB, available=98.4 MB
+0039.630 (0) Dropbox: Attempt to upload: backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-db.gz to: backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-db.gz
+0040.810 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAKEa0a1H35-kp1Q, 451686, 10240 KB)
+0042.092 (0) Recording as successfully uploaded: backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-db.gz (8549ea05ac15d3de6dfe848332f5e931)
+0042.100 (0) Deleting local file: backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-db.gz: OK
+0042.101 (0) Dropbox: File upload success (backup_2016-11-14-0529_Awesome_Websites_Customized_Just_3cdb898755ab-db.gz): 441 KB in 2s (178 KB/s)
+0042.107 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=100, retain_db=100
+0042.110 (0) Number of backup sets in history: 35; groups (db): 1
+0042.113 (0) Examining (for databases) backup set with group_id=0, nonce=3cdb898755ab, datestamp=1479101390 (Nov 14 2016 05:29:50)
+0042.114 (0) This backup set is the backup set just made, so will not be deleted.
+0042.116 (0) Examining (for databases) backup set with group_id=0, nonce=7d551e91551c, datestamp=1479087289 (Nov 14 2016 01:34:49)
+0042.118 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.120 (0) Examining (for databases) backup set with group_id=0, nonce=69f80026ed9b, datestamp=1479070815 (Nov 13 2016 21:00:15)
+0042.122 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.123 (0) Examining (for databases) backup set with group_id=0, nonce=cc71534114e8, datestamp=1479056019 (Nov 13 2016 16:53:39)
+0042.124 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.126 (0) Examining (for databases) backup set with group_id=0, nonce=f96f8b5f1153, datestamp=1479041619 (Nov 13 2016 12:53:39)
+0042.127 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.129 (0) Examining (for databases) backup set with group_id=0, nonce=f358519e20ec, datestamp=1479029379 (Nov 13 2016 09:29:39)
+0042.130 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.132 (0) Examining (for databases) backup set with group_id=0, nonce=4f3b1899814f, datestamp=1479012954 (Nov 13 2016 04:55:54)
+0042.134 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.136 (0) Examining (for databases) backup set with group_id=0, nonce=45a108fe075f, datestamp=1479003409 (Nov 13 2016 02:16:49)
+0042.138 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.139 (0) Examining (for databases) backup set with group_id=0, nonce=c7e524ef83f9, datestamp=1478990577 (Nov 12 2016 22:42:57)
+0042.141 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.142 (0) Examining (for databases) backup set with group_id=0, nonce=34a4c5b95ddd, datestamp=1478969618 (Nov 12 2016 16:53:38)
+0042.144 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.146 (0) Examining (for databases) backup set with group_id=0, nonce=9faaa1810f82, datestamp=1478955216 (Nov 12 2016 12:53:36)
+0042.147 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.148 (0) Examining (for databases) backup set with group_id=0, nonce=a613ad5eef17, datestamp=1478944576 (Nov 12 2016 09:56:16)
+0042.150 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.152 (0) Examining (for databases) backup set with group_id=0, nonce=69fbcb79f114, datestamp=1478931572 (Nov 12 2016 06:19:32)
+0042.153 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.155 (0) Examining (for databases) backup set with group_id=0, nonce=8f6f442a05ae, datestamp=1478912200 (Nov 12 2016 00:56:40)
+0042.157 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.159 (0) Examining (for databases) backup set with group_id=0, nonce=49fbe7525811, datestamp=1478897718 (Nov 11 2016 20:55:18)
+0042.160 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.162 (0) Examining (for databases) backup set with group_id=0, nonce=39c08e6bce8d, datestamp=1478882963 (Nov 11 2016 16:49:23)
+0042.164 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.165 (0) Examining (for databases) backup set with group_id=0, nonce=c558970e3664, datestamp=1475514268 (Oct 03 2016 17:04:28)
+0042.167 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.168 (0) Examining (for databases) backup set with group_id=0, nonce=c80b1da246e4, datestamp=1475235580 (Sep 30 2016 11:39:40)
+0042.170 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.171 (0) Examining (for databases) backup set with group_id=0, nonce=fbb3bfed5fd3, datestamp=1475222141 (Sep 30 2016 07:55:41)
+0042.173 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.174 (0) Examining (for databases) backup set with group_id=0, nonce=0cf49109fa21, datestamp=1475200648 (Sep 30 2016 01:57:28)
+0042.176 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.178 (0) Examining (for databases) backup set with group_id=0, nonce=be4f062f7cac, datestamp=1475186233 (Sep 29 2016 21:57:13)
+0042.180 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.181 (0) Examining (for databases) backup set with group_id=0, nonce=467bf6b49fac, datestamp=1475171775 (Sep 29 2016 17:56:15)
+0042.183 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.184 (0) Examining (for databases) backup set with group_id=0, nonce=2c6f0de8215c, datestamp=1475157415 (Sep 29 2016 13:56:55)
+0042.186 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.188 (0) Examining (for databases) backup set with group_id=0, nonce=2c6f0de8215c, datestamp=1475154601 (Sep 29 2016 13:10:01)
+0042.189 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.191 (0) Examining (for databases) backup set with group_id=0, nonce=ec0b4e5efb65, datestamp=1475085429 (Sep 28 2016 17:57:09)
+0042.192 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.193 (0) Examining (for databases) backup set with group_id=0, nonce=2026f4eac86c, datestamp=1475070939 (Sep 28 2016 13:55:39)
+0042.195 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.196 (0) Examining (for databases) backup set with group_id=0, nonce=7bce21d44eb2, datestamp=1475064012 (Sep 28 2016 12:00:12)
+0042.198 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.200 (0) Examining (for databases) backup set with group_id=0, nonce=ec0b4e5efb65, datestamp=1475049173 (Sep 28 2016 07:52:53)
+0042.202 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.203 (0) Examining (for databases) backup set with group_id=0, nonce=3d6a5f926fe3, datestamp=1475027756 (Sep 28 2016 01:55:56)
+0042.204 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.206 (0) Examining (for databases) backup set with group_id=0, nonce=624257a0acdc, datestamp=1475013450 (Sep 27 2016 21:57:30)
+0042.207 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.208 (0) Examining (for databases) backup set with group_id=0, nonce=4792ba825627, datestamp=1474999042 (Sep 27 2016 17:57:22)
+0042.210 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.211 (0) Examining (for databases) backup set with group_id=0, nonce=2421b20d68f8, datestamp=1474996577 (Sep 27 2016 17:16:17)
+0042.212 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.214 (0) Examining (for databases) backup set with group_id=0, nonce=0893862fbf73, datestamp=1474927045 (Sep 26 2016 21:57:25)
+0042.215 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.216 (0) Examining (for databases) backup set with group_id=0, nonce=a17fd181b2d5, datestamp=1474914209 (Sep 26 2016 18:23:29)
+0042.218 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.219 (0) Examining (for databases) backup set with group_id=0, nonce=25ef273a687d, datestamp=1474912528 (Sep 26 2016 17:55:28)
+0042.220 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.221 (0) Number of backup sets in history: 35; groups (files): 1
+0042.223 (0) Examining (for files) backup set with nonce=3cdb898755ab, datestamp=1479101390 (Nov 14 2016 05:29:50)
+0042.224 (0) This backup set is the backup set just made, so will not be deleted.
+0042.225 (0) This backup set is the backup set just made, so will not be deleted.
+0042.226 (0) This backup set is the backup set just made, so will not be deleted.
+0042.226 (0) This backup set is the backup set just made, so will not be deleted.
+0042.226 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.227 (0) Examining (for files) backup set with nonce=7d551e91551c, datestamp=1479087289 (Nov 14 2016 01:34:49)
+0042.229 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.231 (0) Examining (for files) backup set with nonce=69f80026ed9b, datestamp=1479070815 (Nov 13 2016 21:00:15)
+0042.232 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.233 (0) Examining (for files) backup set with nonce=cc71534114e8, datestamp=1479056019 (Nov 13 2016 16:53:39)
+0042.235 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.236 (0) Examining (for files) backup set with nonce=f96f8b5f1153, datestamp=1479041619 (Nov 13 2016 12:53:39)
+0042.237 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.238 (0) Examining (for files) backup set with nonce=f358519e20ec, datestamp=1479029379 (Nov 13 2016 09:29:39)
+0042.240 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.241 (0) Examining (for files) backup set with nonce=4f3b1899814f, datestamp=1479012954 (Nov 13 2016 04:55:54)
+0042.243 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.244 (0) Examining (for files) backup set with nonce=45a108fe075f, datestamp=1479003409 (Nov 13 2016 02:16:49)
+0042.246 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.248 (0) Examining (for files) backup set with nonce=c7e524ef83f9, datestamp=1478990577 (Nov 12 2016 22:42:57)
+0042.249 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.251 (0) Examining (for files) backup set with nonce=34a4c5b95ddd, datestamp=1478969618 (Nov 12 2016 16:53:38)
+0042.253 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.255 (0) Examining (for files) backup set with nonce=9faaa1810f82, datestamp=1478955216 (Nov 12 2016 12:53:36)
+0042.257 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.258 (0) Examining (for files) backup set with nonce=a613ad5eef17, datestamp=1478944576 (Nov 12 2016 09:56:16)
+0042.260 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.262 (0) Examining (for files) backup set with nonce=69fbcb79f114, datestamp=1478931572 (Nov 12 2016 06:19:32)
+0042.264 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.265 (0) Examining (for files) backup set with nonce=8f6f442a05ae, datestamp=1478912200 (Nov 12 2016 00:56:40)
+0042.268 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.269 (0) Examining (for files) backup set with nonce=49fbe7525811, datestamp=1478897718 (Nov 11 2016 20:55:18)
+0042.270 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.272 (0) Examining (for files) backup set with nonce=39c08e6bce8d, datestamp=1478882963 (Nov 11 2016 16:49:23)
+0042.274 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.275 (0) Examining (for files) backup set with nonce=c558970e3664, datestamp=1475514268 (Oct 03 2016 17:04:28)
+0042.278 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.280 (0) Examining (for files) backup set with nonce=c80b1da246e4, datestamp=1475235580 (Sep 30 2016 11:39:40)
+0042.281 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.283 (0) Examining (for files) backup set with nonce=fbb3bfed5fd3, datestamp=1475222141 (Sep 30 2016 07:55:41)
+0042.284 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.286 (0) Examining (for files) backup set with nonce=0cf49109fa21, datestamp=1475200648 (Sep 30 2016 01:57:28)
+0042.287 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.289 (0) Examining (for files) backup set with nonce=be4f062f7cac, datestamp=1475186233 (Sep 29 2016 21:57:13)
+0042.292 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.293 (0) Examining (for files) backup set with nonce=467bf6b49fac, datestamp=1475171775 (Sep 29 2016 17:56:15)
+0042.295 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.296 (0) Examining (for files) backup set with nonce=2c6f0de8215c, datestamp=1475157415 (Sep 29 2016 13:56:55)
+0042.298 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.300 (0) Examining (for files) backup set with nonce=2c6f0de8215c, datestamp=1475154601 (Sep 29 2016 13:10:01)
+0042.301 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.303 (0) Examining (for files) backup set with nonce=ec0b4e5efb65, datestamp=1475085429 (Sep 28 2016 17:57:09)
+0042.304 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.306 (0) Examining (for files) backup set with nonce=2026f4eac86c, datestamp=1475070939 (Sep 28 2016 13:55:39)
+0042.308 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.309 (0) Examining (for files) backup set with nonce=7bce21d44eb2, datestamp=1475064012 (Sep 28 2016 12:00:12)
+0042.311 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.312 (0) Examining (for files) backup set with nonce=ec0b4e5efb65, datestamp=1475049173 (Sep 28 2016 07:52:53)
+0042.314 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.316 (0) Examining (for files) backup set with nonce=3d6a5f926fe3, datestamp=1475027756 (Sep 28 2016 01:55:56)
+0042.319 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.320 (0) Examining (for files) backup set with nonce=624257a0acdc, datestamp=1475013450 (Sep 27 2016 21:57:30)
+0042.322 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.323 (0) Examining (for files) backup set with nonce=4792ba825627, datestamp=1474999042 (Sep 27 2016 17:57:22)
+0042.325 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.327 (0) Examining (for files) backup set with nonce=2421b20d68f8, datestamp=1474996577 (Sep 27 2016 17:16:17)
+0042.329 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.330 (0) Examining (for files) backup set with nonce=0893862fbf73, datestamp=1474927045 (Sep 26 2016 21:57:25)
+0042.332 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.333 (0) Examining (for files) backup set with nonce=a17fd181b2d5, datestamp=1474914209 (Sep 26 2016 18:23:29)
+0042.335 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.337 (0) Examining (for files) backup set with nonce=25ef273a687d, datestamp=1474912528 (Sep 26 2016 17:55:28)
+0042.339 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.341 (0) Retain: saving new backup history (sets now: 35) and finishing retain operation
+0042.364 (0) Resume backup (3cdb898755ab, 0): finish run
+0042.370 (0) Decremented the semaphore (fd) by 1
+0042.373 (0) Semaphore (fd) unlocked
+0042.375 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0042.386 (0) Sending email ('Files and database (Full backup)') report (attachments: 0, size: 36.4 KB) to: kylee...
+0042.493 (0) The backup apparently succeeded and is now complete
